@@ -1,0 +1,31 @@
+{
+  "name": "e-store",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"bun run dev:server\" \"bun run dev:web\" --names \"server,web\" --prefix-colors \"blue,magenta\"",
+    "dev:server": "cd server && bun run dev",
+    "dev:web": "cd web && bun run dev",
+    "build": "concurrently \"bun run build:server\" \"bun run build:web\"",
+    "build:server": "cd server && bun run build",
+    "build:web": "cd web && bun run build",
+    "install:all": "bun install && cd server && bun install && cd ../web && bun install",
+    "clean": "rm -rf node_modules server/node_modules web/node_modules server/dist web/dist",
+    "start": "concurrently \"bun run start:server\" \"bun run start:web\"",
+    "start:server": "cd server && bun run start",
+    "start:web": "cd web && bun run preview",
+    "fonts:convert": "bun run convert-fonts.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "wawoff2": "^2.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SF Pro Display Font Test</title>
+  <link rel="stylesheet" href="./src/assets/fonts.css">
+  <style>
+    body {
+      font-family: 'SF Pro Display', sans-serif;
+      padding: 2rem;
+      background: #1a1a1a;
+      color: #fff;
+    }
+
+    .font-sample {
+      margin: 2rem 0;
+      padding: 1rem;
+      background: #2a2a2a;
+      border-radius: 8px;
+    }
+
+    h1 {
+      font-weight: 700;
+    }
+
+    h2 {
+      font-weight: 500;
+      margin-top: 2rem;
+    }
+
+    .regular {
+      font-weight: 400;
+    }
+
+    .medium {
+      font-weight: 500;
+    }
+
+    .bold {
+      font-weight: 700;
+    }
+
+    .light-italic {
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    .semibold-italic {
+      font-weight: 600;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>SF Pro Display Font Test</h1>
+  <p>Все шрифты загружены в формате WOFF2</p>
+
+  <div class="font-sample">
+    <h2>Regular (400)</h2>
+    <p class="regular">The quick brown fox jumps over the lazy dog</p>
+    <p class="regular">Съешь ещё этих мягких французских булок, да выпей чаю</p>
+  </div>
+
+  <div class="font-sample">
+    <h2>Medium (500)</h2>
+    <p class="medium">The quick brown fox jumps over the lazy dog</p>
+    <p class="medium">Съешь ещё этих мягких французских булок, да выпей чаю</p>
+  </div>
+
+  <div class="font-sample">
+    <h2>Bold (700)</h2>
+    <p class="bold">The quick brown fox jumps over the lazy dog</p>
+    <p class="bold">Съешь ещё этих мягких французских булок, да выпей чаю</p>
+  </div>
+
+  <div class="font-sample">
+    <h2>Light Italic (300)</h2>
+    <p class="light-italic">The quick brown fox jumps over the lazy dog</p>
+    <p class="light-italic">Съешь ещё этих мягких французских булок, да выпей чаю</p>
+  </div>
+
+  <div class="font-sample">
+    <h2>Semibold Italic (600)</h2>
+    <p class="semibold-italic">The quick brown fox jumps over the lazy dog</p>
+    <p class="semibold-italic">Съешь ещё этих мягких французских булок, да выпей чаю</p>
+  </div>
+
+  <script>
+    // Проверка загрузки шрифтов
+    document.fonts.ready.then(() => {
+      console.log('✅ Все шрифты загружены!');
+      document.fonts.forEach(font => {
+        console.log(`Font: ${font.family} ${font.weight} ${font.style}`);
+      });
+    });
+  </script>
+</body>
+
+</html>
