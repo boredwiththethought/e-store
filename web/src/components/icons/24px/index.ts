@@ -9,6 +9,8 @@ export { default as PlusIcon } from "./plus.svg?react";
 export { default as FiltersIcon } from "./filters.svg?react";
 export { default as ViewIcon } from "./view.svg?react";
 export { default as LocationIcon } from "./location.svg?react";
+export { default as EyeIcon } from "./eye.svg?react";
+export { default as EyeOffIcon } from "./eye-off.svg?react";
 
 // Actions
 export { default as EditIcon } from "./edit.svg?react";

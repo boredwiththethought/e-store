@@ -16,6 +16,8 @@ export {
   FiltersIcon,
   ViewIcon,
   LocationIcon,
+  EyeIcon,
+  EyeOffIcon,
   // Actions
   EditIcon,
   ToEditIcon,
