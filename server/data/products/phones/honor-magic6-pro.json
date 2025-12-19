@@ -1,0 +1,61 @@
+{
+  "id": "honor-magic6-pro",
+  "name": "Honor Magic6 Pro",
+  "model": "BVL-AN00",
+  "brand": "Honor",
+  "category": "phones",
+  "subcategory": "smartphones",
+  "price": 999,
+  "oldPrice": 1099,
+  "inStock": true,
+  "releaseYear": 2024,
+  "colors": ["Black", "Green", "Purple"],
+  "thumbnail": "https://www.hihonor.com/content/dam/honor/global/products/honor-magic6-pro/assets/honor-magic6-pro-list.png",
+  "images": {
+    "Black": [
+      "https://www.hihonor.com/content/dam/honor/global/products/honor-magic6-pro/assets/honor-magic6-pro-black.png"
+    ],
+    "Green": [
+      "https://www.hihonor.com/content/dam/honor/global/products/honor-magic6-pro/assets/honor-magic6-pro-green.png"
+    ],
+    "Purple": [
+      "https://www.hihonor.com/content/dam/honor/global/products/honor-magic6-pro/assets/honor-magic6-pro-purple.png"
+    ]
+  },
+  "imageSource": "https://www.hihonor.com/global/phones/honor-magic6-pro/",
+  "specs": {
+    "display": {
+      "type": "LTPO OLED",
+      "size": "6.8 inches",
+      "resolution": "2800 x 1280",
+      "refreshRate": "120Hz"
+    },
+    "processor": { "name": "Snapdragon 8 Gen 3", "cores": "Octa-core" },
+    "memory": { "ram": "12GB", "storage": ["256GB", "512GB"] },
+    "camera": {
+      "main": "50MP",
+      "ultrawide": "50MP",
+      "telephoto": "180MP periscope 2.5x",
+      "front": "50MP 3D ToF"
+    },
+    "battery": { "capacity": "5600mAh", "charging": "80W wired, 66W wireless" },
+    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.3", "NFC"],
+    "features": [
+      "Eye tracking",
+      "Falcon camera",
+      "Silicon-carbon battery",
+      "IP68"
+    ],
+    "os": "Android 14, MagicOS 8"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "5600mAh",
+    "screenType": "OLED",
+    "screenDiagonal": 6.8,
+    "protectionClass": "IP68",
+    "builtInMemory": ["256GB", "512GB"]
+  },
+  "rating": 4.7,
+  "reviewCount": 450,
+  "description": "Honor Magic6 Pro with AI magic, eye tracking, and industry-leading silicon-carbon battery technology."
+}

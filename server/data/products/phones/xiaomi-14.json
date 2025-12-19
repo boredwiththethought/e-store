@@ -1,0 +1,61 @@
+{
+  "id": "xiaomi-14",
+  "name": "Xiaomi 14",
+  "model": "2311DRK48G",
+  "brand": "Xiaomi",
+  "category": "phones",
+  "subcategory": "smartphones",
+  "price": 699,
+  "oldPrice": 749,
+  "inStock": true,
+  "releaseYear": 2024,
+  "colors": ["Black", "White", "Jade Green"],
+  "thumbnail": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976295.98374894.png?width=400&height=400",
+  "images": {
+    "Black": [
+      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976295.98374894.png"
+    ],
+    "White": [
+      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976295.98374895.png"
+    ],
+    "Jade Green": [
+      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976295.98374896.png"
+    ]
+  },
+  "imageSource": "https://www.mi.com/global/product/xiaomi-14/",
+  "specs": {
+    "display": {
+      "type": "LTPO AMOLED",
+      "size": "6.36 inches",
+      "resolution": "2670 x 1200",
+      "refreshRate": "120Hz"
+    },
+    "processor": { "name": "Snapdragon 8 Gen 3", "cores": "Octa-core" },
+    "memory": { "ram": "12GB", "storage": ["256GB", "512GB"] },
+    "camera": {
+      "main": "50MP Leica",
+      "ultrawide": "50MP",
+      "telephoto": "50MP 3.2x optical zoom",
+      "front": "32MP"
+    },
+    "battery": { "capacity": "4610mAh", "charging": "90W wired, 50W wireless" },
+    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.4", "NFC", "IR blaster"],
+    "features": [
+      "Leica optics",
+      "In-display fingerprint",
+      "IP68",
+      "Dolby Vision"
+    ],
+    "os": "Android 14, HyperOS"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "4610mAh",
+    "screenType": "AMOLED",
+    "screenDiagonal": 6.36,
+    "protectionClass": "IP68",
+    "builtInMemory": ["256GB", "512GB"]
+  },
+  "rating": 4.7,
+  "reviewCount": 980,
+  "description": "Xiaomi 14 with Leica professional optics, Snapdragon 8 Gen 3 and blazing fast 90W charging."
+}

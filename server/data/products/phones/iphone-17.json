@@ -1,0 +1,61 @@
+{
+  "id": "iphone-17",
+  "name": "iPhone 17",
+  "model": "iPhone17,1",
+  "brand": "Apple",
+  "category": "phones",
+  "subcategory": "smartphones",
+  "price": 799,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2025,
+  "colors": ["Black", "Blue", "Teal", "Pink", "White"],
+  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=400&hei=400&fmt=jpeg&qlt=95",
+  "images": {
+    "Black": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-black?wid=800&hei=800&fmt=png-alpha"
+    ],
+    "Blue": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=800&hei=800&fmt=png-alpha"
+    ],
+    "Teal": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-teal?wid=800&hei=800&fmt=png-alpha"
+    ],
+    "Pink": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-pink?wid=800&hei=800&fmt=png-alpha"
+    ],
+    "White": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-white?wid=800&hei=800&fmt=png-alpha"
+    ]
+  },
+  "imageSource": "https://www.apple.com/shop/buy-iphone/iphone-16",
+  "specs": {
+    "display": {
+      "type": "OLED Super Retina XDR",
+      "size": "6.3 inches",
+      "resolution": "2622 x 1206",
+      "refreshRate": "120Hz ProMotion"
+    },
+    "processor": { "name": "A19", "cores": "6-core CPU", "gpu": "5-core GPU" },
+    "memory": { "ram": "8GB", "storage": ["128GB", "256GB", "512GB"] },
+    "camera": {
+      "main": "48MP",
+      "ultrawide": "12MP",
+      "front": "12MP TrueDepth"
+    },
+    "battery": { "capacity": "3500mAh", "charging": "25W wired, 15W MagSafe" },
+    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.3", "NFC", "USB-C"],
+    "features": ["Face ID", "Dynamic Island", "Ceramic Shield", "IP68"],
+    "os": "iOS 19"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "3500mAh",
+    "screenType": "OLED",
+    "screenDiagonal": 6.3,
+    "protectionClass": "IP68",
+    "builtInMemory": ["128GB", "256GB", "512GB"]
+  },
+  "rating": 4.7,
+  "reviewCount": 1250,
+  "description": "iPhone 17 features the powerful A19 chip, advanced camera system, and the stunning Super Retina XDR display with ProMotion technology."
+}

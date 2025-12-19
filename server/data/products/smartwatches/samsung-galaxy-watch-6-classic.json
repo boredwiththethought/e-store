@@ -1,0 +1,73 @@
+{
+  "id": "samsung-galaxy-watch-6-classic",
+  "name": "Samsung Galaxy Watch 6 Classic",
+  "model": "SM-R960",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "subcategory": "smartwatches",
+  "price": 399,
+  "oldPrice": 449,
+  "inStock": true,
+  "releaseYear": 2023,
+  "colors": ["Black", "Silver"],
+  "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/uk/2307/gallery/uk-galaxy-watch6-classic-r960-sm-r960nzsaeub-537225888?$650_519_PNG$",
+  "images": {
+    "Black": [
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2307/gallery/uk-galaxy-watch6-classic-r960-sm-r960nzkaeub-537224411?$650_519_PNG$"
+    ],
+    "Silver": [
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2307/gallery/uk-galaxy-watch6-classic-r960-sm-r960nzsaeub-537225888?$650_519_PNG$"
+    ]
+  },
+  "imageSource": "https://www.samsung.com/uk/watches/galaxy-watch/galaxy-watch6-classic-47mm-black-bluetooth-sm-r960nzkaeub/",
+  "specs": {
+    "display": {
+      "type": "Super AMOLED Always-On",
+      "size": "47mm or 43mm",
+      "resolution": "480 x 480 pixels",
+      "brightness": "2000 nits"
+    },
+    "processor": {
+      "name": "Exynos W930",
+      "cores": "Dual-core 1.4GHz"
+    },
+    "memory": {
+      "ram": "2GB",
+      "storage": "16GB"
+    },
+    "sensors": [
+      "BioActive Sensor",
+      "Heart Rate",
+      "ECG",
+      "Blood Pressure",
+      "Temperature",
+      "Accelerometer",
+      "Gyroscope",
+      "Barometer"
+    ],
+    "battery": {
+      "capacity": "425mAh (47mm)",
+      "life": "40 hours",
+      "charging": "Wireless charging"
+    },
+    "connectivity": ["GPS", "LTE (optional)", "Wi-Fi", "Bluetooth 5.3", "NFC"],
+    "features": [
+      "Rotating bezel",
+      "Sapphire crystal",
+      "Body composition",
+      "Sleep coaching",
+      "IP68 + 5ATM"
+    ],
+    "os": "Wear OS 4, One UI Watch 5"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "425mAh",
+    "screenType": "AMOLED",
+    "screenDiagonal": 1.5,
+    "protectionClass": "IP68",
+    "builtInMemory": ["16GB"]
+  },
+  "rating": 4.7,
+  "reviewCount": 1280,
+  "description": "Galaxy Watch 6 Classic with the iconic rotating bezel, advanced health monitoring, and premium design."
+}

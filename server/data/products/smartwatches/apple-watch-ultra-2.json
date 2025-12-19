@@ -1,0 +1,79 @@
+{
+  "id": "apple-watch-ultra-2",
+  "name": "Apple Watch Ultra 2",
+  "model": "A2986",
+  "brand": "Apple",
+  "category": "smartwatches",
+  "subcategory": "smartwatches",
+  "price": 799,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2023,
+  "colors": ["Natural Titanium"],
+  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-ultra-702702?wid=1200&hei=630&fmt=jpeg&qlt=95",
+  "images": {
+    "Natural Titanium": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MRMF3_VW_34FR+watch-49-titanium-702702_VW_34FR_WF_CO_GEO_US?wid=750&hei=712&fmt=png-alpha",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MRMF3_VW_PF+watch-49-titanium-702702_VW_PF_WF_CO_GEO_US?wid=750&hei=712&fmt=png-alpha"
+    ]
+  },
+  "imageSource": "https://www.apple.com/shop/buy-watch/apple-watch-ultra",
+  "specs": {
+    "display": {
+      "type": "LTPO OLED Always-On Retina",
+      "size": "49mm",
+      "resolution": "410 x 502 pixels",
+      "brightness": "3000 nits"
+    },
+    "processor": {
+      "name": "Apple S9 SiP",
+      "cores": "Dual-core"
+    },
+    "memory": {
+      "storage": "64GB"
+    },
+    "sensors": [
+      "Blood Oxygen",
+      "ECG",
+      "Heart Rate",
+      "Temperature",
+      "Depth gauge",
+      "Water temperature",
+      "Accelerometer",
+      "Gyroscope",
+      "Compass"
+    ],
+    "battery": {
+      "life": "36 hours (72h in Low Power Mode)",
+      "charging": "Fast charging"
+    },
+    "connectivity": [
+      "GPS (dual-frequency)",
+      "Cellular",
+      "Wi-Fi",
+      "Bluetooth 5.3",
+      "NFC",
+      "UWB"
+    ],
+    "features": [
+      "Action Button",
+      "Titanium case",
+      "Dive computer",
+      "Siren",
+      "Night mode",
+      "Water resistant 100m",
+      "EN13319 diving certified"
+    ],
+    "os": "watchOS 10"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "36 hours",
+    "screenType": "OLED",
+    "screenDiagonal": 1.93,
+    "protectionClass": "WR100",
+    "builtInMemory": ["64GB"]
+  },
+  "rating": 4.9,
+  "reviewCount": 1650,
+  "description": "Apple Watch Ultra 2 - the most rugged and capable Apple Watch for extreme adventures, diving, and endurance athletes."
+}

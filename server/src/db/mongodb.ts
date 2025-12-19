@@ -12,7 +12,11 @@ export async function connectDB(): Promise<Db> {
   }
 
   try {
-    client = new MongoClient(MONGODB_URI);
+    client = new MongoClient(MONGODB_URI, {
+      maxPoolSize: 10,
+      serverSelectionTimeoutMS: 5000,
+      socketTimeoutMS: 45000,
+    });
     await client.connect();
     db = client.db(DB_NAME);
     console.log("✅ Connected to MongoDB");

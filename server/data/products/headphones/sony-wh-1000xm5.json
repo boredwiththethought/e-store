@@ -1,0 +1,60 @@
+{
+  "id": "sony-wh-1000xm5",
+  "name": "Sony WH-1000XM5",
+  "model": "WH1000XM5",
+  "brand": "Sony",
+  "category": "headphones",
+  "subcategory": "over-ear",
+  "price": 399,
+  "oldPrice": 449,
+  "inStock": true,
+  "releaseYear": 2022,
+  "colors": ["Black", "Silver"],
+  "thumbnail": "https://www.sony.com/image/f43a52a5deb2f3f5c8e35adc5c14316e?fmt=pjpeg&bgcolor=FFFFFF&wid=440&hei=440",
+  "images": {
+    "Black": [
+      "https://www.sony.com/image/f43a52a5deb2f3f5c8e35adc5c14316e?fmt=pjpeg&bgcolor=FFFFFF&wid=660&hei=660",
+      "https://www.sony.com/image/8f4e3e8c80f0a0e3d2a21a2f8a27f3a5?fmt=pjpeg&bgcolor=FFFFFF&wid=660&hei=660"
+    ],
+    "Silver": [
+      "https://www.sony.com/image/a2bc50b9e7a8f0e9d3c4b5a6f7e8d9c0?fmt=pjpeg&bgcolor=FFFFFF&wid=660&hei=660"
+    ]
+  },
+  "imageSource": "https://www.sony.com/en/electronics/headband-headphones/wh-1000xm5",
+  "specs": {
+    "driver": "30mm driver unit",
+    "frequency_response": "4Hz-40,000Hz",
+    "chip": "Integrated Processor V1 + QN1",
+    "noise_cancellation": "Industry-leading ANC with 8 microphones",
+    "audio_features": [
+      "LDAC",
+      "DSEE Extreme",
+      "360 Reality Audio",
+      "Multipoint connection"
+    ],
+    "battery": {
+      "listening": "30 hours (ANC on)",
+      "charging": "USB-C",
+      "fast_charge": "3 hours from 3 min charge"
+    },
+    "connectivity": ["Bluetooth 5.2", "3.5mm audio cable"],
+    "controls": "Touch sensor, Speak-to-Chat, Quick Attention",
+    "microphones": "8 microphones (4 for ANC, 4 for voice)",
+    "weight": "250g",
+    "features": [
+      "Auto NC Optimizer",
+      "Wearing Detection",
+      "Multipoint",
+      "Foldable design"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "30 hours"
+  },
+  "rating": 4.8,
+  "reviewCount": 8200,
+  "description": "Sony WH-1000XM5 - industry-leading noise cancellation with exceptional sound quality and 30-hour battery life."
+}

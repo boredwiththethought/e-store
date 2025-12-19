@@ -1,0 +1,58 @@
+{
+  "id": "poco-f6-pro",
+  "name": "POCO F6 Pro",
+  "model": "23113RKC7G",
+  "brand": "POCO",
+  "category": "phones",
+  "subcategory": "smartphones",
+  "price": 549,
+  "oldPrice": 599,
+  "inStock": true,
+  "releaseYear": 2024,
+  "colors": ["Black", "White"],
+  "thumbnail": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1715100000.12345701.png?width=400&height=400",
+  "images": {
+    "Black": [
+      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1715100000.12345701.png"
+    ],
+    "White": [
+      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1715100000.12345702.png"
+    ]
+  },
+  "imageSource": "https://www.po.co/global/product/poco-f6-pro/",
+  "specs": {
+    "display": {
+      "type": "AMOLED",
+      "size": "6.67 inches",
+      "resolution": "3200 x 1440",
+      "refreshRate": "120Hz"
+    },
+    "processor": { "name": "Snapdragon 8 Gen 2", "cores": "Octa-core" },
+    "memory": { "ram": "12GB", "storage": ["256GB", "512GB"] },
+    "camera": {
+      "main": "50MP OIS",
+      "ultrawide": "8MP",
+      "macro": "2MP",
+      "front": "16MP"
+    },
+    "battery": { "capacity": "5000mAh", "charging": "120W HyperCharge" },
+    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.4", "NFC", "IR blaster"],
+    "features": [
+      "LiquidCool 4.0",
+      "In-display fingerprint",
+      "IP54",
+      "Gorilla Glass Victus 2"
+    ],
+    "os": "Android 14, HyperOS"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "5000mAh",
+    "screenType": "AMOLED",
+    "screenDiagonal": 6.67,
+    "protectionClass": "IP54",
+    "builtInMemory": ["256GB", "512GB"]
+  },
+  "rating": 4.6,
+  "reviewCount": 720,
+  "description": "POCO F6 Pro - ultimate performance beast with 2K display, Snapdragon 8 Gen 2, and mind-blowing 120W charging."
+}

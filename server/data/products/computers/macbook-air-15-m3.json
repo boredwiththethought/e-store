@@ -1,0 +1,75 @@
+{
+  "id": "macbook-air-15-m3",
+  "name": "MacBook Air 15\" M3",
+  "model": "MRYQ3",
+  "brand": "Apple",
+  "category": "computers",
+  "subcategory": "laptops",
+  "price": 1299,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2024,
+  "colors": ["Midnight", "Starlight", "Space Gray", "Silver"],
+  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=452&hei=420&fmt=jpeg&qlt=95",
+  "images": {
+    "Midnight": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=904&hei=840&fmt=jpeg&qlt=95"
+    ],
+    "Starlight": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-starlight-select-202306?wid=904&hei=840&fmt=jpeg&qlt=95"
+    ],
+    "Space Gray": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-spacegray-select-202306?wid=904&hei=840&fmt=jpeg&qlt=95"
+    ],
+    "Silver": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-silver-select-202306?wid=904&hei=840&fmt=jpeg&qlt=95"
+    ]
+  },
+  "imageSource": "https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m3",
+  "specs": {
+    "display": {
+      "type": "Liquid Retina",
+      "size": "15.3 inches",
+      "resolution": "2880 x 1864",
+      "brightness": "500 nits",
+      "features": ["True Tone", "Wide color (P3)"]
+    },
+    "processor": {
+      "name": "Apple M3",
+      "cpu": "8-core CPU",
+      "gpu": "10-core GPU",
+      "neural_engine": "16-core Neural Engine"
+    },
+    "memory": {
+      "ram": ["8GB", "16GB", "24GB"],
+      "storage": ["256GB", "512GB", "1TB", "2TB"]
+    },
+    "battery": {
+      "life": "18 hours",
+      "capacity": "66.5Wh",
+      "charging": "MagSafe 3"
+    },
+    "ports": ["MagSafe 3", "2x Thunderbolt/USB 4", "3.5mm headphone jack"],
+    "connectivity": ["Wi-Fi 6E", "Bluetooth 5.3"],
+    "camera": "1080p FaceTime HD camera",
+    "audio": "Six-speaker sound system with Spatial Audio",
+    "keyboard": "Magic Keyboard with Touch ID",
+    "trackpad": "Force Touch trackpad",
+    "dimensions": {
+      "height": "1.15cm",
+      "width": "34.04cm",
+      "depth": "23.76cm",
+      "weight": "1.51kg"
+    }
+  },
+  "filterSpecs": {
+    "screenDiagonal": 15.3,
+    "processor": "Apple M3",
+    "ram": ["8GB", "16GB", "24GB"],
+    "storage": ["256GB", "512GB", "1TB", "2TB"],
+    "batteryLife": "18 hours"
+  },
+  "rating": 4.9,
+  "reviewCount": 2450,
+  "description": "MacBook Air 15\" with M3 chip delivers incredible performance and up to 18 hours of battery life in a thin and light design."
+}

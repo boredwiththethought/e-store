@@ -1,0 +1,55 @@
+{
+  "id": "playstation-5-slim",
+  "name": "PlayStation 5 Slim",
+  "model": "CFI-2015",
+  "brand": "Sony",
+  "category": "gaming",
+  "subcategory": "consoles",
+  "price": 499,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2023,
+  "colors": ["White"],
+  "thumbnail": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-edition-consoles-all-lineup-image-block-01-en-13sep23?$800px$",
+  "images": {
+    "White": [
+      "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-edition-consoles-all-lineup-image-block-01-en-13sep23?$800px$",
+      "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-hero-image-block-01-en-13sep23?$800px$"
+    ]
+  },
+  "imageSource": "https://www.playstation.com/en-us/ps5/",
+  "specs": {
+    "processor": {
+      "cpu": "AMD Zen 2, 8 cores @ 3.5GHz",
+      "gpu": "AMD RDNA 2, 10.28 TFLOPS"
+    },
+    "memory": {
+      "ram": "16GB GDDR6",
+      "storage": "1TB SSD (expandable)"
+    },
+    "video": {
+      "resolution": ["4K @ 120Hz", "8K"],
+      "features": ["HDR", "Ray Tracing", "VRR"]
+    },
+    "audio": "Tempest 3D AudioTech",
+    "disc_drive": "4K UHD Blu-ray (Disc Edition)",
+    "ports": ["USB-A", "USB-C", "HDMI 2.1", "Ethernet"],
+    "connectivity": ["Wi-Fi 6", "Bluetooth 5.1"],
+    "controller": "DualSense wireless controller",
+    "dimensions": {
+      "height": "358mm (with stand)",
+      "width": "80mm",
+      "depth": "216mm",
+      "weight": "3.2kg"
+    }
+  },
+  "filterSpecs": {
+    "generation": "9th",
+    "storage": "1TB",
+    "resolution": "4K",
+    "discDrive": true
+  },
+  "rating": 4.9,
+  "reviewCount": 15200,
+  "description": "PlayStation 5 Slim - new sleeker design with 1TB SSD, 4K gaming, and the revolutionary DualSense controller."
+}

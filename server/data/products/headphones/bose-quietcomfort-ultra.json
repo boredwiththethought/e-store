@@ -1,0 +1,60 @@
+{
+  "id": "bose-quietcomfort-ultra",
+  "name": "Bose QuietComfort Ultra Headphones",
+  "model": "880066-0100",
+  "brand": "Bose",
+  "category": "headphones",
+  "subcategory": "over-ear",
+  "price": 429,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2023,
+  "colors": ["Black", "White Smoke", "Sandstone"],
+  "thumbnail": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_BLACK_Hero_025FRB.png/jcr:content/renditions/cq5dam.web.600.600.png",
+  "images": {
+    "Black": [
+      "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_BLACK_Hero_025FRB.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "White Smoke": [
+      "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_WHITE_Hero_034FRB.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "Sandstone": [
+      "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_SANDSTONE_Hero_043FRB.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ]
+  },
+  "imageSource": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones/QCUH-HEADPHONEARN.html",
+  "specs": {
+    "driver": "Triport acoustic headphone structure",
+    "noise_cancellation": "World-class noise cancellation with CustomTune",
+    "audio_features": [
+      "Bose Immersive Audio",
+      "Snapdragon Sound",
+      "aptX Adaptive",
+      "aptX Lossless"
+    ],
+    "modes": ["Quiet Mode", "Aware Mode", "Immersion Mode"],
+    "battery": {
+      "listening": "24 hours",
+      "charging": "USB-C",
+      "fast_charge": "2.5 hours from 15 min charge"
+    },
+    "connectivity": ["Bluetooth 5.3", "Multipoint", "3.5mm audio cable"],
+    "controls": "Touch controls, Physical buttons",
+    "microphones": "6 microphones",
+    "weight": "250g",
+    "features": [
+      "CustomTune technology",
+      "Aware Mode with ActiveSense",
+      "Bose Music app"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "24 hours"
+  },
+  "rating": 4.7,
+  "reviewCount": 3200,
+  "description": "Bose QuietComfort Ultra - world-class noise cancellation with Bose Immersive Audio for spatial sound experience."
+}

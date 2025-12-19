@@ -1,0 +1,67 @@
+{
+  "id": "samsung-galaxy-s24-plus",
+  "name": "Samsung Galaxy S24+",
+  "model": "SM-S926",
+  "brand": "Samsung",
+  "category": "phones",
+  "subcategory": "smartphones",
+  "price": 999,
+  "oldPrice": 1049,
+  "inStock": true,
+  "releaseYear": 2024,
+  "colors": ["Onyx Black", "Marble Gray", "Cobalt Violet", "Amber Yellow"],
+  "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-plus-s926-sm-s926bzadeub-thumb-539573231?$172_172_PNG$",
+  "images": {
+    "Onyx Black": [
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-plus-sm-s926bzkeub-539568566?$650_519_PNG$"
+    ],
+    "Marble Gray": [
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-plus-sm-s926bzadeub-539568516?$650_519_PNG$"
+    ],
+    "Cobalt Violet": [
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-plus-sm-s926bzvheub-539568541?$650_519_PNG$"
+    ],
+    "Amber Yellow": [
+      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-plus-sm-s926bzyeeub-539568591?$650_519_PNG$"
+    ]
+  },
+  "imageSource": "https://www.samsung.com/uk/smartphones/galaxy-s24/",
+  "specs": {
+    "display": {
+      "type": "Dynamic AMOLED 2X",
+      "size": "6.7 inches",
+      "resolution": "3120 x 1440",
+      "refreshRate": "120Hz"
+    },
+    "processor": {
+      "name": "Exynos 2400 / Snapdragon 8 Gen 3",
+      "cores": "Octa-core"
+    },
+    "memory": { "ram": "12GB", "storage": ["256GB", "512GB"] },
+    "camera": {
+      "main": "50MP",
+      "ultrawide": "12MP",
+      "telephoto": "10MP 3x optical zoom",
+      "front": "12MP"
+    },
+    "battery": { "capacity": "4900mAh", "charging": "45W wired, 15W wireless" },
+    "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3", "NFC"],
+    "features": [
+      "Galaxy AI",
+      "Ultrasonic Fingerprint",
+      "IP68",
+      "Gorilla Glass Victus 2"
+    ],
+    "os": "Android 14, One UI 6.1"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "4900mAh",
+    "screenType": "AMOLED",
+    "screenDiagonal": 6.7,
+    "protectionClass": "IP68",
+    "builtInMemory": ["256GB", "512GB"]
+  },
+  "rating": 4.7,
+  "reviewCount": 1420,
+  "description": "Galaxy S24+ delivers a larger display and longer battery life with Galaxy AI intelligence."
+}

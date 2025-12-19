@@ -1,0 +1,62 @@
+{
+  "id": "oppo-find-x7-ultra",
+  "name": "OPPO Find X7 Ultra",
+  "model": "PHY110",
+  "brand": "OPPO",
+  "category": "phones",
+  "subcategory": "smartphones",
+  "price": 1099,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2024,
+  "colors": ["Ocean Blue", "Hasselblad Brown"],
+  "thumbnail": "https://image.oppo.com/content/dam/oppo/product-asset-library/find/find-x7-series/find-x7-ultra/v1/assets/image/kv/kv-blue-front.png",
+  "images": {
+    "Ocean Blue": [
+      "https://image.oppo.com/content/dam/oppo/product-asset-library/find/find-x7-series/find-x7-ultra/v1/assets/image/kv/kv-blue-front.png"
+    ],
+    "Hasselblad Brown": [
+      "https://image.oppo.com/content/dam/oppo/product-asset-library/find/find-x7-series/find-x7-ultra/v1/assets/image/kv/kv-brown-front.png"
+    ]
+  },
+  "imageSource": "https://www.oppo.com/en/smartphones/series-find-x/find-x7-ultra/",
+  "specs": {
+    "display": {
+      "type": "LTPO AMOLED",
+      "size": "6.82 inches",
+      "resolution": "3168 x 1440",
+      "refreshRate": "120Hz"
+    },
+    "processor": { "name": "Snapdragon 8 Gen 3", "cores": "Octa-core" },
+    "memory": { "ram": "16GB", "storage": ["256GB", "512GB"] },
+    "camera": {
+      "main": "50MP Hasselblad",
+      "ultrawide": "50MP",
+      "telephoto1": "50MP 3x",
+      "telephoto2": "50MP 6x periscope",
+      "front": "32MP"
+    },
+    "battery": {
+      "capacity": "5000mAh",
+      "charging": "100W SUPERVOOC, 50W wireless"
+    },
+    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.4", "NFC"],
+    "features": [
+      "Hasselblad tuning",
+      "Dual periscope",
+      "In-display fingerprint",
+      "IP68"
+    ],
+    "os": "Android 14, ColorOS 14"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "5000mAh",
+    "screenType": "AMOLED",
+    "screenDiagonal": 6.82,
+    "protectionClass": "IP68",
+    "builtInMemory": ["256GB", "512GB"]
+  },
+  "rating": 4.8,
+  "reviewCount": 520,
+  "description": "OPPO Find X7 Ultra with dual periscope cameras, Hasselblad collaboration, and stunning 2K display."
+}

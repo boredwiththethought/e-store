@@ -1,0 +1,81 @@
+{
+  "id": "canon-eos-r6-mark-ii",
+  "name": "Canon EOS R6 Mark II",
+  "model": "EOS R6 Mark II",
+  "brand": "Canon",
+  "category": "cameras",
+  "subcategory": "mirrorless",
+  "price": 2499,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2022,
+  "colors": ["Black"],
+  "thumbnail": "https://static.bhphoto.com/images/images500x500/canon_eos_r6_mark_ii_1667312571_1731533.jpg",
+  "images": {
+    "Black": [
+      "https://static.bhphoto.com/images/images500x500/canon_eos_r6_mark_ii_1667312571_1731533.jpg",
+      "https://static.bhphoto.com/images/images500x500/canon_eos_r6_mark_ii_1667312571_1731536.jpg"
+    ]
+  },
+  "imageSource": "https://www.usa.canon.com/shop/p/eos-r6-mark-ii",
+  "specs": {
+    "sensor": {
+      "type": "Full-frame CMOS",
+      "resolution": "24.2MP",
+      "size": "36 x 24 mm"
+    },
+    "processor": "DIGIC X",
+    "iso": "100-102400 (expandable to 204800)",
+    "autofocus": {
+      "points": 1053,
+      "type": "Dual Pixel CMOS AF II",
+      "features": [
+        "Eye Detection AF",
+        "Animal Detection",
+        "Vehicle Detection",
+        "40fps electronic shutter"
+      ]
+    },
+    "video": {
+      "resolution": "4K 60p",
+      "formats": ["Canon Log 3", "HDR PQ"],
+      "features": ["6K oversampling", "4K 60p uncropped", "FHD 180p"]
+    },
+    "viewfinder": {
+      "type": "OLED EVF",
+      "resolution": "3.69M dots",
+      "refresh": "120fps"
+    },
+    "display": {
+      "type": "Vari-angle touchscreen LCD",
+      "size": "3.0 inches",
+      "resolution": "1.62M dots"
+    },
+    "stabilization": "8-stop in-body IS",
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "USB-C",
+      "HDMI",
+      "Mic jack",
+      "Headphone jack"
+    ],
+    "storage": ["SD UHS-II (dual slots)"],
+    "battery": {
+      "type": "LP-E6NH",
+      "shots": "450 (LCD) / 320 (EVF)"
+    },
+    "dimensions": {
+      "weight": "670g (body only)"
+    }
+  },
+  "filterSpecs": {
+    "sensorType": "Full-frame",
+    "resolution": "24.2MP",
+    "videoResolution": "4K60",
+    "stabilization": true
+  },
+  "rating": 4.9,
+  "reviewCount": 1420,
+  "description": "Canon EOS R6 Mark II - versatile full-frame mirrorless with 40fps shooting, 4K60 video, and class-leading autofocus."
+}

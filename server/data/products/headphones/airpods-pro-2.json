@@ -1,0 +1,58 @@
+{
+  "id": "airpods-pro-2",
+  "name": "AirPods Pro (2nd generation)",
+  "model": "MQD83",
+  "brand": "Apple",
+  "category": "headphones",
+  "subcategory": "earbuds",
+  "price": 249,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2023,
+  "colors": ["White"],
+  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=400&hei=400&fmt=jpeg&qlt=95",
+  "images": {
+    "White": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=572&hei=572&fmt=jpeg&qlt=95",
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83_AV1?wid=572&hei=572&fmt=jpeg&qlt=95"
+    ]
+  },
+  "imageSource": "https://www.apple.com/shop/product/MQD83AM/A/airpods-pro",
+  "specs": {
+    "driver": "Apple-designed high-excursion driver",
+    "amplifier": "Apple-designed high dynamic range amplifier",
+    "chip": "Apple H2 chip",
+    "noise_cancellation": "Active Noise Cancellation",
+    "transparency": "Adaptive Transparency",
+    "audio_features": [
+      "Personalized Spatial Audio",
+      "Dynamic Head Tracking",
+      "Adaptive EQ",
+      "Conversation Awareness"
+    ],
+    "battery": {
+      "earbuds": "6 hours (ANC on)",
+      "case": "30 hours total",
+      "charging": "MagSafe, Qi, Apple Watch charger, Lightning, USB-C"
+    },
+    "connectivity": ["Bluetooth 5.3"],
+    "controls": "Touch control, Swipe volume",
+    "water_resistance": "IPX4 (earbuds and case)",
+    "microphones": "Dual beamforming + inward-facing microphone",
+    "features": [
+      "Hearing Health features",
+      "Find My with Precision Finding",
+      "Lanyard loop"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "6 hours",
+    "waterResistance": "IPX4"
+  },
+  "rating": 4.8,
+  "reviewCount": 12500,
+  "description": "AirPods Pro with H2 chip, 2x more Active Noise Cancellation, Adaptive Transparency, and USB-C charging."
+}

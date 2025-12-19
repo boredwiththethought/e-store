@@ -1,0 +1,75 @@
+{
+  "id": "iphone-17-pro-max",
+  "name": "iPhone 17 Pro Max",
+  "model": "iPhone17,3",
+  "brand": "Apple",
+  "category": "phones",
+  "subcategory": "smartphones",
+  "price": 1299,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2025,
+  "colors": [
+    "Natural Titanium",
+    "Blue Titanium",
+    "White Titanium",
+    "Black Titanium"
+  ],
+  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-naturaltitanium?wid=400&hei=400&fmt=jpeg&qlt=95",
+  "images": {
+    "Natural Titanium": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-naturaltitanium?wid=800&hei=800&fmt=png-alpha"
+    ],
+    "Blue Titanium": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-deserttitanium?wid=800&hei=800&fmt=png-alpha"
+    ],
+    "White Titanium": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-whitetitanium?wid=800&hei=800&fmt=png-alpha"
+    ],
+    "Black Titanium": [
+      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-blacktitanium?wid=800&hei=800&fmt=png-alpha"
+    ]
+  },
+  "imageSource": "https://www.apple.com/shop/buy-iphone/iphone-16-pro",
+  "specs": {
+    "display": {
+      "type": "OLED Super Retina XDR",
+      "size": "6.9 inches",
+      "resolution": "2868 x 1320",
+      "refreshRate": "120Hz ProMotion",
+      "features": ["Always-On display", "HDR"]
+    },
+    "processor": {
+      "name": "A19 Pro",
+      "cores": "6-core CPU",
+      "gpu": "6-core GPU"
+    },
+    "memory": { "ram": "8GB", "storage": ["256GB", "512GB", "1TB"] },
+    "camera": {
+      "main": "48MP",
+      "ultrawide": "48MP",
+      "telephoto": "12MP 5x optical zoom",
+      "front": "12MP TrueDepth"
+    },
+    "battery": { "capacity": "4685mAh", "charging": "27W wired, 15W MagSafe" },
+    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.3", "NFC", "USB-C 3.2"],
+    "features": [
+      "Face ID",
+      "Dynamic Island",
+      "Titanium frame",
+      "Action Button",
+      "IP68"
+    ],
+    "os": "iOS 19"
+  },
+  "filterSpecs": {
+    "batteryCapacity": "4685mAh",
+    "screenType": "OLED",
+    "screenDiagonal": 6.9,
+    "protectionClass": "IP68",
+    "builtInMemory": ["256GB", "512GB", "1TB"]
+  },
+  "rating": 4.9,
+  "reviewCount": 3200,
+  "description": "iPhone 17 Pro Max - the ultimate iPhone with the largest display, longest battery life, and the most advanced pro camera system ever."
+}

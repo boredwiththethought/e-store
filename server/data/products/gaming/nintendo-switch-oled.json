@@ -1,0 +1,71 @@
+{
+  "id": "nintendo-switch-oled",
+  "name": "Nintendo Switch OLED Model",
+  "model": "HEG-001",
+  "brand": "Nintendo",
+  "category": "gaming",
+  "subcategory": "consoles",
+  "price": 349,
+  "oldPrice": null,
+  "inStock": true,
+  "releaseYear": 2021,
+  "colors": ["White", "Neon Blue/Neon Red"],
+  "thumbnail": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/switch/site-design-update/oled-background",
+  "images": {
+    "White": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/switch/system/three-modes-background-white"
+    ],
+    "Neon Blue/Neon Red": [
+      "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/en_US/switch/system/three-modes-background-neon"
+    ]
+  },
+  "imageSource": "https://www.nintendo.com/us/switch/oled-model/",
+  "specs": {
+    "display": {
+      "type": "OLED",
+      "size": "7 inches",
+      "resolution": "1280 x 720",
+      "touch": true
+    },
+    "processor": {
+      "cpu": "NVIDIA Custom Tegra",
+      "gpu": "NVIDIA Custom"
+    },
+    "memory": {
+      "ram": "4GB",
+      "storage": "64GB (expandable via microSD)"
+    },
+    "video": {
+      "handheld": "720p",
+      "docked": "1080p @ 60Hz"
+    },
+    "audio": "Enhanced speakers, 5.1 surround via HDMI",
+    "battery": {
+      "life": "4.5 - 9 hours",
+      "type": "4310mAh"
+    },
+    "ports": ["USB-C", "HDMI (via dock)", "3.5mm audio jack", "microSD slot"],
+    "connectivity": ["Wi-Fi 5", "Bluetooth 4.1"],
+    "controllers": "Joy-Con (L/R)",
+    "features": [
+      "Adjustable stand",
+      "Wired LAN port (dock)",
+      "Three play modes"
+    ],
+    "dimensions": {
+      "height": "102mm",
+      "width": "242mm",
+      "depth": "13.9mm",
+      "weight": "420g (with Joy-Con)"
+    }
+  },
+  "filterSpecs": {
+    "generation": "8th",
+    "storage": "64GB",
+    "resolution": "1080p",
+    "portable": true
+  },
+  "rating": 4.8,
+  "reviewCount": 9500,
+  "description": "Nintendo Switch OLED Model with vibrant 7-inch OLED screen, enhanced audio, and 64GB storage for gaming anywhere."
+}

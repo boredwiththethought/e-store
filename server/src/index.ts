@@ -2,7 +2,13 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { connectDB, getDB } from "./db";
-import { authRoutes } from "./routes";
+import {
+  authRoutes,
+  productsRoutes,
+  seedRoutes,
+  favoritesRoutes,
+  cartRoutes,
+} from "./routes";
 
 // Load environment variables
 dotenv.config();
@@ -17,6 +23,10 @@ app.use(express.urlencoded({ extended: true }));
 
 // API Routes
 app.use("/api/auth", authRoutes);
+app.use("/api/products", productsRoutes);
+app.use("/api/seed", seedRoutes);
+app.use("/api/favorites", favoritesRoutes);
+app.use("/api/cart", cartRoutes);
 
 // Routes
 app.get("/", (_req: Request, res: Response) => {
@@ -45,37 +55,6 @@ app.get("/api/health", async (_req: Request, res: Response) => {
   }
 });
 
-// Example API routes for e-store
-app.get("/api/products", async (_req: Request, res: Response) => {
-  try {
-    const db = getDB();
-    const products = await db.collection("products").find({}).toArray();
-    res.json({ products });
-  } catch {
-    res.status(500).json({ error: "Failed to fetch products" });
-  }
-});
-
-app.get("/api/products/:id", async (req: Request, res: Response) => {
-  try {
-    const { id } = req.params;
-    const db = getDB();
-    const { ObjectId } = await import("mongodb");
-    const product = await db
-      .collection("products")
-      .findOne({ _id: new ObjectId(id) });
-
-    if (!product) {
-      res.status(404).json({ error: "Product not found" });
-      return;
-    }
-
-    res.json({ product });
-  } catch {
-    res.status(500).json({ error: "Failed to fetch product" });
-  }
-});
-
 // Error handling middleware
 app.use((err: Error, _req: Request, res: Response, _next: unknown) => {
   console.error(err.stack);
@@ -97,14 +76,19 @@ app.use((_req: Request, res: Response) => {
 async function startServer() {
   try {
     await connectDB();
-    app.listen(PORT, () => {
-      console.log(`🚀 Server is running on http://localhost:${PORT}`);
-      console.log(`📝 Health check: http://localhost:${PORT}/api/health`);
-    });
+    console.log("✅ MongoDB connected successfully");
   } catch (error) {
-    console.error("Failed to start server:", error);
-    process.exit(1);
+    console.error(
+      "⚠️ MongoDB connection failed (server will start anyway):",
+      error
+    );
+    // Don't exit - server will work, MongoDB routes will fail gracefully
   }
+
+  app.listen(PORT, () => {
+    console.log(`🚀 Server is running on http://localhost:${PORT}`);
+    console.log(`📝 Health check: http://localhost:${PORT}/api/health`);
+  });
 }
 
 startServer();
