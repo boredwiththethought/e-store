@@ -1,77 +1,45 @@
 {
   "id": "macbook-pro-14-m3-pro",
-  "name": "MacBook Pro 14\" M3 Pro",
-  "model": "MRX33",
+  "slug": "macbook-pro-14-m3-pro",
+  "name": "MacBook Pro 14\" (M3 Pro)",
   "brand": "Apple",
   "category": "computers",
-  "subcategory": "laptops",
   "price": 1999,
-  "oldPrice": null,
+  "originalPrice": 1999,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2023,
-  "colors": ["Space Black", "Silver"],
-  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spaceblack-select-202310?wid=452&hei=420&fmt=jpeg&qlt=95",
+  "rating": 4.8,
+  "reviewsCount": 6780,
+  "tags": [
+    "featured",
+    "bestseller"
+  ],
+  "colors": [
+    "Space Black",
+    "Silver"
+  ],
   "images": {
     "Space Black": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=95"
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
     ],
     "Silver": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202310?wid=904&hei=840&fmt=jpeg&qlt=95"
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-pro",
+  "description": "Pro performance in a portable design with M3 Pro chip, 12-core CPU, 18-core GPU, and Liquid Retina XDR display.",
   "specs": {
-    "display": {
-      "type": "Liquid Retina XDR",
-      "size": "14.2 inches",
-      "resolution": "3024 x 1964",
-      "brightness": "1600 nits peak (HDR)",
-      "refresh_rate": "ProMotion up to 120Hz",
-      "features": ["True Tone", "Wide color (P3)", "XDR"]
-    },
-    "processor": {
-      "name": "Apple M3 Pro",
-      "cpu": "11-core CPU (5 performance + 6 efficiency)",
-      "gpu": "14-core GPU",
-      "neural_engine": "16-core Neural Engine",
-      "memory_bandwidth": "150GB/s"
-    },
-    "memory": {
-      "ram": ["18GB", "36GB"],
-      "storage": ["512GB", "1TB", "2TB", "4TB"]
-    },
-    "battery": {
-      "life": "17 hours",
-      "capacity": "72.4Wh",
-      "charging": "MagSafe 3, Fast-charge capable"
-    },
-    "ports": [
-      "MagSafe 3",
-      "3x Thunderbolt 4",
-      "HDMI 2.1",
-      "SDXC card slot",
-      "3.5mm headphone jack"
-    ],
-    "connectivity": ["Wi-Fi 6E", "Bluetooth 5.3"],
-    "camera": "1080p FaceTime HD camera",
-    "audio": "Six-speaker sound system with Spatial Audio",
-    "keyboard": "Magic Keyboard with Touch ID",
-    "trackpad": "Force Touch trackpad",
-    "dimensions": {
-      "height": "1.55cm",
-      "width": "31.26cm",
-      "depth": "22.12cm",
-      "weight": "1.61kg"
-    }
+    "chip": "Apple M3 Pro",
+    "cpu": "12-core (6 performance + 6 efficiency)",
+    "gpu": "18-core GPU",
+    "memory": "18GB unified memory (up to 36GB)",
+    "storage": "512GB SSD (up to 4TB)",
+    "display": "14.2\" Liquid Retina XDR, 3024×1964, ProMotion",
+    "battery": "Up to 17 hours"
   },
   "filterSpecs": {
-    "screenDiagonal": 14.2,
+    "type": "Laptop",
+    "brand": "Apple",
     "processor": "Apple M3 Pro",
-    "ram": ["18GB", "36GB"],
-    "storage": ["512GB", "1TB", "2TB", "4TB"],
-    "batteryLife": "17 hours"
-  },
-  "rating": 4.9,
-  "reviewCount": 1850,
-  "description": "MacBook Pro 14\" with M3 Pro chip for demanding workflows - incredible performance for pros with stunning XDR display."
+    "screenSize": "14.2 inch"
+  }
 }

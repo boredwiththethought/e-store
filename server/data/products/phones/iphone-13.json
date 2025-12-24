@@ -1,0 +1,70 @@
+{
+  "id": "iphone-13",
+  "slug": "iphone-13",
+  "name": "iPhone 13",
+  "brand": "Apple",
+  "category": "phones",
+  "price": 599,
+  "originalPrice": 699,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 6890,
+  "tags": [],
+  "colors": [
+    "Pink",
+    "Blue",
+    "Midnight",
+    "Starlight",
+    "Green",
+    "Red"
+  ],
+  "images": {
+    "Pink": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ],
+    "Blue": [
+      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=80"
+    ],
+    "Midnight": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
+    ],
+    "Starlight": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
+    ],
+    "Red": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=80"
+    ]
+  },
+  "description": "iPhone 13 features A15 Bionic chip, advanced dual-camera system, Super Retina XDR display, and incredible battery life.",
+  "specs": {
+    "display": "6.1-inch Super Retina XDR",
+    "chip": "A15 Bionic",
+    "camera": "12MP Main + 12MP Ultra Wide",
+    "battery": "Up to 19 hours video playback",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6",
+      "Bluetooth 5.0",
+      "Lightning"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.1,
+    "batteryCapacity": "3240mAh",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "ram": "4GB"
+  }
+}

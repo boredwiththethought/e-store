@@ -1,0 +1,50 @@
+{
+  "id": "fitbit-versa-4",
+  "slug": "fitbit-versa-4",
+  "name": "Fitbit Versa 4",
+  "brand": "Fitbit",
+  "category": "smartwatches",
+  "price": 179,
+  "originalPrice": 229,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.3,
+  "reviewsCount": 2340,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Pink Sand",
+    "Waterfall Blue"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ],
+    "Pink Sand": [
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=800&q=80"
+    ],
+    "Waterfall Blue": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ]
+  },
+  "description": "Fitbit Versa 4 with built-in GPS, 40+ exercise modes, sleep tracking, and 6+ days battery.",
+  "specs": {
+    "display": "1.58-inch AMOLED, 336x336",
+    "chip": "Fitbit Proprietary",
+    "sensors": "Heart Rate, SpO2, 3-axis accelerometer",
+    "battery": "6+ days",
+    "waterResistance": "50m",
+    "connectivity": [
+      "GPS",
+      "Bluetooth 5.0",
+      "NFC"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 40,
+    "batteryLife": "6 days",
+    "waterResistance": "50m"
+  }
+}

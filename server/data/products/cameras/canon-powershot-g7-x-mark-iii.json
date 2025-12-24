@@ -1,0 +1,43 @@
+{
+  "id": "canon-powershot-g7-x-mark-iii",
+  "slug": "canon-powershot-g7-x-mark-iii",
+  "name": "Canon PowerShot G7 X Mark III",
+  "brand": "Canon",
+  "category": "cameras",
+  "price": 749,
+  "originalPrice": 849,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 1890,
+  "tags": [],
+  "colors": [
+    "Black",
+    "Silver"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1500634245200-e5245c7574ef?w=800&q=80"
+    ]
+  },
+  "description": "Canon PowerShot G7 X Mark III - premium compact for vloggers with 4K video, live streaming, and fast lens.",
+  "specs": {
+    "sensor": "20.1MP 1-inch Stacked CMOS",
+    "lens": "24-100mm f/1.8-2.8",
+    "video": "4K 30p, Full HD 120p",
+    "autofocus": "31-point Dual Pixel AF",
+    "display": "3-inch tilting touchscreen",
+    "features": [
+      "YouTube Live Streaming",
+      "Vertical Video"
+    ]
+  },
+  "filterSpecs": {
+    "sensorType": "1-inch",
+    "megapixels": 20.1,
+    "videoResolution": "4K30"
+  }
+}

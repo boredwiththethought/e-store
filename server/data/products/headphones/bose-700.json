@@ -1,0 +1,50 @@
+{
+  "id": "bose-700",
+  "slug": "bose-700",
+  "name": "Bose Noise Cancelling Headphones 700",
+  "brand": "Bose",
+  "category": "headphones",
+  "price": 329,
+  "originalPrice": 379,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 6780,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Silver Luxe",
+    "Soapstone"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ],
+    "Silver Luxe": [
+      "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?w=800&q=80"
+    ],
+    "Soapstone": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ]
+  },
+  "description": "Bose 700 with 11 levels of noise cancellation, voice assistant integration, and premium sleek design.",
+  "specs": {
+    "driver": "Bose proprietary",
+    "anc": "11 levels of noise cancellation",
+    "battery": "20 hours",
+    "microphones": "8 microphones for voice pickup",
+    "features": [
+      "Touch controls",
+      "Bose AR",
+      "Alexa/Google built-in"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "20 hours"
+  }
+}

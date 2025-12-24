@@ -1,0 +1,42 @@
+{
+  "id": "fanatec-csl-dd",
+  "slug": "fanatec-csl-dd",
+  "name": "Fanatec CSL DD",
+  "brand": "Fanatec",
+  "category": "gaming",
+  "price": 349,
+  "originalPrice": 349,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 3450,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80"
+    ]
+  },
+  "description": "Entry-level Direct Drive wheel base with 5Nm (upgradeable to 8Nm) for sim racing enthusiasts.",
+  "specs": {
+    "type": "Direct Drive wheel base",
+    "torque": "5Nm (8Nm with Boost Kit)",
+    "rotation": "Up to 2520°",
+    "technology": "Direct Drive motor",
+    "connectivity": "USB-C, PC/Xbox compatible",
+    "features": [
+      "FluxBarrier technology",
+      "Quick Release system",
+      "Tuning Menu via display"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Racing Wheel",
+    "brand": "Fanatec",
+    "platform": "PC/Xbox"
+  }
+}

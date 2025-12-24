@@ -1,0 +1,46 @@
+{
+  "id": "polar-vantage-v3",
+  "slug": "polar-vantage-v3",
+  "name": "Polar Vantage V3",
+  "brand": "Polar",
+  "category": "smartwatches",
+  "price": 599,
+  "originalPrice": 649,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 420,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Night Black",
+    "Sunrise Apricot"
+  ],
+  "images": {
+    "Night Black": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ],
+    "Sunrise Apricot": [
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80"
+    ]
+  },
+  "description": "Polar Vantage V3 with biosensing technology, AMOLED display, offline maps, and advanced training tools.",
+  "specs": {
+    "display": "1.39-inch AMOLED, 454x454",
+    "chip": "Polar Proprietary",
+    "sensors": "Polar Precision Prime, SpO2, Skin Temperature",
+    "battery": "Up to 140 hours training",
+    "waterResistance": "100m",
+    "connectivity": [
+      "Dual-frequency GPS",
+      "Bluetooth",
+      "Wi-Fi"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 47,
+    "batteryLife": "140 hours",
+    "waterResistance": "100m"
+  }
+}

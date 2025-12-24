@@ -1,0 +1,36 @@
+{
+  "id": "leica-sl2-s",
+  "slug": "leica-sl2-s",
+  "name": "Leica SL2-S",
+  "brand": "Leica",
+  "category": "cameras",
+  "price": 4895,
+  "originalPrice": 5195,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 280,
+  "tags": [],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=800&q=80"
+    ]
+  },
+  "description": "Leica SL2-S - versatile full-frame mirrorless for photo and video with 24MP sensor and dual recording.",
+  "specs": {
+    "sensor": "24.6MP Full-Frame BSI CMOS",
+    "processor": "Maestro III",
+    "video": "5K 30p, 4K 60p 10-bit",
+    "autofocus": "Contrast AF with Object Detection",
+    "iso": "50-100000",
+    "stabilization": "Sensor-shift, 5.5 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "Full-Frame",
+    "megapixels": 24.6,
+    "videoResolution": "5K30"
+  }
+}

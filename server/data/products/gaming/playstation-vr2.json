@@ -1,0 +1,41 @@
+{
+  "id": "playstation-vr2",
+  "slug": "playstation-vr2",
+  "name": "PlayStation VR2",
+  "brand": "Sony",
+  "category": "gaming",
+  "price": 549,
+  "originalPrice": 549,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 6780,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "White"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80"
+    ]
+  },
+  "description": "Next-gen VR headset for PS5 with 4K HDR OLED displays, eye tracking, haptic feedback, and inside-out tracking.",
+  "specs": {
+    "display": "2000×2040 per eye OLED, 90/120Hz, HDR",
+    "fov": "110 degrees",
+    "tracking": "Inside-out tracking, eye tracking",
+    "audio": "Built-in mic, 3D audio",
+    "connection": "Single USB-C cable",
+    "includes": [
+      "PS VR2 headset",
+      "PS VR2 Sense controllers"
+    ]
+  },
+  "filterSpecs": {
+    "type": "VR Headset",
+    "brand": "Sony",
+    "platform": "PlayStation 5"
+  }
+}

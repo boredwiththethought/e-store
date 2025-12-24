@@ -11,6 +11,15 @@ const navItems = [
   { to: "/blog", label: "Blog" }
 ];
 
+const categories = [
+  { to: "/category/phones", label: "Phones" },
+  { to: "/category/smartwatches", label: "Smart Watches" },
+  { to: "/category/cameras", label: "Cameras" },
+  { to: "/category/headphones", label: "Headphones" },
+  { to: "/category/computers", label: "Computers" },
+  { to: "/category/gaming", label: "Gaming" }
+];
+
 interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
@@ -80,6 +89,40 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                   </NavLink>
                 </li>
               ))}
+            </ul>
+
+            {/* Categories */}
+            <div className="my-6 border-t border-gray-100" />
+            <p className="mb-2 px-4 text-sm font-semibold tracking-wider text-gray-400 uppercase">Categories</p>
+            <ul className="space-y-1">
+              {categories.map(cat => (
+                <li key={cat.to}>
+                  <NavLink
+                    to={cat.to}
+                    onClick={onClose}
+                    className={({ isActive }) =>
+                      `block rounded-lg px-4 py-2.5 text-base font-medium transition-colors ${
+                        isActive ? "bg-gray-100 text-black" : "text-gray-600 hover:bg-gray-50 hover:text-black"
+                      }`
+                    }
+                  >
+                    {cat.label}
+                  </NavLink>
+                </li>
+              ))}
+              <li>
+                <NavLink
+                  to="/products"
+                  onClick={onClose}
+                  className={({ isActive }) =>
+                    `block rounded-lg px-4 py-2.5 text-base font-semibold transition-colors ${
+                      isActive ? "bg-gray-100 text-black" : "text-gray-600 hover:bg-gray-50 hover:text-black"
+                    }`
+                  }
+                >
+                  All Products
+                </NavLink>
+              </li>
             </ul>
 
             {/* Divider */}

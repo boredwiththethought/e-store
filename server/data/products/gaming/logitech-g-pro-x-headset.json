@@ -1,0 +1,41 @@
+{
+  "id": "logitech-g-pro-x-headset",
+  "slug": "logitech-g-pro-x-headset",
+  "name": "Logitech G PRO X Gaming Headset",
+  "brand": "Logitech",
+  "category": "gaming",
+  "price": 129,
+  "originalPrice": 149,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 8920,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80"
+    ]
+  },
+  "description": "Pro-grade gaming headset with Blue VO!CE technology, PRO-G 50mm drivers, and premium leatherette memory foam.",
+  "specs": {
+    "driver": "PRO-G 50mm",
+    "frequency": "20Hz - 20kHz",
+    "microphone": "Detachable Blue VO!CE mic",
+    "connectivity": "USB + 3.5mm",
+    "features": [
+      "DTS Headphone:X 2.0",
+      "Memory foam pads",
+      "Steel and aluminum frame"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Gaming Headset",
+    "brand": "Logitech",
+    "platform": "PC/Console"
+  }
+}

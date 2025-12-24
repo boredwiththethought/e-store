@@ -1,0 +1,42 @@
+{
+  "id": "razer-deathadder-v3",
+  "slug": "razer-deathadder-v3",
+  "name": "Razer DeathAdder V3 Pro",
+  "brand": "Razer",
+  "category": "gaming",
+  "price": 149,
+  "originalPrice": 159,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 6780,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "White"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1605901309584-818e25960a8f?w=800&q=80"
+    ]
+  },
+  "description": "Ultra-lightweight esports mouse with Focus Pro 30K sensor, HyperSpeed Wireless, and 90-hour battery.",
+  "specs": {
+    "sensor": "Focus Pro 30K optical",
+    "dpi": "Up to 30,000 DPI",
+    "weight": "63g (ultralight)",
+    "battery": "Up to 90 hours",
+    "switches": "Optical Gen-3, 90M click lifecycle",
+    "connectivity": "HyperSpeed Wireless, Bluetooth, USB-C"
+  },
+  "filterSpecs": {
+    "type": "Mouse",
+    "brand": "Razer",
+    "platform": "PC"
+  }
+}

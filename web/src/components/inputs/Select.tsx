@@ -102,7 +102,7 @@ export function Select({
         } ${disabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:border-[var(--color-border-primary)]"} `}
       >
         <div className="flex min-w-0 items-center gap-2">
-          {selectedOption?.icon && <span className="flex-shrink-0">{selectedOption.icon}</span>}
+          {selectedOption?.icon && <span className="shrink-0">{selectedOption.icon}</span>}
           <span
             className={`truncate ${
               selectedOption ? "text-[var(--color-text-primary)]" : "text-[var(--color-text-tertiary)]"
@@ -112,7 +112,7 @@ export function Select({
           </span>
         </div>
         <ChevronDownIcon
-          className={`flex-shrink-0 text-[var(--color-text-tertiary)] transition-transform duration-200 ${
+          className={`shrink-0 text-[var(--color-text-tertiary)] transition-transform duration-200 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
@@ -153,11 +153,11 @@ export function Select({
                       : "text-[var(--color-text-primary)]"
                   } `}
                 >
-                  {option.icon && <span className="flex-shrink-0">{option.icon}</span>}
+                  {option.icon && <span className="shrink-0">{option.icon}</span>}
                   <span className="truncate">{option.label}</span>
                   {option.value === value && (
                     <svg
-                      className="ml-auto h-4 w-4 flex-shrink-0"
+                      className="ml-auto h-4 w-4 shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"

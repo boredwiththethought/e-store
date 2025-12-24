@@ -1,0 +1,48 @@
+{
+  "id": "dualsense-edge",
+  "slug": "dualsense-edge",
+  "name": "DualSense Edge Wireless Controller",
+  "brand": "Sony",
+  "category": "gaming",
+  "price": 199,
+  "originalPrice": 199,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 5670,
+  "tags": [
+    "premium"
+  ],
+  "colors": [
+    "White"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800&q=80"
+    ]
+  },
+  "description": "Ultra-customizable PS5 controller with remappable buttons, adjustable triggers, and interchangeable components.",
+  "specs": {
+    "battery": "Rechargeable, USB-C fast charge",
+    "connectivity": "Bluetooth 5.1, USB-C",
+    "features": [
+      "Remappable buttons",
+      "Adjustable trigger dead zones",
+      "Back buttons",
+      "Changeable stick caps/modules"
+    ],
+    "includes": [
+      "Controller",
+      "USB-C cable",
+      "Carrying case",
+      "2 stick cap sets",
+      "2 back buttons",
+      "Connector housing"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Controller",
+    "brand": "Sony",
+    "platform": "PlayStation 5"
+  }
+}

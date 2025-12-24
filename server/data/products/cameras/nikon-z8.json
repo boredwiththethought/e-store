@@ -1,0 +1,39 @@
+{
+  "id": "nikon-z8",
+  "slug": "nikon-z8",
+  "name": "Nikon Z8",
+  "brand": "Nikon",
+  "category": "cameras",
+  "price": 3996,
+  "originalPrice": 4199,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 1120,
+  "tags": [
+    "new-arrival",
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=800&q=80"
+    ]
+  },
+  "description": "Nikon Z8 with 45.7MP stacked sensor, 8K video, 120fps shooting, and flagship performance in compact body.",
+  "specs": {
+    "sensor": "45.7MP Full-Frame Stacked CMOS",
+    "processor": "EXPEED 7",
+    "video": "8K 30p, 4K 120p internal",
+    "autofocus": "493-point AF with 3D tracking",
+    "iso": "64-25600 (expandable to 32-102400)",
+    "stabilization": "5-axis in-body, 6 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "Full-Frame",
+    "megapixels": 45.7,
+    "videoResolution": "8K30"
+  }
+}

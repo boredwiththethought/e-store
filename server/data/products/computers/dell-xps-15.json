@@ -1,0 +1,43 @@
+{
+  "id": "dell-xps-15",
+  "slug": "dell-xps-15",
+  "name": "Dell XPS 15",
+  "brand": "Dell",
+  "category": "computers",
+  "price": 1599,
+  "originalPrice": 1799,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 5670,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Platinum Silver",
+    "Frost"
+  ],
+  "images": {
+    "Platinum Silver": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    ],
+    "Frost": [
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&q=80"
+    ]
+  },
+  "description": "Premium 15.6\" laptop with InfinityEdge OLED display, Intel Core Ultra processor, and exceptional build quality.",
+  "specs": {
+    "processor": "Intel Core Ultra 7 155H",
+    "gpu": "NVIDIA GeForce RTX 4060",
+    "memory": "16GB DDR5",
+    "storage": "512GB NVMe SSD",
+    "display": "15.6\" 3.5K OLED, 3456×2160, 400 nits",
+    "battery": "Up to 13 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "Dell",
+    "processor": "Intel Core Ultra 7",
+    "screenSize": "15.6 inch"
+  }
+}

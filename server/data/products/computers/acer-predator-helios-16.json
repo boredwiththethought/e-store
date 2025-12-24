@@ -1,0 +1,39 @@
+{
+  "id": "acer-predator-helios-16",
+  "slug": "acer-predator-helios-16",
+  "name": "Acer Predator Helios 16",
+  "brand": "Acer",
+  "category": "computers",
+  "price": 1899,
+  "originalPrice": 2099,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 1890,
+  "tags": [
+    "gaming"
+  ],
+  "colors": [
+    "Abyssal Black"
+  ],
+  "images": {
+    "Abyssal Black": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ]
+  },
+  "description": "High-performance gaming laptop with RTX 4070, Mini-LED display, and 5th Gen AeroBlade 3D Fan.",
+  "specs": {
+    "processor": "Intel Core i9-14900HX",
+    "gpu": "NVIDIA GeForce RTX 4070 8GB",
+    "memory": "16GB DDR5-5600",
+    "storage": "1TB PCIe Gen4 SSD",
+    "display": "16\" Mini-LED, 2560×1600, 250Hz, 1100 nits",
+    "battery": "Up to 6 hours"
+  },
+  "filterSpecs": {
+    "type": "Gaming Laptop",
+    "brand": "Acer",
+    "processor": "Intel Core i9",
+    "screenSize": "16 inch"
+  }
+}

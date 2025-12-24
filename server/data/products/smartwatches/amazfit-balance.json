@@ -1,0 +1,46 @@
+{
+  "id": "amazfit-balance",
+  "slug": "amazfit-balance",
+  "name": "Amazfit Balance",
+  "brand": "Amazfit",
+  "category": "smartwatches",
+  "price": 229,
+  "originalPrice": 269,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 780,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Midnight",
+    "Sunset Grey"
+  ],
+  "images": {
+    "Midnight": [
+      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80"
+    ],
+    "Sunset Grey": [
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80"
+    ]
+  },
+  "description": "Amazfit Balance with AI-powered fitness coach, body composition analysis, and premium AMOLED display.",
+  "specs": {
+    "display": "1.5-inch AMOLED, 480x480",
+    "chip": "Zepp OS 3.0",
+    "sensors": "BioTracker 5.0, Body Composition, Heart Rate",
+    "battery": "Up to 14 days",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "Dual-band GPS",
+      "Bluetooth 5.0",
+      "Wi-Fi"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 46,
+    "batteryLife": "14 days",
+    "waterResistance": "5ATM"
+  }
+}

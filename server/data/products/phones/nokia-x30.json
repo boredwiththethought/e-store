@@ -1,53 +1,39 @@
 {
   "id": "nokia-x30",
+  "slug": "nokia-x30",
   "name": "Nokia X30",
-  "model": "TA-1450",
   "brand": "Nokia",
   "category": "phones",
-  "subcategory": "smartphones",
   "price": 449,
-  "oldPrice": 499,
+  "originalPrice": 499,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2023,
-  "colors": ["Cloudy Blue", "Ice White"],
-  "thumbnail": "https://www.nokia.com/sites/default/files/styles/product_tile_desktop/public/2022-09/nokia_x30_5g_-_ice_white_-_facing_right_0.png",
+  "rating": 4.2,
+  "reviewsCount": 1560,
+  "tags": [],
+  "colors": [
+    "Cloudy Blue",
+    "Ice White"
+  ],
   "images": {
     "Cloudy Blue": [
-      "https://www.nokia.com/sites/default/files/2022-09/nokia_x30_5g_-_cloudy_blue_-_front.png"
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
     ],
     "Ice White": [
-      "https://www.nokia.com/sites/default/files/2022-09/nokia_x30_5g_-_ice_white_-_front.png"
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.nokia.com/phones/en_int/nokia-x-30",
+  "description": "Sustainable smartphone made with recycled materials, 3 years of updates, and PureView camera.",
   "specs": {
-    "display": {
-      "type": "AMOLED",
-      "size": "6.43 inches",
-      "resolution": "2400 x 1080",
-      "refreshRate": "90Hz"
-    },
-    "processor": { "name": "Snapdragon 695", "cores": "Octa-core" },
-    "memory": { "ram": "8GB", "storage": ["128GB", "256GB"] },
-    "camera": { "main": "50MP OIS", "ultrawide": "13MP", "front": "16MP" },
-    "battery": { "capacity": "4200mAh", "charging": "33W wired" },
-    "connectivity": ["5G", "Wi-Fi 6", "Bluetooth 5.2", "NFC"],
-    "features": [
-      "100% recycled aluminum",
-      "3 years of updates",
-      "IP67",
-      "Wireless charging"
-    ],
-    "os": "Android 13"
+    "display": "6.43\" AMOLED, 2400 x 1080, 90Hz",
+    "processor": "Snapdragon 695",
+    "camera": "50MP PureView main + 13MP ultrawide",
+    "battery": "4200mAh, 33W wired",
+    "storage": "128GB/256GB"
   },
   "filterSpecs": {
-    "batteryCapacity": "4200mAh",
-    "screenType": "AMOLED",
-    "screenDiagonal": 6.43,
-    "protectionClass": "IP67",
-    "builtInMemory": ["128GB", "256GB"]
-  },
-  "rating": 4.3,
-  "reviewCount": 320,
-  "description": "Nokia X30 - eco-friendly phone made from recycled materials with 3 years of software updates."
+    "screenSize": "6.43 inch",
+    "battery": "4200mAh",
+    "camera": "50MP"
+  }
 }

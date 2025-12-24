@@ -16,6 +16,8 @@ export { default as EyeOffIcon } from "./eye-off.svg?react";
 export { default as EditIcon } from "./edit.svg?react";
 export { default as ToEditIcon } from "./to-edit.svg?react";
 export { default as NoEditIcon } from "./no-edit.svg?react";
+export { default as HeartIcon } from "./heart.svg?react";
+export { default as HeartFilledIcon } from "./heart-filled.svg?react";
 
 // E-commerce
 export { default as PaymentIcon } from "./payment.svg?react";

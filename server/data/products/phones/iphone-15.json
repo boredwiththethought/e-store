@@ -1,0 +1,69 @@
+{
+  "id": "iphone-15",
+  "slug": "iphone-15",
+  "name": "iPhone 15",
+  "brand": "Apple",
+  "category": "phones",
+  "price": 799,
+  "originalPrice": 899,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 2890,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Pink",
+    "Yellow",
+    "Green",
+    "Blue",
+    "Black"
+  ],
+  "images": {
+    "Pink": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
+    ],
+    "Yellow": [
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+    ],
+    "Blue": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&q=80"
+    ],
+    "Black": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ]
+  },
+  "description": "iPhone 15 brings the Dynamic Island, 48MP camera, USB-C, and the powerful A16 Bionic chip in a beautiful color-infused glass design.",
+  "specs": {
+    "display": "6.1-inch Super Retina XDR",
+    "chip": "A16 Bionic",
+    "camera": "48MP Main + 12MP Ultra Wide",
+    "battery": "Up to 20 hours video playback",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.1,
+    "batteryCapacity": "3349mAh",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "ram": "6GB"
+  }
+}

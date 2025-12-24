@@ -1,0 +1,52 @@
+{
+  "id": "oppo-find-x6-pro",
+  "slug": "oppo-find-x6-pro",
+  "name": "Oppo Find X6 Pro",
+  "brand": "Oppo",
+  "category": "phones",
+  "price": 1099,
+  "originalPrice": 1199,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 580,
+  "tags": [],
+  "colors": [
+    "Black",
+    "Green"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=80"
+    ]
+  },
+  "description": "OPPO Find X6 Pro with Hasselblad camera, 1-inch sensor, and exceptional low-light photography.",
+  "specs": {
+    "display": "6.82-inch LTPO AMOLED, 2K, 1-120Hz",
+    "chip": "Snapdragon 8 Gen 2",
+    "camera": "50MP 1-inch Main + 50MP Ultra Wide + 50MP Periscope",
+    "battery": "5000mAh, 100W SUPERVOOC + 50W wireless",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.82,
+    "batteryCapacity": "5000mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "16GB"
+  }
+}

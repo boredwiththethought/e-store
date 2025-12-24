@@ -1,0 +1,39 @@
+{
+  "id": "sony-alpha-a6700",
+  "slug": "sony-alpha-a6700",
+  "name": "Sony Alpha A6700",
+  "brand": "Sony",
+  "category": "cameras",
+  "price": 1398,
+  "originalPrice": 1498,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 980,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=800&q=80"
+    ]
+  },
+  "description": "Sony A6700 with 26MP APS-C sensor, AI-based autofocus, 4K 120p video, and compact mirrorless design.",
+  "specs": {
+    "sensor": "26.1MP APS-C Exmor R CMOS",
+    "processor": "BIONZ XR",
+    "video": "4K 120p, 10-bit 4:2:2",
+    "autofocus": "759-point phase-detection with AI",
+    "iso": "100-32000 (expandable to 50-102400)",
+    "stabilization": "5-axis in-body, 5 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "APS-C",
+    "megapixels": 26,
+    "videoResolution": "4K120"
+  }
+}

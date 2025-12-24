@@ -1,0 +1,38 @@
+{
+  "id": "blackmagic-pocket-cinema-camera-6k",
+  "slug": "blackmagic-pocket-cinema-camera-6k",
+  "name": "Blackmagic Pocket Cinema Camera 6K",
+  "brand": "Blackmagic Design",
+  "category": "cameras",
+  "price": 1995,
+  "originalPrice": 2195,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 1560,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=800&q=80"
+    ]
+  },
+  "description": "Blackmagic Pocket Cinema Camera 6K Pro with Super 35 sensor, built-in ND filters, and DaVinci Resolve included.",
+  "specs": {
+    "sensor": "Super 35 6144 x 3456",
+    "dynamicRange": "13 stops",
+    "video": "6K 60p BRAW, ProRes",
+    "recording": "CFast 2.0, SD UHS-II, USB-C",
+    "display": "5-inch HDR touchscreen",
+    "mount": "Canon EF / EF-S"
+  },
+  "filterSpecs": {
+    "sensorType": "Super 35",
+    "resolution": "6K",
+    "videoResolution": "6K60"
+  }
+}

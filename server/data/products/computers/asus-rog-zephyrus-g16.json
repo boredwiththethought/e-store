@@ -1,0 +1,44 @@
+{
+  "id": "asus-rog-zephyrus-g16",
+  "slug": "asus-rog-zephyrus-g16",
+  "name": "ASUS ROG Zephyrus G16",
+  "brand": "ASUS",
+  "category": "computers",
+  "price": 1999,
+  "originalPrice": 2199,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 2890,
+  "tags": [
+    "gaming",
+    "new"
+  ],
+  "colors": [
+    "Eclipse Gray",
+    "Platinum White"
+  ],
+  "images": {
+    "Eclipse Gray": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ],
+    "Platinum White": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
+    ]
+  },
+  "description": "Ultra-slim gaming laptop with OLED Nebula display, Intel Core Ultra 9, and RTX 4070.",
+  "specs": {
+    "processor": "Intel Core Ultra 9 185H",
+    "gpu": "NVIDIA GeForce RTX 4070 8GB",
+    "memory": "16GB LPDDR5x",
+    "storage": "1TB PCIe Gen4 SSD",
+    "display": "16\" 2.5K OLED, 2560×1600, 240Hz",
+    "battery": "Up to 10 hours"
+  },
+  "filterSpecs": {
+    "type": "Gaming Laptop",
+    "brand": "ASUS",
+    "processor": "Intel Core Ultra 9",
+    "screenSize": "16 inch"
+  }
+}

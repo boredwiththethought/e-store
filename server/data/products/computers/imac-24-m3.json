@@ -1,0 +1,64 @@
+{
+  "id": "imac-24-m3",
+  "slug": "imac-24-m3",
+  "name": "iMac 24\" (M3)",
+  "brand": "Apple",
+  "category": "computers",
+  "price": 1299,
+  "originalPrice": 1299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 3450,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Blue",
+    "Green",
+    "Pink",
+    "Silver",
+    "Yellow",
+    "Orange",
+    "Purple"
+  ],
+  "images": {
+    "Blue": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&q=80"
+    ],
+    "Pink": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80"
+    ],
+    "Yellow": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ],
+    "Orange": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
+    ],
+    "Purple": [
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&q=80"
+    ]
+  },
+  "description": "All-in-one desktop with stunning 4.5K Retina display, M3 chip, and iconic design in seven vibrant colors.",
+  "specs": {
+    "chip": "Apple M3",
+    "cpu": "8-core (4 performance + 4 efficiency)",
+    "gpu": "8-core or 10-core GPU",
+    "memory": "8GB unified memory (up to 24GB)",
+    "storage": "256GB SSD (up to 2TB)",
+    "display": "24\" 4.5K Retina, 4480×2520, P3 wide color",
+    "camera": "1080p FaceTime HD camera"
+  },
+  "filterSpecs": {
+    "type": "Desktop",
+    "brand": "Apple",
+    "processor": "Apple M3",
+    "screenSize": "24 inch"
+  }
+}

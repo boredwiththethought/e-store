@@ -1,0 +1,42 @@
+{
+  "id": "thrustmaster-t818",
+  "slug": "thrustmaster-t818",
+  "name": "Thrustmaster T818 Racing Wheel",
+  "brand": "Thrustmaster",
+  "category": "gaming",
+  "price": 549,
+  "originalPrice": 599,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 1890,
+  "tags": [
+    "premium"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80"
+    ]
+  },
+  "description": "Direct Drive racing wheel base with 10Nm torque, hybrid belt-pulley system, and Quick Release.",
+  "specs": {
+    "type": "Direct Drive wheel base",
+    "torque": "10Nm peak",
+    "rotation": "Up to 900°",
+    "technology": "Hybrid belt-pulley system",
+    "connectivity": "USB, PC compatible",
+    "features": [
+      "Quick Release adapter",
+      "Hall Effect sensors",
+      "STAC (Smart Torque Active Control)"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Racing Wheel",
+    "brand": "Thrustmaster",
+    "platform": "PC"
+  }
+}

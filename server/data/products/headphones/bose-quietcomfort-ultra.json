@@ -1,60 +1,52 @@
 {
   "id": "bose-quietcomfort-ultra",
+  "slug": "bose-quietcomfort-ultra",
   "name": "Bose QuietComfort Ultra Headphones",
-  "model": "880066-0100",
   "brand": "Bose",
   "category": "headphones",
-  "subcategory": "over-ear",
   "price": 429,
-  "oldPrice": null,
+  "originalPrice": 479,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2023,
-  "colors": ["Black", "White Smoke", "Sandstone"],
-  "thumbnail": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_BLACK_Hero_025FRB.png/jcr:content/renditions/cq5dam.web.600.600.png",
+  "rating": 4.8,
+  "reviewsCount": 3890,
+  "tags": [
+    "new-arrival",
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "White Smoke",
+    "Sandstone"
+  ],
   "images": {
     "Black": [
-      "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_BLACK_Hero_025FRB.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
     ],
     "White Smoke": [
-      "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_WHITE_Hero_034FRB.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
     ],
     "Sandstone": [
-      "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_ultra_headphones/product_silo_images/QC_Ultra_HP_SANDSTONE_Hero_043FRB.png/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones/QCUH-HEADPHONEARN.html",
+  "description": "Bose QuietComfort Ultra with Immersive Audio, world-class noise cancellation, and CustomTune technology.",
   "specs": {
-    "driver": "Triport acoustic headphone structure",
-    "noise_cancellation": "World-class noise cancellation with CustomTune",
-    "audio_features": [
-      "Bose Immersive Audio",
-      "Snapdragon Sound",
-      "aptX Adaptive",
-      "aptX Lossless"
-    ],
-    "modes": ["Quiet Mode", "Aware Mode", "Immersion Mode"],
-    "battery": {
-      "listening": "24 hours",
-      "charging": "USB-C",
-      "fast_charge": "2.5 hours from 15 min charge"
-    },
-    "connectivity": ["Bluetooth 5.3", "Multipoint", "3.5mm audio cable"],
-    "controls": "Touch controls, Physical buttons",
-    "microphones": "6 microphones",
-    "weight": "250g",
+    "driver": "Bose proprietary",
+    "anc": "World-class noise cancellation",
+    "audio": "Bose Immersive Audio",
+    "battery": "24 hours, 18 hours with Immersive Audio",
     "features": [
-      "CustomTune technology",
-      "Aware Mode with ActiveSense",
-      "Bose Music app"
+      "CustomTune",
+      "Aware Mode",
+      "Quiet Mode",
+      "Immersive Audio"
     ]
   },
   "filterSpecs": {
-    "type": "Over-ear",
+    "type": "Over-Ear",
     "wireless": true,
     "anc": true,
     "batteryLife": "24 hours"
-  },
-  "rating": 4.7,
-  "reviewCount": 3200,
-  "description": "Bose QuietComfort Ultra - world-class noise cancellation with Bose Immersive Audio for spatial sound experience."
+  }
 }

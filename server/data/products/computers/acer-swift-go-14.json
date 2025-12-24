@@ -1,0 +1,43 @@
+{
+  "id": "acer-swift-go-14",
+  "slug": "acer-swift-go-14",
+  "name": "Acer Swift Go 14",
+  "brand": "Acer",
+  "category": "computers",
+  "price": 899,
+  "originalPrice": 999,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 2340,
+  "tags": [
+    "best value"
+  ],
+  "colors": [
+    "Pure Silver",
+    "Moonstone Black"
+  ],
+  "images": {
+    "Pure Silver": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ],
+    "Moonstone Black": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
+    ]
+  },
+  "description": "Lightweight OLED ultrabook with Intel Core Ultra, all-day battery, and AI-enhanced features.",
+  "specs": {
+    "processor": "Intel Core Ultra 7 155H",
+    "gpu": "Intel Arc Graphics",
+    "memory": "16GB LPDDR5x",
+    "storage": "512GB PCIe Gen4 SSD",
+    "display": "14\" 2.8K OLED, 2880×1800, 90Hz",
+    "battery": "Up to 13 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "Acer",
+    "processor": "Intel Core Ultra 7",
+    "screenSize": "14 inch"
+  }
+}

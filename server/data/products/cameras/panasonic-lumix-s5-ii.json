@@ -1,0 +1,39 @@
+{
+  "id": "panasonic-lumix-s5-ii",
+  "slug": "panasonic-lumix-s5-ii",
+  "name": "Panasonic Lumix S5 II",
+  "brand": "Panasonic",
+  "category": "cameras",
+  "price": 1997,
+  "originalPrice": 2197,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 1120,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=800&q=80"
+    ]
+  },
+  "description": "Panasonic Lumix S5 II with phase-detection AF, 24.2MP full-frame sensor, and unlimited 4K 60p recording.",
+  "specs": {
+    "sensor": "24.2MP Full-Frame CMOS",
+    "processor": "Venus Engine",
+    "video": "6K 30p, 4K 60p unlimited",
+    "autofocus": "779-point Phase Hybrid AF",
+    "iso": "100-51200 (expandable to 50-204800)",
+    "stabilization": "5-axis in-body, 6.5 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "Full-Frame",
+    "megapixels": 24.2,
+    "videoResolution": "6K30"
+  }
+}

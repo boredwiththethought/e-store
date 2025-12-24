@@ -1,0 +1,46 @@
+{
+  "id": "macbook-pro-16-m3-max",
+  "slug": "macbook-pro-16-m3-max",
+  "name": "MacBook Pro 16\" (M3 Max)",
+  "brand": "Apple",
+  "category": "computers",
+  "price": 3499,
+  "originalPrice": 3499,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 4560,
+  "tags": [
+    "premium",
+    "featured",
+    "new"
+  ],
+  "colors": [
+    "Space Black",
+    "Silver"
+  ],
+  "images": {
+    "Space Black": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&q=80"
+    ]
+  },
+  "description": "The most powerful MacBook Pro ever with M3 Max chip, 16-core CPU, 40-core GPU, and stunning Liquid Retina XDR display.",
+  "specs": {
+    "chip": "Apple M3 Max",
+    "cpu": "16-core (12 performance + 4 efficiency)",
+    "gpu": "40-core GPU",
+    "memory": "36GB unified memory (up to 128GB)",
+    "storage": "1TB SSD (up to 8TB)",
+    "display": "16.2\" Liquid Retina XDR, 3456×2234, ProMotion",
+    "battery": "Up to 22 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "Apple",
+    "processor": "Apple M3 Max",
+    "screenSize": "16.2 inch"
+  }
+}

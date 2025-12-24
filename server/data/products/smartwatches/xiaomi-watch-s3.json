@@ -1,0 +1,51 @@
+{
+  "id": "xiaomi-watch-s3",
+  "slug": "xiaomi-watch-s3",
+  "name": "Xiaomi Watch S3",
+  "brand": "Xiaomi",
+  "category": "smartwatches",
+  "price": 149,
+  "originalPrice": 179,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 890,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Silver",
+    "Brown"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=800&q=80"
+    ],
+    "Brown": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ]
+  },
+  "description": "Xiaomi Watch S3 with interchangeable bezels, AMOLED display, dual-band GPS, and HyperOS.",
+  "specs": {
+    "display": "1.43-inch AMOLED, 466x466",
+    "chip": "HyperOS",
+    "sensors": "Heart Rate, SpO2, Stress, Sleep",
+    "battery": "Up to 15 days",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "Dual-band GPS",
+      "Bluetooth 5.2",
+      "NFC"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 47,
+    "batteryLife": "15 days",
+    "waterResistance": "5ATM"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "msi-creator-z17",
+  "slug": "msi-creator-z17",
+  "name": "MSI Creator Z17 HX Studio",
+  "brand": "MSI",
+  "category": "computers",
+  "price": 2999,
+  "originalPrice": 3299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 1120,
+  "tags": [
+    "premium"
+  ],
+  "colors": [
+    "Lunar Gray"
+  ],
+  "images": {
+    "Lunar Gray": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80"
+    ]
+  },
+  "description": "Professional creator laptop with QHD+ 165Hz display, RTX 4070, and Vapor Chamber cooling.",
+  "specs": {
+    "processor": "Intel Core i9-13950HX",
+    "gpu": "NVIDIA GeForce RTX 4070 8GB",
+    "memory": "64GB DDR5",
+    "storage": "2TB NVMe SSD",
+    "display": "17\" QHD+, 2560×1600, 165Hz, 100% DCI-P3",
+    "battery": "Up to 8 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "MSI",
+    "processor": "Intel Core i9",
+    "screenSize": "17 inch"
+  }
+}

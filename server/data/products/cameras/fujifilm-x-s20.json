@@ -1,0 +1,38 @@
+{
+  "id": "fujifilm-x-s20",
+  "slug": "fujifilm-x-s20",
+  "name": "Fujifilm X-S20",
+  "brand": "Fujifilm",
+  "category": "cameras",
+  "price": 1299,
+  "originalPrice": 1399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 780,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80"
+    ]
+  },
+  "description": "Fujifilm X-S20 - compact vlogging powerhouse with 26.1MP sensor, 6.2K video, and endless battery life.",
+  "specs": {
+    "sensor": "26.1MP APS-C X-Trans CMOS 4",
+    "processor": "X-Processor 5",
+    "video": "6.2K 30p, 4K 60p",
+    "autofocus": "Deep Learning AF",
+    "iso": "160-12800 (expandable to 80-51200)",
+    "stabilization": "5-axis in-body, 7 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "APS-C",
+    "megapixels": 26.1,
+    "videoResolution": "6.2K30"
+  }
+}

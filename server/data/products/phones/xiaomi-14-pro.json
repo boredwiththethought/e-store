@@ -1,64 +1,45 @@
 {
   "id": "xiaomi-14-pro",
+  "slug": "xiaomi-14-pro",
   "name": "Xiaomi 14 Pro",
-  "model": "2311DRK49G",
   "brand": "Xiaomi",
   "category": "phones",
-  "subcategory": "smartphones",
   "price": 899,
-  "oldPrice": 949,
+  "originalPrice": 999,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2024,
-  "colors": ["Black", "White", "Titanium"],
-  "thumbnail": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976396.12345678.png?width=400&height=400",
+  "rating": 4.6,
+  "reviewsCount": 3450,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "White",
+    "Jade Green"
+  ],
   "images": {
     "Black": [
-      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976396.12345678.png"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
     ],
     "White": [
-      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976396.12345679.png"
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=80"
     ],
-    "Titanium": [
-      "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1702976396.12345680.png"
+    "Jade Green": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.mi.com/global/product/xiaomi-14-pro/",
+  "description": "Flagship with Leica optics, Snapdragon 8 Gen 3, and 120W HyperCharge.",
   "specs": {
-    "display": {
-      "type": "LTPO AMOLED",
-      "size": "6.73 inches",
-      "resolution": "3200 x 1440",
-      "refreshRate": "120Hz"
-    },
-    "processor": { "name": "Snapdragon 8 Gen 3", "cores": "Octa-core" },
-    "memory": { "ram": "12GB", "storage": ["256GB", "512GB", "1TB"] },
-    "camera": {
-      "main": "50MP Leica",
-      "ultrawide": "50MP",
-      "telephoto": "50MP 3.2x optical zoom",
-      "front": "32MP"
-    },
-    "battery": {
-      "capacity": "4880mAh",
-      "charging": "120W wired, 50W wireless"
-    },
-    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.4", "NFC", "IR blaster"],
-    "features": [
-      "Leica optics",
-      "Variable aperture",
-      "In-display fingerprint",
-      "IP68"
-    ],
-    "os": "Android 14, HyperOS"
+    "display": "6.73\" LTPO AMOLED, 3200 x 1440, 120Hz",
+    "processor": "Snapdragon 8 Gen 3",
+    "camera": "50MP Light Fusion 900 + 50MP telephoto + 50MP ultrawide",
+    "battery": "4880mAh, 120W wired, 50W wireless",
+    "storage": "256GB/512GB/1TB"
   },
   "filterSpecs": {
-    "batteryCapacity": "4880mAh",
-    "screenType": "AMOLED",
-    "screenDiagonal": 6.73,
-    "protectionClass": "IP68",
-    "builtInMemory": ["256GB", "512GB", "1TB"]
-  },
-  "rating": 4.8,
-  "reviewCount": 750,
-  "description": "Xiaomi 14 Pro features a stunning 2K display, Leica variable aperture lens, and insane 120W HyperCharge."
+    "screenSize": "6.73 inch",
+    "battery": "4880mAh",
+    "camera": "50MP"
+  }
 }

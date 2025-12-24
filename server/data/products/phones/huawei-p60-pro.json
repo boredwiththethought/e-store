@@ -1,0 +1,58 @@
+{
+  "id": "huawei-p60-pro",
+  "slug": "huawei-p60-pro",
+  "name": "Huawei P60 Pro",
+  "brand": "Huawei",
+  "category": "phones",
+  "price": 1099,
+  "originalPrice": 1199,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 890,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "White",
+    "Rococo Pearl"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&q=80"
+    ],
+    "Rococo Pearl": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ]
+  },
+  "description": "Huawei P60 Pro with Ultra Lighting Camera, variable aperture, and stunning photography capabilities in any light.",
+  "specs": {
+    "display": "6.67-inch LTPO OLED, FHD+, 1-120Hz",
+    "chip": "Snapdragon 8+ Gen 1",
+    "camera": "48MP Ultra Lighting Main + 13MP Ultra Wide + 48MP Telephoto",
+    "battery": "4815mAh, 88W wired + 50W wireless",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "4G LTE",
+      "Wi-Fi 6",
+      "Bluetooth 5.2",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.67,
+    "batteryCapacity": "4815mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "8GB"
+  }
+}

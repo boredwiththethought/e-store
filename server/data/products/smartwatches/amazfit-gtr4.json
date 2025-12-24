@@ -1,0 +1,50 @@
+{
+  "id": "amazfit-gtr4",
+  "slug": "amazfit-gtr4",
+  "name": "Amazfit GTR 4",
+  "brand": "Amazfit",
+  "category": "smartwatches",
+  "price": 199,
+  "originalPrice": 229,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 2340,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Superspeed Black",
+    "Racetrack Grey",
+    "Vintage Brown"
+  ],
+  "images": {
+    "Superspeed Black": [
+      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80"
+    ],
+    "Racetrack Grey": [
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80"
+    ],
+    "Vintage Brown": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ]
+  },
+  "description": "Amazfit GTR 4 with dual-band GPS, 150+ sports modes, and up to 14 days battery in a premium design.",
+  "specs": {
+    "display": "1.43-inch AMOLED, 466x466",
+    "chip": "Zepp OS 2.0",
+    "sensors": "BioTracker 4.0 PPG, SpO2, Heart Rate",
+    "battery": "Up to 14 days typical use",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "Dual-band GPS",
+      "Bluetooth 5.0 BLE",
+      "Wi-Fi"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 46,
+    "batteryLife": "14 days",
+    "waterResistance": "5ATM"
+  }
+}

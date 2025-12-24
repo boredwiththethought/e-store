@@ -1,0 +1,43 @@
+{
+  "id": "steelseries-arctis-nova-pro",
+  "slug": "steelseries-arctis-nova-pro",
+  "name": "SteelSeries Arctis Nova Pro Wireless",
+  "brand": "SteelSeries",
+  "category": "gaming",
+  "price": 349,
+  "originalPrice": 349,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 4560,
+  "tags": [
+    "premium",
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=800&q=80"
+    ]
+  },
+  "description": "Flagship gaming headset with Active Noise Cancellation, infinity power system, and Hi-Res audio.",
+  "specs": {
+    "driver": "40mm neodymium",
+    "frequency": "10Hz - 40kHz, Hi-Res certified",
+    "anc": "4-mic hybrid Active Noise Cancelling",
+    "battery": "Infinity power (dual swappable batteries), 44 hours total",
+    "connectivity": "2.4GHz wireless, Bluetooth, wired",
+    "features": [
+      "Hot-swappable batteries",
+      "Dual audio",
+      "OLED base station"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Gaming Headset",
+    "brand": "SteelSeries",
+    "platform": "PC/PlayStation/Xbox"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "fitbit-sense-2",
+  "slug": "fitbit-sense-2",
+  "name": "Fitbit Sense 2",
+  "brand": "Fitbit",
+  "category": "smartwatches",
+  "price": 249,
+  "originalPrice": 299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 1890,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Shadow Grey",
+    "Lunar White",
+    "Blue Mist"
+  ],
+  "images": {
+    "Shadow Grey": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ],
+    "Lunar White": [
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=800&q=80"
+    ],
+    "Blue Mist": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ]
+  },
+  "description": "Fitbit Sense 2 with stress management, ECG, skin temperature sensing, and 6+ days battery life.",
+  "specs": {
+    "display": "1.58-inch AMOLED, 336x336",
+    "chip": "Fitbit Proprietary",
+    "sensors": "cEDA Stress Sensor, ECG, SpO2, Skin Temperature",
+    "battery": "6+ days",
+    "waterResistance": "50m",
+    "connectivity": [
+      "GPS",
+      "Bluetooth 5.0",
+      "Wi-Fi",
+      "NFC"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 40,
+    "batteryLife": "6 days",
+    "waterResistance": "50m"
+  }
+}

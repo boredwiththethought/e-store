@@ -1,0 +1,39 @@
+{
+  "id": "hp-omen-16",
+  "slug": "hp-omen-16",
+  "name": "HP Omen 16",
+  "brand": "HP",
+  "category": "computers",
+  "price": 1599,
+  "originalPrice": 1799,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 3890,
+  "tags": [
+    "gaming"
+  ],
+  "colors": [
+    "Shadow Black"
+  ],
+  "images": {
+    "Shadow Black": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    ]
+  },
+  "description": "High-performance gaming laptop with QHD 240Hz display, RTX 4070, and OMEN Tempest Cooling.",
+  "specs": {
+    "processor": "Intel Core i9-14900HX",
+    "gpu": "NVIDIA GeForce RTX 4070 8GB",
+    "memory": "32GB DDR5-5600",
+    "storage": "1TB PCIe Gen4 NVMe SSD",
+    "display": "16.1\" QHD IPS, 2560×1440, 240Hz, G-Sync",
+    "battery": "Up to 6 hours"
+  },
+  "filterSpecs": {
+    "type": "Gaming Laptop",
+    "brand": "HP",
+    "processor": "Intel Core i9",
+    "screenSize": "16.1 inch"
+  }
+}

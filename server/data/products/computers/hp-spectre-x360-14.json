@@ -1,0 +1,43 @@
+{
+  "id": "hp-spectre-x360-14",
+  "slug": "hp-spectre-x360-14",
+  "name": "HP Spectre x360 14",
+  "brand": "HP",
+  "category": "computers",
+  "price": 1449,
+  "originalPrice": 1599,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 4560,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Nightfall Black",
+    "Nocturne Blue"
+  ],
+  "images": {
+    "Nightfall Black": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80"
+    ],
+    "Nocturne Blue": [
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80"
+    ]
+  },
+  "description": "Premium 2-in-1 convertible with gem-cut design, OLED display, and Intel Core Ultra performance.",
+  "specs": {
+    "processor": "Intel Core Ultra 7 155H",
+    "gpu": "Intel Arc Graphics",
+    "memory": "16GB LPDDR5x",
+    "storage": "1TB NVMe SSD",
+    "display": "14\" 2.8K OLED, 2880×1800, touch, 400 nits",
+    "battery": "Up to 15 hours"
+  },
+  "filterSpecs": {
+    "type": "2-in-1",
+    "brand": "HP",
+    "processor": "Intel Core Ultra 7",
+    "screenSize": "14 inch"
+  }
+}

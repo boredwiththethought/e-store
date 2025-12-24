@@ -1,0 +1,52 @@
+{
+  "id": "macbook-air-13-m3",
+  "slug": "macbook-air-13-m3",
+  "name": "MacBook Air 13\" (M3)",
+  "brand": "Apple",
+  "category": "computers",
+  "price": 1099,
+  "originalPrice": 1099,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 8920,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Midnight",
+    "Starlight",
+    "Space Gray",
+    "Silver"
+  ],
+  "images": {
+    "Midnight": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80"
+    ],
+    "Starlight": [
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80"
+    ],
+    "Space Gray": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
+    ]
+  },
+  "description": "The world's best-selling laptop, now supercharged by M3. Strikingly thin design and all-day battery.",
+  "specs": {
+    "chip": "Apple M3",
+    "cpu": "8-core (4 performance + 4 efficiency)",
+    "gpu": "8-core GPU",
+    "memory": "8GB unified memory (up to 24GB)",
+    "storage": "256GB SSD (up to 2TB)",
+    "display": "13.6\" Liquid Retina, 2560×1664",
+    "battery": "Up to 18 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "Apple",
+    "processor": "Apple M3",
+    "screenSize": "13.6 inch"
+  }
+}

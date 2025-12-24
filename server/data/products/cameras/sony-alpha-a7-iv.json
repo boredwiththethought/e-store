@@ -1,0 +1,39 @@
+{
+  "id": "sony-alpha-a7-iv",
+  "slug": "sony-alpha-a7-iv",
+  "name": "Sony Alpha A7 IV",
+  "brand": "Sony",
+  "category": "cameras",
+  "price": 2498,
+  "originalPrice": 2698,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 1890,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80"
+    ]
+  },
+  "description": "Sony A7 IV with 33MP full-frame sensor, advanced AF, 4K 60p video, and exceptional image quality for creators.",
+  "specs": {
+    "sensor": "33MP Full-Frame Exmor R CMOS",
+    "processor": "BIONZ XR",
+    "video": "4K 60p, 10-bit 4:2:2",
+    "autofocus": "759-point phase-detection AF",
+    "iso": "100-51200 (expandable to 50-204800)",
+    "stabilization": "5-axis in-body, 5.5 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "Full-Frame",
+    "megapixels": 33,
+    "videoResolution": "4K60"
+  }
+}

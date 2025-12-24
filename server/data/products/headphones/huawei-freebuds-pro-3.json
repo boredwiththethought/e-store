@@ -1,0 +1,49 @@
+{
+  "id": "huawei-freebuds-pro-3",
+  "slug": "huawei-freebuds-pro-3",
+  "name": "Huawei FreeBuds Pro 3",
+  "brand": "Huawei",
+  "category": "headphones",
+  "price": 179,
+  "originalPrice": 199,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 2340,
+  "tags": [],
+  "colors": [
+    "Ceramic White",
+    "Green",
+    "Silver Frost"
+  ],
+  "images": {
+    "Ceramic White": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+    ],
+    "Silver Frost": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ]
+  },
+  "description": "Ultra-hearing dual-driver true sound earbuds with intelligent ANC up to 47dB and Hi-Res Audio certification.",
+  "specs": {
+    "driver": "11mm quad-magnet dynamic driver + planar diaphragm driver",
+    "anc": "Intelligent Dynamic ANC up to 47dB",
+    "battery": "6.5 hours, 31 hours with case",
+    "waterResistance": "IP54",
+    "features": [
+      "L2HC 2.0 lossless codec",
+      "Dual connection",
+      "Bone conduction VPU",
+      "AI Life app"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "6.5 hours"
+  }
+}

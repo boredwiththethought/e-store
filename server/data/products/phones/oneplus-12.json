@@ -1,0 +1,55 @@
+{
+  "id": "oneplus-12",
+  "slug": "oneplus-12",
+  "name": "OnePlus 12",
+  "brand": "OnePlus",
+  "category": "phones",
+  "price": 799,
+  "originalPrice": 899,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 1240,
+  "tags": [
+    "new-arrival",
+    "featured"
+  ],
+  "colors": [
+    "Silky Black",
+    "Flowy Emerald"
+  ],
+  "images": {
+    "Silky Black": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
+    ],
+    "Flowy Emerald": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
+    ]
+  },
+  "description": "OnePlus 12 with Snapdragon 8 Gen 3, Hasselblad camera, 100W SUPERVOOC charging, and stunning 2K display.",
+  "specs": {
+    "display": "6.82-inch LTPO AMOLED, 2K, 1-120Hz",
+    "chip": "Snapdragon 8 Gen 3",
+    "camera": "50MP Main + 48MP Ultra Wide + 64MP Periscope",
+    "battery": "5400mAh, 100W wired + 50W wireless",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 7",
+      "Bluetooth 5.4",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.82,
+    "batteryCapacity": "5400mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "12GB"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "fujifilm-x-t5",
+  "slug": "fujifilm-x-t5",
+  "name": "Fujifilm X-T5",
+  "brand": "Fujifilm",
+  "category": "cameras",
+  "price": 1699,
+  "originalPrice": 1799,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 1450,
+  "tags": [
+    "new-arrival",
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "Silver"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=800&q=80"
+    ]
+  },
+  "description": "Fujifilm X-T5 with 40.2MP X-Trans sensor, classic design, 7-stop IBIS, and legendary film simulations.",
+  "specs": {
+    "sensor": "40.2MP APS-C X-Trans CMOS 5 HR",
+    "processor": "X-Processor 5",
+    "video": "6.2K 30p, 4K 60p",
+    "autofocus": "Deep Learning AF with subject detection",
+    "iso": "125-12800 (expandable to 64-51200)",
+    "stabilization": "5-axis in-body, 7 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "APS-C",
+    "megapixels": 40.2,
+    "videoResolution": "6.2K30"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "razer-blackwidow-v4",
+  "slug": "razer-blackwidow-v4",
+  "name": "Razer BlackWidow V4 Pro",
+  "brand": "Razer",
+  "category": "gaming",
+  "price": 229,
+  "originalPrice": 229,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 3450,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=800&q=80"
+    ]
+  },
+  "description": "Premium gaming keyboard with Razer Green switches, Command Dial, magnetic plush wrist rest, and Chroma RGB.",
+  "specs": {
+    "switches": "Razer Green Mechanical (clicky)",
+    "layout": "Full-size with Command Dial",
+    "features": [
+      "5 dedicated macro keys",
+      "Magnetic wrist rest",
+      "USB passthrough",
+      "Doubleshot ABS keycaps"
+    ],
+    "lighting": "Razer Chroma RGB",
+    "connectivity": "USB-C to USB-A braided cable"
+  },
+  "filterSpecs": {
+    "type": "Keyboard",
+    "brand": "Razer",
+    "platform": "PC"
+  }
+}

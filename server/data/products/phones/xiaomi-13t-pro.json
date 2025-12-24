@@ -1,0 +1,58 @@
+{
+  "id": "xiaomi-13t-pro",
+  "slug": "xiaomi-13t-pro",
+  "name": "Xiaomi 13T Pro",
+  "brand": "Xiaomi",
+  "category": "phones",
+  "price": 649,
+  "originalPrice": 749,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 1120,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Blue",
+    "Green"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
+    ],
+    "Blue": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
+    ]
+  },
+  "description": "Xiaomi 13T Pro with Leica camera system, MediaTek Dimensity 9200+, and 120W HyperCharge for all-day power.",
+  "specs": {
+    "display": "6.67-inch AMOLED, 1.5K, 144Hz",
+    "chip": "MediaTek Dimensity 9200+",
+    "camera": "50MP Leica Main + 50MP Telephoto + 12MP Ultra Wide",
+    "battery": "5000mAh, 120W HyperCharge",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6E",
+      "Bluetooth 5.4",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.67,
+    "batteryCapacity": "5000mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "12GB"
+  }
+}

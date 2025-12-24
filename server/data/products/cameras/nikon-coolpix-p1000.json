@@ -1,0 +1,40 @@
+{
+  "id": "nikon-coolpix-p1000",
+  "slug": "nikon-coolpix-p1000",
+  "name": "Nikon Coolpix P1000",
+  "brand": "Nikon",
+  "category": "cameras",
+  "price": 896,
+  "originalPrice": 996,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 1450,
+  "tags": [],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=800&q=80"
+    ]
+  },
+  "description": "Nikon Coolpix P1000 with incredible 125x optical zoom (24-3000mm equivalent) for wildlife and astrophotography.",
+  "specs": {
+    "sensor": "16MP 1/2.3-inch CMOS",
+    "lens": "24-3000mm equivalent, 125x optical zoom",
+    "video": "4K UHD 30p",
+    "display": "3.2-inch vari-angle LCD",
+    "features": [
+      "Moon Mode",
+      "Bird-watching Mode",
+      "RAW support"
+    ],
+    "viewfinder": "0.39-inch OLED EVF"
+  },
+  "filterSpecs": {
+    "sensorType": "1/2.3-inch",
+    "megapixels": 16,
+    "videoResolution": "4K30"
+  }
+}

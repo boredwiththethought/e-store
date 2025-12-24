@@ -1,0 +1,49 @@
+{
+  "id": "sony-wf-1000xm5",
+  "slug": "sony-wf-1000xm5",
+  "name": "Sony WF-1000XM5",
+  "brand": "Sony",
+  "category": "headphones",
+  "price": 279,
+  "originalPrice": 329,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 4560,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Silver"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+    ]
+  },
+  "description": "Sony WF-1000XM5 - the best noise cancelling earbuds with smallest design ever, LDAC Hi-Res, and crystal-clear calls.",
+  "specs": {
+    "driver": "8.4mm Dynamic Driver X",
+    "processor": "Integrated Processor V2",
+    "anc": "Industry-leading noise cancellation",
+    "battery": "8 hours, 24 hours with case",
+    "waterResistance": "IPX4",
+    "features": [
+      "LDAC Hi-Res",
+      "DSEE Extreme",
+      "Speak-to-Chat",
+      "Multipoint"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "8 hours"
+  }
+}

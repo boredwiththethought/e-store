@@ -1,58 +1,41 @@
 {
   "id": "realme-gt5-pro",
+  "slug": "realme-gt5-pro",
   "name": "Realme GT5 Pro",
-  "model": "RMX3888",
   "brand": "Realme",
   "category": "phones",
-  "subcategory": "smartphones",
   "price": 599,
-  "oldPrice": 649,
+  "originalPrice": 649,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2024,
-  "colors": ["Bright Moon", "Starry Night"],
-  "thumbnail": "https://image.realme.com/content/dam/realme/global/products/realme-gt5-pro/images/realme-gt5-pro-bright-moon.png",
+  "rating": 4.5,
+  "reviewsCount": 2340,
+  "tags": [
+    "best value"
+  ],
+  "colors": [
+    "Bright Moon",
+    "Cosmic Black"
+  ],
   "images": {
     "Bright Moon": [
-      "https://image.realme.com/content/dam/realme/global/products/realme-gt5-pro/images/realme-gt5-pro-bright-moon.png"
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
     ],
-    "Starry Night": [
-      "https://image.realme.com/content/dam/realme/global/products/realme-gt5-pro/images/realme-gt5-pro-starry-night.png"
+    "Cosmic Black": [
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.realme.com/global/realme-gt5-pro",
+  "description": "Flagship killer with Snapdragon 8 Gen 3, periscope telephoto, and 100W charging.",
   "specs": {
-    "display": {
-      "type": "LTPO AMOLED",
-      "size": "6.78 inches",
-      "resolution": "2780 x 1264",
-      "refreshRate": "144Hz"
-    },
-    "processor": { "name": "Snapdragon 8 Gen 3", "cores": "Octa-core" },
-    "memory": { "ram": "12GB", "storage": ["256GB", "512GB"] },
-    "camera": {
-      "main": "50MP Sony IMX890",
-      "ultrawide": "8MP",
-      "telephoto": "50MP 3x",
-      "front": "32MP"
-    },
-    "battery": { "capacity": "5400mAh", "charging": "100W SUPERVOOC" },
-    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.4", "NFC"],
-    "features": [
-      "Stainless steel frame",
-      "In-display fingerprint",
-      "IP64",
-      "GT Mode"
-    ],
-    "os": "Android 14, Realme UI 5"
+    "display": "6.78\" LTPO AMOLED, 2780 x 1264, 144Hz",
+    "processor": "Snapdragon 8 Gen 3",
+    "camera": "50MP Sony IMX890 + 8MP ultrawide + 64MP periscope",
+    "battery": "5400mAh, 100W wired",
+    "storage": "256GB/512GB/1TB"
   },
   "filterSpecs": {
-    "batteryCapacity": "5400mAh",
-    "screenType": "AMOLED",
-    "screenDiagonal": 6.78,
-    "protectionClass": "IP64",
-    "builtInMemory": ["256GB", "512GB"]
-  },
-  "rating": 4.6,
-  "reviewCount": 410,
-  "description": "Realme GT5 Pro - flagship killer with Snapdragon 8 Gen 3, 144Hz display, and 100W charging."
+    "screenSize": "6.78 inch",
+    "battery": "5400mAh",
+    "camera": "50MP"
+  }
 }

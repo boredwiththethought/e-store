@@ -1,0 +1,39 @@
+{
+  "id": "dji-osmo-pocket-3",
+  "slug": "dji-osmo-pocket-3",
+  "name": "DJI Osmo Pocket 3",
+  "brand": "DJI",
+  "category": "cameras",
+  "price": 519,
+  "originalPrice": 569,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 1890,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=800&q=80"
+    ]
+  },
+  "description": "DJI Osmo Pocket 3 with 1-inch CMOS sensor, 4K 120fps, 2-inch rotatable touchscreen, and 3-axis gimbal.",
+  "specs": {
+    "sensor": "1-inch CMOS",
+    "video": "4K 120p, 10-bit D-Log M",
+    "stabilization": "3-axis mechanical gimbal",
+    "display": "2-inch rotatable OLED touchscreen",
+    "audio": "3 built-in microphones, DJI Mic 2 support",
+    "battery": "116 minutes recording time"
+  },
+  "filterSpecs": {
+    "sensorType": "1-inch",
+    "megapixels": 9,
+    "videoResolution": "4K120"
+  }
+}

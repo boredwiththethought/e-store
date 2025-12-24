@@ -1,24 +1,33 @@
 import { Router, Request, Response } from "express";
-import { getDB } from "../db/mongodb";
+import { db } from "../db";
 import type { Product } from "../types/product";
 import * as fs from "fs";
 import * as path from "path";
 
 const router = Router();
 
+function isDBConnected(): boolean {
+  return db !== null;
+}
+
 // GET /api/seed - Import all products from JSON files to MongoDB
 router.get("/", async (req: Request, res: Response) => {
   try {
     const secretKey = req.query.key as string;
 
-    // Simple protection - requires secret key
-    if (secretKey !== process.env.SEED_SECRET_KEY) {
+    // Simple protection - requires secret key (or allow in dev mode)
+    const isDev = process.env.NODE_ENV !== "production";
+    if (!isDev && secretKey !== process.env.SEED_SECRET_KEY) {
       res.status(401).json({ error: "Unauthorized. Provide valid key." });
       return;
     }
 
-    const db = getDB();
-    const productsCollection = db.collection<Product>("products");
+    if (!isDBConnected()) {
+      res.status(503).json({ error: "Database not connected" });
+      return;
+    }
+
+    const productsCollection = db!.collection<Product>("products");
 
     // Path to products folder
     const dataPath = path.join(process.cwd(), "data", "products");
@@ -35,6 +44,7 @@ router.get("/", async (req: Request, res: Response) => {
       "headphones",
       "computers",
       "gaming",
+      "featured",
     ];
     const products: Product[] = [];
 
@@ -67,6 +77,19 @@ router.get("/", async (req: Request, res: Response) => {
         try {
           const content = fs.readFileSync(file, "utf-8");
           const product = JSON.parse(content) as Product;
+
+          // Skip duplicates (check by id)
+          if (products.some((p) => p.id === product.id)) {
+            // Merge tags if this is a duplicate
+            const existing = products.find((p) => p.id === product.id);
+            if (existing && product.tags) {
+              existing.tags = [
+                ...new Set([...(existing.tags || []), ...product.tags]),
+              ];
+            }
+            continue;
+          }
+
           products.push({
             ...product,
             createdAt: new Date(),
@@ -83,7 +106,12 @@ router.get("/", async (req: Request, res: Response) => {
       return;
     }
 
-    // Clear existing products and insert new ones
+    // Drop existing indexes and clear collection
+    try {
+      await productsCollection.dropIndexes();
+    } catch {
+      // Ignore error if indexes don't exist
+    }
     const deleteResult = await productsCollection.deleteMany({});
     const insertResult = await productsCollection.insertMany(products);
 

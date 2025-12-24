@@ -1,0 +1,45 @@
+{
+  "id": "shure-aonic-50",
+  "slug": "shure-aonic-50",
+  "name": "Shure Aonic 50",
+  "brand": "Shure",
+  "category": "headphones",
+  "price": 349,
+  "originalPrice": 399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 1560,
+  "tags": [
+    "premium"
+  ],
+  "colors": [
+    "Black",
+    "White"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80"
+    ]
+  },
+  "description": "Studio-quality wireless headphones with adjustable noise cancellation and exceptional audio fidelity.",
+  "specs": {
+    "driver": "50mm dynamic drivers",
+    "anc": "Adjustable Active Noise Cancellation",
+    "battery": "20 hours with ANC",
+    "features": [
+      "aptX, aptX HD, LDAC",
+      "Environment mode",
+      "ShurePlus PLAY app"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "20 hours"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "motorola-edge-40-pro",
+  "slug": "motorola-edge-40-pro",
+  "name": "Motorola Edge 40 Pro",
+  "brand": "Motorola",
+  "category": "phones",
+  "price": 799,
+  "originalPrice": 899,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 720,
+  "tags": [],
+  "colors": [
+    "Interstellar Black",
+    "Lunar Blue"
+  ],
+  "images": {
+    "Interstellar Black": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
+    ],
+    "Lunar Blue": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
+    ]
+  },
+  "description": "Motorola Edge 40 Pro with 165Hz display, 125W TurboPower charging, and 50MP triple camera system.",
+  "specs": {
+    "display": "6.67-inch pOLED, FHD+, 165Hz",
+    "chip": "Snapdragon 8 Gen 2",
+    "camera": "50MP Main + 50MP Ultra Wide + 12MP Telephoto",
+    "battery": "4600mAh, 125W wired + 15W wireless",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.67,
+    "batteryCapacity": "4600mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "12GB"
+  }
+}

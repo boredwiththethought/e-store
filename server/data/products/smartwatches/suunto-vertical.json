@@ -1,0 +1,50 @@
+{
+  "id": "suunto-vertical",
+  "slug": "suunto-vertical",
+  "name": "Suunto Vertical",
+  "brand": "Suunto",
+  "category": "smartwatches",
+  "price": 629,
+  "originalPrice": 699,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 380,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "All Black",
+    "Sand",
+    "Forest Green"
+  ],
+  "images": {
+    "All Black": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ],
+    "Sand": [
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80"
+    ],
+    "Forest Green": [
+      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80"
+    ]
+  },
+  "description": "Suunto Vertical with solar charging, offline maps, and up to 85 days battery life with solar.",
+  "specs": {
+    "display": "1.4-inch AMOLED, 280x280, Solar Glass",
+    "chip": "Suunto Proprietary",
+    "sensors": "Barometric Altitude, Heart Rate, Compass",
+    "battery": "Up to 85 days with solar",
+    "waterResistance": "100m",
+    "connectivity": [
+      "Dual-band GPS",
+      "Bluetooth",
+      "Wi-Fi"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 49,
+    "batteryLife": "85 days",
+    "waterResistance": "100m"
+  }
+}

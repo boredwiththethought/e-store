@@ -1,0 +1,46 @@
+{
+  "id": "huawei-watch-ultimate",
+  "slug": "huawei-watch-ultimate",
+  "name": "Huawei Watch Ultimate",
+  "brand": "Huawei",
+  "category": "smartwatches",
+  "price": 799,
+  "originalPrice": 899,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 540,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "Blue"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80"
+    ],
+    "Blue": [
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80"
+    ]
+  },
+  "description": "Huawei Watch Ultimate with 100m diving capability, Expedition Mode, and Zirconium-based liquid metal case.",
+  "specs": {
+    "display": "1.5-inch LTPO AMOLED, 466x466",
+    "chip": "Huawei Proprietary",
+    "sensors": "Heart Rate, SpO2, Depth, Water Temperature",
+    "battery": "Up to 14 days, 8 days with AOD",
+    "waterResistance": "100m, EN 13319",
+    "connectivity": [
+      "Dual-band GPS",
+      "Bluetooth 5.2",
+      "NFC"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 48.5,
+    "batteryLife": "14 days",
+    "waterResistance": "100m"
+  }
+}

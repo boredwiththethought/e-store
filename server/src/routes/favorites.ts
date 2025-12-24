@@ -1,6 +1,6 @@
 import { Router, Response } from "express";
 import { ObjectId } from "mongodb";
-import { getDB } from "../db";
+import { db } from "../db";
 import { authMiddleware, AuthRequest } from "../middleware";
 
 const router = Router();
@@ -12,41 +12,66 @@ interface Favorite {
   createdAt: Date;
 }
 
+// In-memory favorites for mock mode
+interface MockFavorite {
+  _id: string;
+  userId: string;
+  productId: string;
+  createdAt: Date;
+}
+const mockFavorites: MockFavorite[] = [];
+
+function isDBConnected(): boolean {
+  return db !== null;
+}
+
 // GET /api/favorites - Get all favorites for current user
 router.get("/", authMiddleware, async (req: AuthRequest, res: Response) => {
   try {
-    const db = getDB();
-    const userId = new ObjectId(req.userId);
+    if (isDBConnected()) {
+      const userId = new ObjectId(req.userId);
 
-    // Get favorites with product details
-    const favorites = await db
-      .collection<Favorite>("favorites")
-      .aggregate([
-        { $match: { userId } },
-        {
-          $lookup: {
-            from: "products",
-            localField: "productId",
-            foreignField: "_id",
-            as: "product",
+      const favorites = await db!
+        .collection<Favorite>("favorites")
+        .aggregate([
+          { $match: { userId } },
+          {
+            $lookup: {
+              from: "products",
+              localField: "productId",
+              foreignField: "_id",
+              as: "product",
+            },
           },
-        },
-        { $unwind: "$product" },
-        { $sort: { createdAt: -1 } },
-      ])
-      .toArray();
+          { $unwind: "$product" },
+          { $sort: { createdAt: -1 } },
+        ])
+        .toArray();
 
-    res.json({
-      favorites: favorites.map((f) => ({
-        _id: f._id?.toString(),
-        productId: f.productId.toString(),
-        product: {
-          ...f.product,
-          _id: f.product._id.toString(),
-        },
-        createdAt: f.createdAt,
-      })),
-    });
+      res.json({
+        favorites: favorites.map((f) => ({
+          _id: f._id?.toString(),
+          productId: f.productId.toString(),
+          product: {
+            ...f.product,
+            _id: f.product._id.toString(),
+          },
+          createdAt: f.createdAt,
+        })),
+      });
+    } else {
+      // Mock mode
+      const userFavorites = mockFavorites.filter(
+        (f) => f.userId === req.userId
+      );
+      res.json({
+        favorites: userFavorites.map((f) => ({
+          _id: f._id,
+          productId: f.productId,
+          createdAt: f.createdAt,
+        })),
+      });
+    }
   } catch (error) {
     console.error("Get favorites error:", error);
     res.status(500).json({ error: "Failed to get favorites" });
@@ -63,47 +88,68 @@ router.post("/", authMiddleware, async (req: AuthRequest, res: Response) => {
       return;
     }
 
-    const db = getDB();
-    const userId = new ObjectId(req.userId);
-    const prodId = new ObjectId(productId);
+    if (isDBConnected()) {
+      const userId = new ObjectId(req.userId);
+      const prodId = new ObjectId(productId);
 
-    // Check if product exists
-    const product = await db.collection("products").findOne({ _id: prodId });
-    if (!product) {
-      res.status(404).json({ error: "Product not found" });
-      return;
+      const product = await db!.collection("products").findOne({ _id: prodId });
+      if (!product) {
+        res.status(404).json({ error: "Product not found" });
+        return;
+      }
+
+      const existing = await db!.collection<Favorite>("favorites").findOne({
+        userId,
+        productId: prodId,
+      });
+
+      if (existing) {
+        res.status(400).json({ error: "Product already in favorites" });
+        return;
+      }
+
+      const favorite: Favorite = {
+        userId,
+        productId: prodId,
+        createdAt: new Date(),
+      };
+
+      const result = await db!
+        .collection<Favorite>("favorites")
+        .insertOne(favorite);
+
+      res.status(201).json({
+        message: "Added to favorites",
+        favorite: {
+          _id: result.insertedId.toString(),
+          productId: productId,
+          createdAt: favorite.createdAt,
+        },
+      });
+    } else {
+      // Mock mode
+      const existing = mockFavorites.find(
+        (f) => f.userId === req.userId && f.productId === productId
+      );
+      if (existing) {
+        res.status(400).json({ error: "Product already in favorites" });
+        return;
+      }
+
+      const mockFavorite: MockFavorite = {
+        _id: `mock-fav-${Date.now()}`,
+        userId: req.userId!,
+        productId,
+        createdAt: new Date(),
+      };
+
+      mockFavorites.push(mockFavorite);
+
+      res.status(201).json({
+        message: "Added to favorites (mock mode)",
+        favorite: mockFavorite,
+      });
     }
-
-    // Check if already in favorites
-    const existing = await db.collection<Favorite>("favorites").findOne({
-      userId,
-      productId: prodId,
-    });
-
-    if (existing) {
-      res.status(400).json({ error: "Product already in favorites" });
-      return;
-    }
-
-    // Add to favorites
-    const favorite: Favorite = {
-      userId,
-      productId: prodId,
-      createdAt: new Date(),
-    };
-
-    const result = await db
-      .collection<Favorite>("favorites")
-      .insertOne(favorite);
-
-    res.status(201).json({
-      message: "Added to favorites",
-      favorite: {
-        _id: result.insertedId.toString(),
-        productId: productId,
-        createdAt: favorite.createdAt,
-      },
-    });
   } catch (error) {
     console.error("Add favorite error:", error);
     res.status(500).json({ error: "Failed to add to favorites" });
@@ -123,21 +169,34 @@ router.delete(
         return;
       }
 
-      const db = getDB();
-      const userId = new ObjectId(req.userId);
-      const prodId = new ObjectId(productId);
+      if (isDBConnected()) {
+        const userId = new ObjectId(req.userId);
+        const prodId = new ObjectId(productId);
 
-      const result = await db.collection<Favorite>("favorites").deleteOne({
-        userId,
-        productId: prodId,
-      });
+        const result = await db!.collection<Favorite>("favorites").deleteOne({
+          userId,
+          productId: prodId,
+        });
 
-      if (result.deletedCount === 0) {
-        res.status(404).json({ error: "Favorite not found" });
-        return;
+        if (result.deletedCount === 0) {
+          res.status(404).json({ error: "Favorite not found" });
+          return;
+        }
+
+        res.json({ message: "Removed from favorites" });
+      } else {
+        // Mock mode
+        const index = mockFavorites.findIndex(
+          (f) => f.userId === req.userId && f.productId === productId
+        );
+        if (index === -1) {
+          res.status(404).json({ error: "Favorite not found" });
+          return;
+        }
+
+        mockFavorites.splice(index, 1);
+        res.json({ message: "Removed from favorites (mock mode)" });
       }
-
-      res.json({ message: "Removed from favorites" });
     } catch (error) {
       console.error("Remove favorite error:", error);
       res.status(500).json({ error: "Failed to remove from favorites" });
@@ -153,16 +212,23 @@ router.get(
     try {
       const { productId } = req.params;
 
-      const db = getDB();
-      const userId = new ObjectId(req.userId);
-      const prodId = new ObjectId(productId);
+      if (isDBConnected()) {
+        const userId = new ObjectId(req.userId);
+        const prodId = new ObjectId(productId);
 
-      const favorite = await db.collection<Favorite>("favorites").findOne({
-        userId,
-        productId: prodId,
-      });
+        const favorite = await db!.collection<Favorite>("favorites").findOne({
+          userId,
+          productId: prodId,
+        });
 
-      res.json({ isFavorite: !!favorite });
+        res.json({ isFavorite: !!favorite });
+      } else {
+        // Mock mode
+        const isFavorite = mockFavorites.some(
+          (f) => f.userId === req.userId && f.productId === productId
+        );
+        res.json({ isFavorite });
+      }
     } catch (error) {
       console.error("Check favorite error:", error);
       res.status(500).json({ error: "Failed to check favorite" });

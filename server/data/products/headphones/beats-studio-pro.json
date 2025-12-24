@@ -1,0 +1,54 @@
+{
+  "id": "beats-studio-pro",
+  "slug": "beats-studio-pro",
+  "name": "Beats Studio Pro",
+  "brand": "Beats",
+  "category": "headphones",
+  "price": 349,
+  "originalPrice": 399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 2890,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Black",
+    "Navy",
+    "Sandstone",
+    "Deep Brown"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ],
+    "Navy": [
+      "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?w=800&q=80"
+    ],
+    "Sandstone": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ],
+    "Deep Brown": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+    ]
+  },
+  "description": "Beats Studio Pro with Personalized Spatial Audio, lossless USB-C audio, and up to 40 hours battery.",
+  "specs": {
+    "driver": "Custom 40mm drivers",
+    "chip": "Apple H1 + proprietary acoustic platform",
+    "anc": "Active Noise Cancellation",
+    "battery": "40 hours, 24 hours with ANC",
+    "features": [
+      "Personalized Spatial Audio",
+      "Lossless USB-C",
+      "Enhanced compatibility"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "40 hours"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "samsung-galaxy-z-fold5",
+  "slug": "samsung-galaxy-z-fold5",
+  "name": "Samsung Galaxy Z Fold 5",
+  "brand": "Samsung",
+  "category": "phones",
+  "price": 1799,
+  "originalPrice": 1899,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 1890,
+  "tags": [
+    "new-arrival",
+    "featured"
+  ],
+  "colors": [
+    "Phantom Black",
+    "Cream",
+    "Icy Blue"
+  ],
+  "images": {
+    "Phantom Black": [
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
+    ],
+    "Cream": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=80"
+    ],
+    "Icy Blue": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
+    ]
+  },
+  "description": "Galaxy Z Fold5 features Flex Mode, the slimmest fold yet, and multi-window productivity on a massive 7.6-inch display.",
+  "specs": {
+    "display": "7.6-inch Main AMOLED + 6.2-inch Cover, 120Hz",
+    "chip": "Snapdragon 8 Gen 2 for Galaxy",
+    "camera": "50MP Main + 12MP Ultra Wide + 10MP Telephoto",
+    "battery": "4400mAh, 25W fast charging",
+    "storage": [
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 7.6,
+    "batteryCapacity": "4400mAh",
+    "storage": [
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "ram": "12GB"
+  }
+}

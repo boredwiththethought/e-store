@@ -1,0 +1,38 @@
+{
+  "id": "leica-q3",
+  "slug": "leica-q3",
+  "name": "Leica Q3",
+  "brand": "Leica",
+  "category": "cameras",
+  "price": 5995,
+  "originalPrice": 6295,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 340,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80"
+    ]
+  },
+  "description": "Leica Q3 with 60MP full-frame sensor, Summilux 28mm f/1.7 lens, 8K video, and legendary Leica quality.",
+  "specs": {
+    "sensor": "60.3MP Full-Frame BSI CMOS",
+    "lens": "Summilux 28mm f/1.7 ASPH",
+    "video": "8K 30p, 4K 60p",
+    "autofocus": "Phase Detection with Object Recognition",
+    "iso": "50-100000",
+    "stabilization": "Sensor-shift, effective up to 5 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "Full-Frame",
+    "megapixels": 60.3,
+    "videoResolution": "8K30"
+  }
+}

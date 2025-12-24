@@ -1,83 +1,54 @@
 {
   "id": "apple-watch-series-9",
+  "slug": "apple-watch-series-9",
   "name": "Apple Watch Series 9",
-  "model": "A2978",
   "brand": "Apple",
   "category": "smartwatches",
-  "subcategory": "smartwatches",
   "price": 399,
-  "oldPrice": null,
+  "originalPrice": 399,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2023,
-  "colors": ["Midnight", "Starlight", "Silver", "Pink", "Product RED"],
-  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s9-aluminum-unselect-case-202309_FMT_WHH?wid=904&hei=840&fmt=png-alpha",
+  "rating": 4.8,
+  "reviewsCount": 12340,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Midnight",
+    "Starlight",
+    "Silver",
+    "Pink",
+    "Product Red"
+  ],
   "images": {
     "Midnight": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MRXW3ref_VW_34FR+watch-45-alum-midnight-nc-s9_VW_34FR_WF_CO?wid=750&hei=712&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
     ],
     "Starlight": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MR9U3ref_VW_34FR+watch-45-alum-starlight-nc-s9_VW_34FR_WF_CO?wid=750&hei=712&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80"
     ],
     "Silver": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MR9D3ref_VW_34FR+watch-45-alum-silver-nc-s9_VW_34FR_WF_CO?wid=750&hei=712&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80"
     ],
     "Pink": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MR9H3ref_VW_34FR+watch-45-alum-pink-nc-s9_VW_34FR_WF_CO?wid=750&hei=712&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80"
+    ],
+    "Product Red": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.apple.com/shop/buy-watch/apple-watch",
+  "description": "Powerful S9 chip, Double Tap gesture, brighter display, and carbon neutral options.",
   "specs": {
-    "display": {
-      "type": "LTPO OLED Always-On Retina",
-      "size": "45mm or 41mm",
-      "resolution": "396 x 484 pixels",
-      "brightness": "2000 nits"
-    },
-    "processor": {
-      "name": "Apple S9 SiP",
-      "cores": "Dual-core"
-    },
-    "memory": {
-      "storage": "64GB"
-    },
-    "sensors": [
-      "Blood Oxygen",
-      "ECG",
-      "Heart Rate",
-      "Temperature",
-      "Accelerometer",
-      "Gyroscope",
-      "Compass"
-    ],
-    "battery": {
-      "life": "18 hours",
-      "charging": "Fast charging"
-    },
-    "connectivity": [
-      "GPS",
-      "Cellular (optional)",
-      "Wi-Fi",
-      "Bluetooth 5.3",
-      "NFC",
-      "UWB"
-    ],
-    "features": [
-      "Double Tap gesture",
-      "Siri on-device",
-      "Crash Detection",
-      "Fall Detection",
-      "Water resistant 50m"
-    ],
-    "os": "watchOS 10"
+    "display": "41mm/45mm Always-On Retina LTPO, 2000 nits",
+    "chip": "Apple S9 SiP",
+    "gps": "GPS + Cellular available",
+    "waterResistance": "50m (WR50)",
+    "battery": "Up to 18 hours, 36 hours Low Power Mode"
   },
   "filterSpecs": {
-    "batteryCapacity": "18 hours",
-    "screenType": "OLED",
-    "screenDiagonal": 1.9,
-    "protectionClass": "WR50",
-    "builtInMemory": ["64GB"]
-  },
-  "rating": 4.8,
-  "reviewCount": 2850,
-  "description": "Apple Watch Series 9 with the powerful S9 chip, brighter display, and revolutionary Double Tap gesture."
+    "size": "41mm/45mm",
+    "gps": true,
+    "cellular": "optional"
+  }
 }

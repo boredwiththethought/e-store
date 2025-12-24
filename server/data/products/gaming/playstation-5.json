@@ -1,0 +1,43 @@
+{
+  "id": "playstation-5",
+  "slug": "playstation-5",
+  "name": "PlayStation 5",
+  "brand": "Sony",
+  "category": "gaming",
+  "price": 499,
+  "originalPrice": 499,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 45600,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "White"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80"
+    ]
+  },
+  "description": "Next-gen gaming console with ultra-high speed SSD, ray tracing, 4K gaming up to 120fps, and DualSense controller.",
+  "specs": {
+    "cpu": "AMD Zen 2, 8-core @ 3.5GHz",
+    "gpu": "AMD RDNA 2, 10.28 TFLOPs",
+    "memory": "16GB GDDR6",
+    "storage": "825GB custom SSD",
+    "output": "4K @ 120Hz, 8K support",
+    "includes": [
+      "DualSense controller",
+      "HDMI cable",
+      "Power cable"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Console",
+    "brand": "Sony",
+    "generation": "Current gen"
+  }
+}

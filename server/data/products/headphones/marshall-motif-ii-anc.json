@@ -1,0 +1,40 @@
+{
+  "id": "marshall-motif-ii-anc",
+  "slug": "marshall-motif-ii-anc",
+  "name": "Marshall Motif II ANC",
+  "brand": "Marshall",
+  "category": "headphones",
+  "price": 199,
+  "originalPrice": 229,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 1890,
+  "tags": [],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ]
+  },
+  "description": "True wireless earbuds with active noise cancellation, signature Marshall sound, and iconic design.",
+  "specs": {
+    "driver": "6mm custom-tuned drivers",
+    "anc": "Active Noise Cancellation",
+    "battery": "6 hours, 30 hours with case",
+    "waterResistance": "IPX5",
+    "features": [
+      "Transparency mode",
+      "Wireless charging",
+      "Touch controls"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "6 hours"
+  }
+}

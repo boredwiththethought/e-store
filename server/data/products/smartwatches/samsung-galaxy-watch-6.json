@@ -1,0 +1,52 @@
+{
+  "id": "samsung-galaxy-watch-6",
+  "slug": "samsung-galaxy-watch-6",
+  "name": "Samsung Galaxy Watch 6",
+  "brand": "Samsung",
+  "category": "smartwatches",
+  "price": 299,
+  "originalPrice": 349,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 1560,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Graphite",
+    "Gold",
+    "Silver"
+  ],
+  "images": {
+    "Graphite": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ],
+    "Gold": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ]
+  },
+  "description": "Galaxy Watch 6 with larger display, advanced sleep coaching, and comprehensive health tracking.",
+  "specs": {
+    "display": "1.5-inch Super AMOLED, 480x480",
+    "chip": "Exynos W930",
+    "sensors": "BioActive Sensor, Heart Rate, Body Composition",
+    "battery": "425mAh, up to 40 hours",
+    "waterResistance": "5ATM + IP68",
+    "connectivity": [
+      "GPS",
+      "LTE optional",
+      "Wi-Fi",
+      "Bluetooth 5.3"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 44,
+    "batteryLife": "40 hours",
+    "waterResistance": "5ATM"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "razer-blade-16",
+  "slug": "razer-blade-16",
+  "name": "Razer Blade 16",
+  "brand": "Razer",
+  "category": "computers",
+  "price": 2699,
+  "originalPrice": 2899,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 2340,
+  "tags": [
+    "gaming",
+    "premium"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    ]
+  },
+  "description": "Premium gaming laptop with dual-mode Mini-LED display, RTX 4080, and precision CNC aluminum chassis.",
+  "specs": {
+    "processor": "Intel Core i9-14900HX",
+    "gpu": "NVIDIA GeForce RTX 4080 12GB",
+    "memory": "32GB DDR5-5600",
+    "storage": "1TB PCIe Gen4 SSD",
+    "display": "16\" dual-mode Mini-LED, UHD 120Hz / FHD 240Hz",
+    "battery": "Up to 6 hours"
+  },
+  "filterSpecs": {
+    "type": "Gaming Laptop",
+    "brand": "Razer",
+    "processor": "Intel Core i9",
+    "screenSize": "16 inch"
+  }
+}

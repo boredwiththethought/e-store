@@ -1,0 +1,66 @@
+{
+  "id": "iphone-15-pro-max",
+  "slug": "iphone-15-pro-max",
+  "name": "iPhone 15 Pro Max",
+  "brand": "Apple",
+  "category": "phones",
+  "price": 1199,
+  "originalPrice": 1299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 4150,
+  "tags": [
+    "new-arrival",
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Natural Titanium",
+    "Blue Titanium",
+    "White Titanium",
+    "Black Titanium"
+  ],
+  "images": {
+    "Natural Titanium": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ],
+    "Blue Titanium": [
+      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=80"
+    ],
+    "White Titanium": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
+    ],
+    "Black Titanium": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
+    ]
+  },
+  "description": "iPhone 15 Pro Max has the longest optical zoom ever on iPhone, with 5x telephoto camera, A17 Pro chip, and titanium design with Action button.",
+  "specs": {
+    "display": "6.7-inch Super Retina XDR, ProMotion 120Hz",
+    "chip": "A17 Pro",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP 5x Telephoto",
+    "battery": "Up to 29 hours video playback",
+    "storage": [
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.7,
+    "batteryCapacity": "4422mAh",
+    "storage": [
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "ram": "8GB"
+  }
+}

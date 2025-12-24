@@ -1,0 +1,68 @@
+{
+  "id": "iphone-15-pro",
+  "slug": "iphone-15-pro",
+  "name": "iPhone 15 Pro",
+  "brand": "Apple",
+  "category": "phones",
+  "price": 999,
+  "originalPrice": 1099,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 3420,
+  "tags": [
+    "new-arrival",
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Natural Titanium",
+    "Blue Titanium",
+    "White Titanium",
+    "Black Titanium"
+  ],
+  "images": {
+    "Natural Titanium": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ],
+    "Blue Titanium": [
+      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=80"
+    ],
+    "White Titanium": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
+    ],
+    "Black Titanium": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
+    ]
+  },
+  "description": "iPhone 15 Pro features a strong and light titanium design with the A17 Pro chip, a more versatile camera system, and the customizable Action button.",
+  "specs": {
+    "display": "6.1-inch Super Retina XDR, ProMotion 120Hz",
+    "chip": "A17 Pro",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "battery": "Up to 23 hours video playback",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.1,
+    "batteryCapacity": "3274mAh",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "ram": "8GB"
+  }
+}

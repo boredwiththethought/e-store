@@ -1,0 +1,55 @@
+{
+  "id": "beats-fit-pro",
+  "slug": "beats-fit-pro",
+  "name": "Beats Fit Pro",
+  "brand": "Beats",
+  "category": "headphones",
+  "price": 199,
+  "originalPrice": 229,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 5670,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "White",
+    "Stone Purple",
+    "Coral Pink"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?w=800&q=80"
+    ],
+    "Stone Purple": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ],
+    "Coral Pink": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+    ]
+  },
+  "description": "Beats Fit Pro with secure wingtips, ANC, Spatial Audio, and Apple H1 chip for seamless Apple ecosystem.",
+  "specs": {
+    "driver": "Custom transducer",
+    "chip": "Apple H1",
+    "anc": "Active Noise Cancellation",
+    "battery": "6 hours, 24 hours with case",
+    "waterResistance": "IPX4",
+    "features": [
+      "Secure-fit wingtips",
+      "Spatial Audio",
+      "Transparency Mode"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "6 hours"
+  }
+}

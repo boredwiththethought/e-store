@@ -1,0 +1,42 @@
+{
+  "id": "insta360-x3",
+  "slug": "insta360-x3",
+  "name": "Insta360 X3",
+  "brand": "Insta360",
+  "category": "cameras",
+  "price": 449,
+  "originalPrice": 499,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 2120,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80"
+    ]
+  },
+  "description": "Insta360 X3 - 360° action camera with 5.7K active HDR video, 72MP photos, and invisible selfie stick effect.",
+  "specs": {
+    "sensor": "1/2-inch dual sensors",
+    "video": "5.7K 360°, 4K single-lens",
+    "stabilization": "FlowState stabilization",
+    "waterproof": "33ft (10m)",
+    "display": "2.29-inch touchscreen",
+    "features": [
+      "Invisible Selfie Stick",
+      "Active HDR",
+      "Me Mode"
+    ]
+  },
+  "filterSpecs": {
+    "sensorType": "1/2-inch",
+    "megapixels": 72,
+    "videoResolution": "5.7K"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "google-pixel-8-pro",
+  "slug": "google-pixel-8-pro",
+  "name": "Google Pixel 8 Pro",
+  "brand": "Google",
+  "category": "phones",
+  "price": 999,
+  "originalPrice": 1099,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 1890,
+  "tags": [
+    "new-arrival",
+    "featured"
+  ],
+  "colors": [
+    "Obsidian",
+    "Porcelain",
+    "Bay"
+  ],
+  "images": {
+    "Obsidian": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
+    ],
+    "Porcelain": [
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
+    ],
+    "Bay": [
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
+    ]
+  },
+  "description": "Pixel 8 Pro with Google Tensor G3, the best Pixel camera ever, 7 years of updates, and advanced AI-powered features.",
+  "specs": {
+    "display": "6.7-inch LTPO OLED, QHD+, 1-120Hz",
+    "chip": "Google Tensor G3",
+    "camera": "50MP Main + 48MP Ultra Wide + 48MP 5x Telephoto",
+    "battery": "5050mAh, 30W fast charging",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 7",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.7,
+    "batteryCapacity": "5050mAh",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "ram": "12GB"
+  }
+}

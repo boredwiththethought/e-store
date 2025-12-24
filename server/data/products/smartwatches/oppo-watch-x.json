@@ -1,0 +1,47 @@
+{
+  "id": "oppo-watch-x",
+  "slug": "oppo-watch-x",
+  "name": "Oppo Watch X",
+  "brand": "Oppo",
+  "category": "smartwatches",
+  "price": 329,
+  "originalPrice": 379,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 540,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Mars Brown",
+    "Platinum Black"
+  ],
+  "images": {
+    "Mars Brown": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ],
+    "Platinum Black": [
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=800&q=80"
+    ]
+  },
+  "description": "Oppo Watch X with Snapdragon W5, dual-engine architecture, LTPO AMOLED, and up to 100 hours battery.",
+  "specs": {
+    "display": "1.43-inch LTPO AMOLED, 466x466",
+    "chip": "Snapdragon W5 + BES2700",
+    "sensors": "Heart Rate, SpO2, Skin Temperature",
+    "battery": "Up to 100 hours smart mode",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "Dual-band GPS",
+      "NFC",
+      "Bluetooth 5.0",
+      "Wi-Fi"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 47,
+    "batteryLife": "100 hours",
+    "waterResistance": "5ATM"
+  }
+}

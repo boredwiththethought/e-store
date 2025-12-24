@@ -1,0 +1,42 @@
+{
+  "id": "sony-zv-e10",
+  "slug": "sony-zv-e10",
+  "name": "Sony ZV-E10",
+  "brand": "Sony",
+  "category": "cameras",
+  "price": 698,
+  "originalPrice": 798,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 2890,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "White"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=800&q=80"
+    ]
+  },
+  "description": "Sony ZV-E10 - interchangeable lens vlog camera with APS-C sensor, background defocus, and Product Showcase.",
+  "specs": {
+    "sensor": "24.2MP APS-C Exmor CMOS",
+    "processor": "BIONZ X",
+    "video": "4K 30p, Full HD 120p",
+    "autofocus": "425-point Fast Hybrid AF",
+    "display": "3-inch fully articulating touchscreen",
+    "audio": "Directional 3-capsule mic, mic jack"
+  },
+  "filterSpecs": {
+    "sensorType": "APS-C",
+    "megapixels": 24.2,
+    "videoResolution": "4K30"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "xbox-series-s",
+  "slug": "xbox-series-s",
+  "name": "Xbox Series S",
+  "brand": "Microsoft",
+  "category": "gaming",
+  "price": 299,
+  "originalPrice": 299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 23450,
+  "tags": [
+    "best value"
+  ],
+  "colors": [
+    "White",
+    "Carbon Black"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800&q=80"
+    ],
+    "Carbon Black": [
+      "https://images.unsplash.com/photo-1585620385456-4759f9b5c7d9?w=800&q=80"
+    ]
+  },
+  "description": "All-digital next-gen console with 1440p gaming at 120fps, Quick Resume, and compact design.",
+  "specs": {
+    "cpu": "AMD Zen 2, 8-core @ 3.6GHz",
+    "gpu": "AMD RDNA 2, 4 TFLOPs",
+    "memory": "10GB GDDR6",
+    "storage": "512GB custom NVMe SSD",
+    "output": "1440p @ 120Hz, 4K upscaling",
+    "features": [
+      "All-digital",
+      "60% smaller than Series X"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Console",
+    "brand": "Microsoft",
+    "generation": "Current gen"
+  }
+}

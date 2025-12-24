@@ -1,0 +1,43 @@
+{
+  "id": "microsoft-surface-studio-2-plus",
+  "slug": "microsoft-surface-studio-2-plus",
+  "name": "Microsoft Surface Studio 2+",
+  "brand": "Microsoft",
+  "category": "computers",
+  "price": 4299,
+  "originalPrice": 4499,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 890,
+  "tags": [
+    "premium"
+  ],
+  "colors": [
+    "Platinum"
+  ],
+  "images": {
+    "Platinum": [
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&q=80"
+    ]
+  },
+  "description": "Creative desktop powerhouse with 28\" PixelSense touchscreen, Surface Pen support, and Zero Gravity Hinge.",
+  "specs": {
+    "processor": "11th Gen Intel Core i7-11370H",
+    "gpu": "NVIDIA GeForce RTX 3060 6GB",
+    "memory": "32GB DDR4",
+    "storage": "1TB SSD",
+    "display": "28\" PixelSense, 4500×3000, touch, 10-point multi-touch",
+    "features": [
+      "Zero Gravity Hinge",
+      "Surface Pen support",
+      "Surface Dial compatible"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Desktop",
+    "brand": "Microsoft",
+    "processor": "Intel Core i7",
+    "screenSize": "28 inch"
+  }
+}

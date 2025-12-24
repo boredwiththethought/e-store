@@ -1,0 +1,51 @@
+{
+  "id": "audio-technica-ath-m50x",
+  "slug": "audio-technica-ath-m50x",
+  "name": "Audio-Technica ATH-M50x",
+  "brand": "Audio-Technica",
+  "category": "headphones",
+  "price": 149,
+  "originalPrice": 169,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 24500,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "White",
+    "Limited Edition"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+    ],
+    "Limited Edition": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ]
+  },
+  "description": "Industry-standard professional studio monitor headphones with exceptional clarity and extended frequency range.",
+  "specs": {
+    "driver": "45mm large-aperture drivers",
+    "frequency": "15 - 28,000 Hz",
+    "impedance": "38 ohms",
+    "sensitivity": "99 dB",
+    "features": [
+      "90° swiveling earcups",
+      "Detachable cables",
+      "Professional-grade build"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": false,
+    "anc": false,
+    "batteryLife": "N/A"
+  }
+}

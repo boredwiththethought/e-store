@@ -1,0 +1,43 @@
+{
+  "id": "meta-quest-3",
+  "slug": "meta-quest-3",
+  "name": "Meta Quest 3",
+  "brand": "Meta",
+  "category": "gaming",
+  "price": 499,
+  "originalPrice": 499,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 8920,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "White"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80"
+    ]
+  },
+  "description": "Breakthrough mixed reality headset with full-color passthrough, Snapdragon XR2 Gen 2, and wireless freedom.",
+  "specs": {
+    "display": "2064×2208 per eye LCD, 90/120Hz",
+    "processor": "Snapdragon XR2 Gen 2",
+    "memory": "8GB RAM",
+    "storage": "128GB",
+    "tracking": "Inside-out, hand tracking, controller tracking",
+    "features": [
+      "Full-color passthrough MR",
+      "Pancake lenses",
+      "Spatial audio"
+    ]
+  },
+  "filterSpecs": {
+    "type": "VR Headset",
+    "brand": "Meta",
+    "platform": "Standalone/PC VR"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "airpods-pro-2nd-gen",
+  "slug": "airpods-pro-2nd-gen",
+  "name": "AirPods Pro (2nd Gen)",
+  "brand": "Apple",
+  "category": "headphones",
+  "price": 249,
+  "originalPrice": 279,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 12450,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "White"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ]
+  },
+  "description": "AirPods Pro with Active Noise Cancellation, Adaptive Transparency, Personalized Spatial Audio, and USB-C charging.",
+  "specs": {
+    "driver": "Apple-designed high-excursion driver",
+    "chip": "H2 chip",
+    "anc": "Active Noise Cancellation",
+    "battery": "6 hours listening, 30 hours with case",
+    "waterResistance": "IPX4",
+    "features": [
+      "Adaptive Transparency",
+      "Personalized Spatial Audio",
+      "Conversation Awareness"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "6 hours"
+  }
+}

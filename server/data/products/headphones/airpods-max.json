@@ -1,65 +1,59 @@
 {
   "id": "airpods-max",
+  "slug": "airpods-max",
   "name": "AirPods Max",
-  "model": "MGYH3",
   "brand": "Apple",
   "category": "headphones",
-  "subcategory": "over-ear",
   "price": 549,
-  "oldPrice": null,
+  "originalPrice": 599,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2020,
-  "colors": ["Space Gray", "Silver", "Green", "Sky Blue", "Pink"],
-  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-spacegray-202011?wid=400&hei=400&fmt=jpeg&qlt=95",
+  "rating": 4.7,
+  "reviewsCount": 4560,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Space Gray",
+    "Silver",
+    "Green",
+    "Pink",
+    "Sky Blue"
+  ],
   "images": {
     "Space Gray": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-spacegray-202011?wid=940&hei=1112&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&q=80"
     ],
     "Silver": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-silver-202011?wid=940&hei=1112&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80"
     ],
     "Green": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-green-202011?wid=940&hei=1112&fmt=png-alpha"
-    ],
-    "Sky Blue": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-skyblue-202011?wid=940&hei=1112&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
     ],
     "Pink": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-pink-202011?wid=940&hei=1112&fmt=png-alpha"
+      "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?w=800&q=80"
+    ],
+    "Sky Blue": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.apple.com/shop/buy-airpods/airpods-max",
+  "description": "AirPods Max with high-fidelity audio, Active Noise Cancellation, Spatial Audio, and premium aluminum design.",
   "specs": {
     "driver": "Apple-designed 40mm dynamic driver",
-    "chip": "Apple H1 chip (each ear cup)",
-    "noise_cancellation": "Active Noise Cancellation",
-    "transparency": "Transparency mode",
-    "audio_features": [
-      "Spatial Audio with dynamic head tracking",
-      "Adaptive EQ",
-      "Computational audio"
-    ],
-    "battery": {
-      "listening": "20 hours (ANC and Spatial Audio on)",
-      "charging": "Lightning",
-      "fast_charge": "1.5 hours from 5 min charge"
-    },
-    "connectivity": ["Bluetooth 5.0"],
-    "controls": "Digital Crown, Noise control button",
-    "materials": {
-      "canopy": "Breathable knit mesh",
-      "frame": "Stainless steel",
-      "ear_cushions": "Memory foam"
-    },
-    "weight": "384.8g"
+    "chip": "H1 chip",
+    "anc": "Active Noise Cancellation",
+    "battery": "20 hours with ANC and Spatial Audio",
+    "features": [
+      "Spatial Audio",
+      "Transparency Mode",
+      "Digital Crown",
+      "Computational Audio"
+    ]
   },
   "filterSpecs": {
-    "type": "Over-ear",
+    "type": "Over-Ear",
     "wireless": true,
     "anc": true,
     "batteryLife": "20 hours"
-  },
-  "rating": 4.6,
-  "reviewCount": 5800,
-  "description": "AirPods Max - high-fidelity audio, Active Noise Cancellation, and Spatial Audio in a stunning over-ear design."
+  }
 }

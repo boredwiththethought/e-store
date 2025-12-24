@@ -1,0 +1,38 @@
+{
+  "id": "panasonic-lumix-gh6",
+  "slug": "panasonic-lumix-gh6",
+  "name": "Panasonic Lumix GH6",
+  "brand": "Panasonic",
+  "category": "cameras",
+  "price": 1797,
+  "originalPrice": 1997,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 890,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=800&q=80"
+    ]
+  },
+  "description": "Panasonic Lumix GH6 - the ultimate video-centric mirrorless with 5.7K ProRes, unlimited recording, and CFexpress.",
+  "specs": {
+    "sensor": "25.2MP Micro Four Thirds",
+    "processor": "Venus Engine",
+    "video": "5.7K 60p ProRes, 4K 120p",
+    "autofocus": "Contrast AF with Deep Learning",
+    "iso": "100-25600 (expandable to 50-25600)",
+    "stabilization": "5-axis in-body, 7.5 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "Micro Four Thirds",
+    "megapixels": 25.2,
+    "videoResolution": "5.7K60"
+  }
+}

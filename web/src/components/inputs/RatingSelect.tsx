@@ -74,7 +74,7 @@ export function RatingSelect({
           )}
         </div>
         <ChevronDownIcon
-          className={`flex-shrink-0 text-[var(--color-text-tertiary)] transition-transform duration-200 ${
+          className={`shrink-0 text-[var(--color-text-tertiary)] transition-transform duration-200 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
@@ -94,7 +94,7 @@ export function RatingSelect({
             >
               <span>{allOptionLabel}</span>
               {value === null && (
-                <svg className="ml-auto h-4 w-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="ml-auto h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               )}
@@ -114,7 +114,7 @@ export function RatingSelect({
               <span className="text-sm text-[var(--color-text-secondary)]">& up</span>
               {value === rating && (
                 <svg
-                  className="ml-auto h-4 w-4 flex-shrink-0 text-[var(--color-accent-primary)]"
+                  className="ml-auto h-4 w-4 shrink-0 text-[var(--color-accent-primary)]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

@@ -1,0 +1,47 @@
+{
+  "id": "nothing-ear-2",
+  "slug": "nothing-ear-2",
+  "name": "Nothing Ear (2)",
+  "brand": "Nothing",
+  "category": "headphones",
+  "price": 149,
+  "originalPrice": 179,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 3450,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "White",
+    "Black"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ],
+    "Black": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80"
+    ]
+  },
+  "description": "Transparent design earbuds with Hi-Res Audio, personal ANC, and dual connection.",
+  "specs": {
+    "driver": "11.6mm custom driver",
+    "anc": "Personal Active Noise Cancellation up to 40dB",
+    "battery": "6.3 hours, 36 hours with case",
+    "waterResistance": "IP54",
+    "features": [
+      "LHDC 5.0",
+      "Dual connection",
+      "Find My Earbuds",
+      "Transparency mode"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "6.3 hours"
+  }
+}

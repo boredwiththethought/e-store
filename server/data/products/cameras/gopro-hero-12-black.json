@@ -1,0 +1,43 @@
+{
+  "id": "gopro-hero-12-black",
+  "slug": "gopro-hero-12-black",
+  "name": "GoPro Hero 12 Black",
+  "brand": "GoPro",
+  "category": "cameras",
+  "price": 399,
+  "originalPrice": 449,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 3450,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=800&q=80"
+    ]
+  },
+  "description": "GoPro Hero 12 Black with 5.3K60 video, HyperSmooth 6.0, HDR photo/video, and twice the battery life.",
+  "specs": {
+    "sensor": "27MP 1/1.9-inch",
+    "video": "5.3K 60p, 4K 120p",
+    "stabilization": "HyperSmooth 6.0",
+    "waterproof": "33ft (10m) without housing",
+    "display": "2.27-inch rear + 1.4-inch front",
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "GPS"
+    ]
+  },
+  "filterSpecs": {
+    "sensorType": "1/1.9-inch",
+    "megapixels": 27,
+    "videoResolution": "5.3K60"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "elgato-stream-deck-mk2",
+  "slug": "elgato-stream-deck-mk2",
+  "name": "Elgato Stream Deck MK.2",
+  "brand": "Elgato",
+  "category": "gaming",
+  "price": 149,
+  "originalPrice": 149,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 12340,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "White"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1605901309584-818e25960a8f?w=800&q=80"
+    ]
+  },
+  "description": "15 customizable LCD keys for streaming, content creation, and productivity with detachable USB-C.",
+  "specs": {
+    "keys": "15 LCD keys",
+    "display": "Customizable LCD icons",
+    "connectivity": "Detachable USB-C cable",
+    "compatibility": "Windows, macOS",
+    "features": [
+      "Multi-actions",
+      "Folders",
+      "Plugin ecosystem",
+      "Stream Deck software"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Streaming Gear",
+    "brand": "Elgato",
+    "platform": "PC"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "google-pixel-watch-2",
+  "slug": "google-pixel-watch-2",
+  "name": "Google Pixel Watch 2",
+  "brand": "Google",
+  "category": "smartwatches",
+  "price": 349,
+  "originalPrice": 399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 980,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Matte Black",
+    "Polished Silver",
+    "Champagne Gold"
+  ],
+  "images": {
+    "Matte Black": [
+      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&q=80"
+    ],
+    "Polished Silver": [
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80"
+    ],
+    "Champagne Gold": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ]
+  },
+  "description": "Pixel Watch 2 with Fitbit health tracking, Wear OS by Google, and all-day battery in a refined design.",
+  "specs": {
+    "display": "1.2-inch AMOLED, 384x384",
+    "chip": "Qualcomm SW5100",
+    "sensors": "Heart Rate, SpO2, ECG, Skin Temperature",
+    "battery": "Up to 24 hours",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "GPS",
+      "LTE optional",
+      "Wi-Fi",
+      "Bluetooth 5.0",
+      "NFC"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 41,
+    "batteryLife": "24 hours",
+    "waterResistance": "5ATM"
+  }
+}

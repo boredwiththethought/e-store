@@ -1,0 +1,54 @@
+{
+  "id": "asus-rog-phone-7",
+  "slug": "asus-rog-phone-7",
+  "name": "Asus ROG Phone 7",
+  "brand": "Asus",
+  "category": "phones",
+  "price": 999,
+  "originalPrice": 1099,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 890,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Phantom Black",
+    "Storm White"
+  ],
+  "images": {
+    "Phantom Black": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+    ],
+    "Storm White": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&q=80"
+    ]
+  },
+  "description": "ROG Phone 7 - the ultimate gaming smartphone with 165Hz display, GameCool 7 cooling, and AirTriggers.",
+  "specs": {
+    "display": "6.78-inch AMOLED, FHD+, 165Hz",
+    "chip": "Snapdragon 8 Gen 2",
+    "camera": "50MP Main + 13MP Ultra Wide + 5MP Macro",
+    "battery": "6000mAh, 65W HyperCharge",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 7",
+      "Bluetooth 5.3",
+      "USB-C 3.1"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.78,
+    "batteryCapacity": "6000mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "16GB"
+  }
+}

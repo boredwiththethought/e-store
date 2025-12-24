@@ -1,56 +1,42 @@
 {
   "id": "xbox-series-x",
+  "slug": "xbox-series-x",
   "name": "Xbox Series X",
-  "model": "1882",
   "brand": "Microsoft",
   "category": "gaming",
-  "subcategory": "consoles",
   "price": 499,
-  "oldPrice": null,
+  "originalPrice": 499,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2020,
-  "colors": ["Black"],
-  "thumbnail": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4mRni?ver=a707",
+  "rating": 4.7,
+  "reviewsCount": 34560,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
   "images": {
     "Black": [
-      "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4mRni?ver=a707",
-      "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGZvG?ver=1b58"
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.xbox.com/en-US/consoles/xbox-series-x",
+  "description": "Most powerful Xbox ever with 12 TFLOPs GPU, 4K gaming at 120fps, Quick Resume, and Xbox Game Pass.",
   "specs": {
-    "processor": {
-      "cpu": "AMD Zen 2, 8 cores @ 3.8GHz",
-      "gpu": "AMD RDNA 2, 12 TFLOPS"
-    },
-    "memory": {
-      "ram": "16GB GDDR6",
-      "storage": "1TB Custom NVMe SSD"
-    },
-    "video": {
-      "resolution": ["4K @ 120Hz", "8K"],
-      "features": ["HDR", "Ray Tracing", "VRR", "Auto Low Latency Mode"]
-    },
-    "audio": "Spatial Sound (Dolby Atmos, DTS:X)",
-    "disc_drive": "4K UHD Blu-ray",
-    "ports": ["3x USB-A 3.1", "HDMI 2.1", "Ethernet", "Storage expansion slot"],
-    "connectivity": ["Wi-Fi 5", "Bluetooth"],
-    "controller": "Xbox Wireless Controller",
-    "features": ["Smart Delivery", "Quick Resume", "Xbox Game Pass"],
-    "dimensions": {
-      "height": "301mm",
-      "width": "151mm",
-      "depth": "151mm",
-      "weight": "4.45kg"
-    }
+    "cpu": "AMD Zen 2, 8-core @ 3.8GHz",
+    "gpu": "AMD RDNA 2, 12 TFLOPs",
+    "memory": "16GB GDDR6",
+    "storage": "1TB custom NVMe SSD",
+    "output": "4K @ 120Hz, 8K support, VRR",
+    "includes": [
+      "Xbox Wireless Controller",
+      "HDMI cable",
+      "Power cable"
+    ]
   },
   "filterSpecs": {
-    "generation": "9th",
-    "storage": "1TB",
-    "resolution": "4K",
-    "discDrive": true
-  },
-  "rating": 4.8,
-  "reviewCount": 12800,
-  "description": "Xbox Series X - the fastest, most powerful Xbox ever with 12 teraflops of power, Quick Resume, and 4K gaming."
+    "type": "Console",
+    "brand": "Microsoft",
+    "generation": "Current gen"
+  }
 }

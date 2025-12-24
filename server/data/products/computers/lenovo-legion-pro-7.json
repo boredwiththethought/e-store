@@ -1,0 +1,40 @@
+{
+  "id": "lenovo-legion-pro-7",
+  "slug": "lenovo-legion-pro-7",
+  "name": "Lenovo Legion Pro 7",
+  "brand": "Lenovo",
+  "category": "computers",
+  "price": 2499,
+  "originalPrice": 2799,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 2890,
+  "tags": [
+    "gaming",
+    "premium"
+  ],
+  "colors": [
+    "Onyx Grey"
+  ],
+  "images": {
+    "Onyx Grey": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80"
+    ]
+  },
+  "description": "Ultimate gaming laptop with RTX 4080, 240Hz Mini-LED display, and Coldfront 5.0 cooling.",
+  "specs": {
+    "processor": "Intel Core i9-14900HX",
+    "gpu": "NVIDIA GeForce RTX 4080 12GB",
+    "memory": "32GB DDR5-5600",
+    "storage": "1TB PCIe Gen4 NVMe SSD",
+    "display": "16\" Mini-LED, 2560×1600, 240Hz, 1200 nits",
+    "battery": "Up to 5 hours"
+  },
+  "filterSpecs": {
+    "type": "Gaming Laptop",
+    "brand": "Lenovo",
+    "processor": "Intel Core i9",
+    "screenSize": "16 inch"
+  }
+}

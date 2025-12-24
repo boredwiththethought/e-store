@@ -1,0 +1,45 @@
+{
+  "id": "ticwatch-pro-5",
+  "slug": "ticwatch-pro-5",
+  "name": "TicWatch Pro 5",
+  "brand": "Mobvoi",
+  "category": "smartwatches",
+  "price": 349,
+  "originalPrice": 399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 680,
+  "tags": [],
+  "colors": [
+    "Obsidian",
+    "Sandstone"
+  ],
+  "images": {
+    "Obsidian": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ],
+    "Sandstone": [
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80"
+    ]
+  },
+  "description": "TicWatch Pro 5 with dual-layer display, Snapdragon W5+ Gen 1, and up to 80 hours battery in Essential Mode.",
+  "specs": {
+    "display": "1.43-inch AMOLED + FSTN LCD dual-layer",
+    "chip": "Snapdragon W5+ Gen 1",
+    "sensors": "Heart Rate, SpO2, Compass, Barometer",
+    "battery": "Up to 80 hours Essential Mode",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "GPS",
+      "NFC",
+      "Bluetooth 5.2",
+      "Wi-Fi"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 50,
+    "batteryLife": "80 hours",
+    "waterResistance": "5ATM"
+  }
+}

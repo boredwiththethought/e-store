@@ -1,0 +1,42 @@
+{
+  "id": "intel-nuc-extreme",
+  "slug": "intel-nuc-extreme",
+  "name": "Intel NUC 13 Extreme",
+  "brand": "Intel",
+  "category": "computers",
+  "price": 1299,
+  "originalPrice": 1399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 1120,
+  "tags": [],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80"
+    ]
+  },
+  "description": "Compact powerhouse mini PC with desktop-class performance, full-size GPU support, and modular design.",
+  "specs": {
+    "processor": "Intel Core i9-13900K",
+    "gpu": "Supports full-size GPUs up to RTX 4090",
+    "memory": "Up to 64GB DDR5",
+    "storage": "3x M.2 slots, 2x 2.5\" bays",
+    "ports": [
+      "2x Thunderbolt 4",
+      "6x USB-A 3.2",
+      "2x HDMI 2.1",
+      "2.5GbE"
+    ],
+    "formFactor": "8L chassis"
+  },
+  "filterSpecs": {
+    "type": "Desktop",
+    "brand": "Intel",
+    "processor": "Intel Core i9",
+    "formFactor": "Mini PC"
+  }
+}

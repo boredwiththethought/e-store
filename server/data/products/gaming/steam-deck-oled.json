@@ -1,0 +1,39 @@
+{
+  "id": "steam-deck-oled",
+  "slug": "steam-deck-oled",
+  "name": "Steam Deck OLED",
+  "brand": "Valve",
+  "category": "gaming",
+  "price": 549,
+  "originalPrice": 549,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 12340,
+  "tags": [
+    "featured",
+    "new"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800&q=80"
+    ]
+  },
+  "description": "Premium handheld PC with vibrant 7.4\" HDR OLED display, faster downloads, longer battery life.",
+  "specs": {
+    "display": "7.4\" HDR OLED, 1280×800, 90Hz, 1000 nits",
+    "cpu": "AMD Zen 2 APU, 4-core @ 2.4-3.5GHz",
+    "gpu": "AMD RDNA 2, 8 CUs",
+    "memory": "16GB LPDDR5",
+    "storage": "512GB NVMe SSD",
+    "battery": "3-12 hours, 50Wh"
+  },
+  "filterSpecs": {
+    "type": "Handheld",
+    "brand": "Valve",
+    "generation": "Current gen"
+  }
+}

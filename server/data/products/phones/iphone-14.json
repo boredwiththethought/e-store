@@ -1,0 +1,72 @@
+{
+  "id": "iphone-14",
+  "slug": "iphone-14",
+  "name": "iPhone 14",
+  "brand": "Apple",
+  "category": "phones",
+  "price": 699,
+  "originalPrice": 799,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 4320,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Blue",
+    "Purple",
+    "Yellow",
+    "Midnight",
+    "Starlight",
+    "Red"
+  ],
+  "images": {
+    "Blue": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
+    ],
+    "Purple": [
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=80"
+    ],
+    "Yellow": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+    ],
+    "Midnight": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&q=80"
+    ],
+    "Starlight": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ],
+    "Red": [
+      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=80"
+    ]
+  },
+  "description": "iPhone 14 features a 6.1-inch display, A15 Bionic chip, advanced camera system, and all-day battery life in a sleek design.",
+  "specs": {
+    "display": "6.1-inch Super Retina XDR",
+    "chip": "A15 Bionic",
+    "camera": "12MP Main + 12MP Ultra Wide",
+    "battery": "Up to 20 hours video playback",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6",
+      "Bluetooth 5.3",
+      "Lightning"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.1,
+    "batteryCapacity": "3279mAh",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "ram": "6GB"
+  }
+}

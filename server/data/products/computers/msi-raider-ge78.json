@@ -1,0 +1,40 @@
+{
+  "id": "msi-raider-ge78",
+  "slug": "msi-raider-ge78",
+  "name": "MSI Raider GE78 HX",
+  "brand": "MSI",
+  "category": "computers",
+  "price": 2799,
+  "originalPrice": 2999,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 1560,
+  "tags": [
+    "gaming",
+    "premium"
+  ],
+  "colors": [
+    "Titanium Blue"
+  ],
+  "images": {
+    "Titanium Blue": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ]
+  },
+  "description": "Flagship gaming laptop with RTX 4080, UHD 144Hz display, and Cooler Boost Titan cooling.",
+  "specs": {
+    "processor": "Intel Core i9-14900HX",
+    "gpu": "NVIDIA GeForce RTX 4080 12GB",
+    "memory": "32GB DDR5-5600",
+    "storage": "1TB NVMe SSD",
+    "display": "17.3\" UHD, 3840×2160, 144Hz, Mini-LED",
+    "battery": "Up to 5 hours"
+  },
+  "filterSpecs": {
+    "type": "Gaming Laptop",
+    "brand": "MSI",
+    "processor": "Intel Core i9",
+    "screenSize": "17.3 inch"
+  }
+}

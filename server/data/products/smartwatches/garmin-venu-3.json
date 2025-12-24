@@ -1,0 +1,51 @@
+{
+  "id": "garmin-venu-3",
+  "slug": "garmin-venu-3",
+  "name": "Garmin Venu 3",
+  "brand": "Garmin",
+  "category": "smartwatches",
+  "price": 449,
+  "originalPrice": 499,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 890,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Black",
+    "Ivory",
+    "Sage Gray"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ],
+    "Ivory": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80"
+    ],
+    "Sage Gray": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ]
+  },
+  "description": "Garmin Venu 3 with AMOLED display, advanced sleep coaching, wheelchair mode, and up to 14 days battery.",
+  "specs": {
+    "display": "1.4-inch AMOLED, 454x454",
+    "chip": "Garmin Proprietary",
+    "sensors": "GPS, Heart Rate, Pulse Ox, Body Battery",
+    "battery": "Up to 14 days smartwatch mode",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "GPS",
+      "Wi-Fi",
+      "Bluetooth",
+      "NFC"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 45,
+    "batteryLife": "14 days",
+    "waterResistance": "5ATM"
+  }
+}

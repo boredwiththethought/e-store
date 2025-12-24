@@ -1,6 +1,5 @@
 import { createContext, useState, useEffect, type ReactNode } from "react";
-
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+import { api } from "@/config";
 
 interface User {
   _id: string;
@@ -52,7 +51,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     try {
       // Verify token with server
-      const response = await fetch(`${API_URL}/api/auth/me`, {
+      const response = await fetch(api.auth.me, {
         headers: {
           Authorization: `Bearer ${savedToken}`
         }
@@ -87,7 +86,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signIn = async (email: string, password: string, rememberMe: boolean = false) => {
     try {
-      const response = await fetch(`${API_URL}/api/auth/signin`, {
+      const response = await fetch(api.auth.login, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password, rememberMe })
@@ -115,7 +114,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signUp = async (signUpData: SignUpData) => {
     try {
-      const response = await fetch(`${API_URL}/api/auth/signup`, {
+      const response = await fetch(api.auth.register, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(signUpData)

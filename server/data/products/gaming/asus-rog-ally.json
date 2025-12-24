@@ -1,0 +1,38 @@
+{
+  "id": "asus-rog-ally",
+  "slug": "asus-rog-ally",
+  "name": "ASUS ROG Ally",
+  "brand": "ASUS",
+  "category": "gaming",
+  "price": 699,
+  "originalPrice": 699,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 5670,
+  "tags": [
+    "new"
+  ],
+  "colors": [
+    "White"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=800&q=80"
+    ]
+  },
+  "description": "Windows 11 handheld gaming PC with custom AMD Z1 Extreme chip, 120Hz FHD display, and ergonomic design.",
+  "specs": {
+    "display": "7\" FHD, 1920×1080, 120Hz, 500 nits",
+    "cpu": "AMD Ryzen Z1 Extreme, 8-core",
+    "gpu": "AMD RDNA 3, 12 CUs",
+    "memory": "16GB LPDDR5",
+    "storage": "512GB PCIe 4.0 NVMe SSD",
+    "battery": "2+ hours gaming, 40Wh"
+  },
+  "filterSpecs": {
+    "type": "Handheld",
+    "brand": "ASUS",
+    "generation": "Current gen"
+  }
+}

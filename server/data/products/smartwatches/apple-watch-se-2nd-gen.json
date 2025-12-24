@@ -1,0 +1,51 @@
+{
+  "id": "apple-watch-se-2nd-gen",
+  "slug": "apple-watch-se-2nd-gen",
+  "name": "Apple Watch SE (2nd Gen)",
+  "brand": "Apple",
+  "category": "smartwatches",
+  "price": 249,
+  "originalPrice": 299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 2450,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Midnight",
+    "Starlight",
+    "Silver"
+  ],
+  "images": {
+    "Midnight": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ],
+    "Starlight": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ]
+  },
+  "description": "Apple Watch SE delivers essential features at an accessible price - fitness tracking, heart rate, and safety features.",
+  "specs": {
+    "display": "40mm/44mm Retina LTPO OLED",
+    "chip": "S8 SiP with 64-bit dual-core processor",
+    "sensors": "Heart Rate, Accelerometer, Gyroscope",
+    "battery": "Up to 18 hours",
+    "waterResistance": "50m",
+    "connectivity": [
+      "GPS",
+      "Cellular optional",
+      "Wi-Fi",
+      "Bluetooth 5.3"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 44,
+    "batteryLife": "18 hours",
+    "waterResistance": "50m"
+  }
+}

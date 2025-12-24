@@ -1,0 +1,50 @@
+{
+  "id": "jbl-tour-one-m2",
+  "slug": "jbl-tour-one-m2",
+  "name": "JBL Tour One M2",
+  "brand": "JBL",
+  "category": "headphones",
+  "price": 299,
+  "originalPrice": 349,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 1890,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Black",
+    "Champagne"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ],
+    "Champagne": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80"
+    ]
+  },
+  "description": "JBL Tour One M2 with legendary JBL Pro Sound, True Adaptive ANC, and 4-mic crystal-clear calls.",
+  "specs": {
+    "driver": "40mm dynamic drivers",
+    "anc": "True Adaptive Noise Cancelling",
+    "battery": "50 hours, 30 hours with ANC",
+    "codecs": [
+      "LDAC",
+      "AAC",
+      "SBC"
+    ],
+    "features": [
+      "JBL Headphones app",
+      "Smart Ambient",
+      "Personi-Fi 2.0"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "50 hours"
+  }
+}

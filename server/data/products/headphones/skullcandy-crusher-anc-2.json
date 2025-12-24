@@ -1,0 +1,44 @@
+{
+  "id": "skullcandy-crusher-anc-2",
+  "slug": "skullcandy-crusher-anc-2",
+  "name": "Skullcandy Crusher ANC 2",
+  "brand": "Skullcandy",
+  "category": "headphones",
+  "price": 249,
+  "originalPrice": 299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 3670,
+  "tags": [],
+  "colors": [
+    "True Black",
+    "True Black/True Black"
+  ],
+  "images": {
+    "True Black": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ],
+    "True Black/True Black": [
+      "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?w=800&q=80"
+    ]
+  },
+  "description": "Sensory bass technology with adjustable haptic bass, four microphone ANC, and personal sound customization.",
+  "specs": {
+    "driver": "40mm drivers + Sensory Bass",
+    "anc": "4-Mic Hybrid Active Noise Canceling",
+    "battery": "50 hours",
+    "features": [
+      "Adjustable Sensory Bass",
+      "Personal Sound app",
+      "Tile finding technology",
+      "Rapid Charge"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "50 hours"
+  }
+}

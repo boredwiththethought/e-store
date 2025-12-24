@@ -1,0 +1,54 @@
+{
+  "id": "jbl-live-pro-2",
+  "slug": "jbl-live-pro-2",
+  "name": "JBL Live Pro 2",
+  "brand": "JBL",
+  "category": "headphones",
+  "price": 149,
+  "originalPrice": 179,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 3450,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Blue",
+    "Pink",
+    "Silver"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ],
+    "Blue": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80"
+    ],
+    "Pink": [
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80"
+    ]
+  },
+  "description": "JBL Live Pro 2 with True Adaptive ANC, 6 mics for perfect calls, and up to 40 hours battery.",
+  "specs": {
+    "driver": "11mm dynamic drivers",
+    "anc": "True Adaptive Noise Cancelling",
+    "battery": "10 hours, 40 hours with case",
+    "waterResistance": "IPX5",
+    "features": [
+      "Smart Ambient",
+      "VoiceAware",
+      "Google Fast Pair"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "10 hours"
+  }
+}

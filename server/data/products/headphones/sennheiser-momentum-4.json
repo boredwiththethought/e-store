@@ -1,0 +1,52 @@
+{
+  "id": "sennheiser-momentum-4",
+  "slug": "sennheiser-momentum-4",
+  "name": "Sennheiser Momentum 4 Wireless",
+  "brand": "Sennheiser",
+  "category": "headphones",
+  "price": 349,
+  "originalPrice": 399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 2340,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "White",
+    "Copper"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80"
+    ],
+    "Copper": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ]
+  },
+  "description": "Sennheiser Momentum 4 with exceptional 60-hour battery, adaptive ANC, and signature Sennheiser sound.",
+  "specs": {
+    "driver": "42mm dynamic driver",
+    "anc": "Adaptive Noise Cancellation",
+    "battery": "60 hours",
+    "codecs": [
+      "aptX, aptX Adaptive, AAC, SBC"
+    ],
+    "features": [
+      "Transparency Mode",
+      "Smart Pause",
+      "EQ customization"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "60 hours"
+  }
+}

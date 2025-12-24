@@ -1,0 +1,49 @@
+{
+  "id": "microsoft-surface-laptop-5",
+  "slug": "microsoft-surface-laptop-5",
+  "name": "Microsoft Surface Laptop 5",
+  "brand": "Microsoft",
+  "category": "computers",
+  "price": 1299,
+  "originalPrice": 1399,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 3450,
+  "tags": [],
+  "colors": [
+    "Platinum",
+    "Matte Black",
+    "Sage",
+    "Sandstone"
+  ],
+  "images": {
+    "Platinum": [
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&q=80"
+    ],
+    "Matte Black": [
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&q=80"
+    ],
+    "Sage": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+    ],
+    "Sandstone": [
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&q=80"
+    ]
+  },
+  "description": "Elegant and versatile laptop with touchscreen PixelSense display, Alcantara keyboard, and all-day battery.",
+  "specs": {
+    "processor": "12th Gen Intel Core i7-1255U",
+    "gpu": "Intel Iris Xe Graphics",
+    "memory": "16GB LPDDR5x",
+    "storage": "512GB SSD",
+    "display": "13.5\" PixelSense, 2256×1504, touch, 3:2 aspect",
+    "battery": "Up to 18 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "Microsoft",
+    "processor": "Intel Core i7",
+    "screenSize": "13.5 inch"
+  }
+}

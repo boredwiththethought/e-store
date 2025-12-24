@@ -1,0 +1,47 @@
+{
+  "id": "garmin-fenix-7x",
+  "slug": "garmin-fenix-7x",
+  "name": "Garmin Fenix 7X Solar",
+  "brand": "Garmin",
+  "category": "smartwatches",
+  "price": 899,
+  "originalPrice": 999,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.9,
+  "reviewsCount": 1650,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "Slate Gray"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ],
+    "Slate Gray": [
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80"
+    ]
+  },
+  "description": "Fenix 7X Solar with solar charging, multi-band GPS, TopoActive maps, and up to 37 days battery life.",
+  "specs": {
+    "display": "1.4-inch MIP, 280x280, Solar Power Glass",
+    "chip": "Garmin Proprietary",
+    "sensors": "Multi-band GPS, Heart Rate, Pulse Ox, Altimeter",
+    "battery": "Up to 37 days with solar, 89 hours GPS",
+    "waterResistance": "10ATM",
+    "connectivity": [
+      "Multi-band GPS",
+      "Wi-Fi",
+      "Bluetooth",
+      "ANT+"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 51,
+    "batteryLife": "37 days",
+    "waterResistance": "10ATM"
+  }
+}

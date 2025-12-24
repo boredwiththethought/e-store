@@ -1,0 +1,51 @@
+{
+  "id": "bang-olufsen-beoplay-hx",
+  "slug": "bang-olufsen-beoplay-hx",
+  "name": "Bang & Olufsen Beoplay HX",
+  "brand": "Bang & Olufsen",
+  "category": "headphones",
+  "price": 499,
+  "originalPrice": 549,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 1280,
+  "tags": [
+    "premium",
+    "featured"
+  ],
+  "colors": [
+    "Black Anthracite",
+    "Sand",
+    "Timber"
+  ],
+  "images": {
+    "Black Anthracite": [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ],
+    "Sand": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80"
+    ],
+    "Timber": [
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&q=80"
+    ]
+  },
+  "description": "Premium wireless headphones with luxurious materials, adaptive ANC, and up to 35 hours of playtime.",
+  "specs": {
+    "driver": "40mm custom drivers",
+    "anc": "Adaptive Active Noise Cancellation",
+    "battery": "35 hours with ANC",
+    "materials": "Lambskin leather, memory foam, aluminum",
+    "features": [
+      "Transparency mode",
+      "Multipoint",
+      "aptX Adaptive"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "35 hours"
+  }
+}

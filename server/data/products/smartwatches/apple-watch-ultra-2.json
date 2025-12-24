@@ -1,79 +1,42 @@
 {
   "id": "apple-watch-ultra-2",
+  "slug": "apple-watch-ultra-2",
   "name": "Apple Watch Ultra 2",
-  "model": "A2986",
   "brand": "Apple",
   "category": "smartwatches",
-  "subcategory": "smartwatches",
   "price": 799,
-  "oldPrice": null,
+  "originalPrice": 799,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2023,
-  "colors": ["Natural Titanium"],
-  "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-ultra-702702?wid=1200&hei=630&fmt=jpeg&qlt=95",
+  "rating": 4.9,
+  "reviewsCount": 6780,
+  "tags": [
+    "premium",
+    "featured"
+  ],
+  "colors": [
+    "Titanium Natural",
+    "Titanium Black"
+  ],
   "images": {
-    "Natural Titanium": [
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MRMF3_VW_34FR+watch-49-titanium-702702_VW_34FR_WF_CO_GEO_US?wid=750&hei=712&fmt=png-alpha",
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MRMF3_VW_PF+watch-49-titanium-702702_VW_PF_WF_CO_GEO_US?wid=750&hei=712&fmt=png-alpha"
+    "Titanium Natural": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ],
+    "Titanium Black": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.apple.com/shop/buy-watch/apple-watch-ultra",
+  "description": "The most rugged Apple Watch with S9 chip, precision dual-frequency GPS, and 36-hour battery life.",
   "specs": {
-    "display": {
-      "type": "LTPO OLED Always-On Retina",
-      "size": "49mm",
-      "resolution": "410 x 502 pixels",
-      "brightness": "3000 nits"
-    },
-    "processor": {
-      "name": "Apple S9 SiP",
-      "cores": "Dual-core"
-    },
-    "memory": {
-      "storage": "64GB"
-    },
-    "sensors": [
-      "Blood Oxygen",
-      "ECG",
-      "Heart Rate",
-      "Temperature",
-      "Depth gauge",
-      "Water temperature",
-      "Accelerometer",
-      "Gyroscope",
-      "Compass"
-    ],
-    "battery": {
-      "life": "36 hours (72h in Low Power Mode)",
-      "charging": "Fast charging"
-    },
-    "connectivity": [
-      "GPS (dual-frequency)",
-      "Cellular",
-      "Wi-Fi",
-      "Bluetooth 5.3",
-      "NFC",
-      "UWB"
-    ],
-    "features": [
-      "Action Button",
-      "Titanium case",
-      "Dive computer",
-      "Siren",
-      "Night mode",
-      "Water resistant 100m",
-      "EN13319 diving certified"
-    ],
-    "os": "watchOS 10"
+    "display": "49mm Always-On Retina LTPO, 3000 nits",
+    "chip": "Apple S9 SiP",
+    "gps": "Precision dual-frequency GPS",
+    "waterResistance": "100m, EN13319 dive computer",
+    "battery": "Up to 36 hours, 72 hours Low Power Mode"
   },
   "filterSpecs": {
-    "batteryCapacity": "36 hours",
-    "screenType": "OLED",
-    "screenDiagonal": 1.93,
-    "protectionClass": "WR100",
-    "builtInMemory": ["64GB"]
-  },
-  "rating": 4.9,
-  "reviewCount": 1650,
-  "description": "Apple Watch Ultra 2 - the most rugged and capable Apple Watch for extreme adventures, diving, and endurance athletes."
+    "size": "49mm",
+    "gps": true,
+    "cellular": true
+  }
 }

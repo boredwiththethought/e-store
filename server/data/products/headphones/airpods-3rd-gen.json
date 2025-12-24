@@ -1,0 +1,43 @@
+{
+  "id": "airpods-3rd-gen",
+  "slug": "airpods-3rd-gen",
+  "name": "AirPods (3rd Gen)",
+  "brand": "Apple",
+  "category": "headphones",
+  "price": 169,
+  "originalPrice": 189,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 8920,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "White"
+  ],
+  "images": {
+    "White": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ]
+  },
+  "description": "AirPods with Spatial Audio, Adaptive EQ, sweat and water resistant design, and up to 6 hours listening time.",
+  "specs": {
+    "driver": "Apple-designed high-excursion driver",
+    "chip": "H1 chip",
+    "audio": "Spatial Audio with dynamic head tracking",
+    "battery": "6 hours listening, 30 hours with case",
+    "waterResistance": "IPX4",
+    "features": [
+      "Adaptive EQ",
+      "Force Sensor",
+      "Sweat resistant"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": false,
+    "batteryLife": "6 hours"
+  }
+}

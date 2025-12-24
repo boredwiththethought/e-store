@@ -1,0 +1,45 @@
+{
+  "id": "xiaomi-buds-4-pro",
+  "slug": "xiaomi-buds-4-pro",
+  "name": "Xiaomi Buds 4 Pro",
+  "brand": "Xiaomi",
+  "category": "headphones",
+  "price": 199,
+  "originalPrice": 249,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 2890,
+  "tags": [],
+  "colors": [
+    "Starlight White",
+    "Moonlight Black"
+  ],
+  "images": {
+    "Starlight White": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ],
+    "Moonlight Black": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+    ]
+  },
+  "description": "Hi-Res Audio Wireless certified earbuds with up to 48dB ANC, spatial audio, and wireless charging.",
+  "specs": {
+    "driver": "11mm dynamic driver",
+    "anc": "Active Noise Cancellation up to 48dB",
+    "battery": "9 hours, 38 hours with case",
+    "waterResistance": "IP54",
+    "features": [
+      "LDAC Hi-Res Audio Wireless",
+      "Spatial audio",
+      "3-mic noise cancellation",
+      "Wireless charging"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "9 hours"
+  }
+}

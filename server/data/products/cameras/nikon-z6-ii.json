@@ -1,0 +1,38 @@
+{
+  "id": "nikon-z6-ii",
+  "slug": "nikon-z6-ii",
+  "name": "Nikon Z6 II",
+  "brand": "Nikon",
+  "category": "cameras",
+  "price": 1796,
+  "originalPrice": 1996,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 2340,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=800&q=80"
+    ]
+  },
+  "description": "Nikon Z6 II - versatile full-frame mirrorless with 24.5MP sensor, dual processors, and excellent video capabilities.",
+  "specs": {
+    "sensor": "24.5MP Full-Frame BSI CMOS",
+    "processor": "Dual EXPEED 6",
+    "video": "4K 60p, 10-bit N-Log",
+    "autofocus": "273-point AF with Eye/Animal detection",
+    "iso": "100-51200 (expandable to 50-204800)",
+    "stabilization": "5-axis in-body, 5 stops"
+  },
+  "filterSpecs": {
+    "sensorType": "Full-Frame",
+    "megapixels": 24.5,
+    "videoResolution": "4K60"
+  }
+}

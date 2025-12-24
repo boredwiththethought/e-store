@@ -1,0 +1,38 @@
+{
+  "id": "lenovo-legion-go",
+  "slug": "lenovo-legion-go",
+  "name": "Lenovo Legion Go",
+  "brand": "Lenovo",
+  "category": "gaming",
+  "price": 699,
+  "originalPrice": 699,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.4,
+  "reviewsCount": 2890,
+  "tags": [
+    "new"
+  ],
+  "colors": [
+    "Shadow Black"
+  ],
+  "images": {
+    "Shadow Black": [
+      "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80"
+    ]
+  },
+  "description": "Windows 11 handheld with detachable controllers, 8.8\" QHD+ 144Hz display, and FPS mode.",
+  "specs": {
+    "display": "8.8\" QHD+, 2560×1600, 144Hz, 500 nits",
+    "cpu": "AMD Ryzen Z1 Extreme, 8-core",
+    "gpu": "AMD RDNA 3, 12 CUs",
+    "memory": "16GB LPDDR5x",
+    "storage": "512GB PCIe 4.0 NVMe SSD",
+    "battery": "2+ hours gaming, 49.2Wh"
+  },
+  "filterSpecs": {
+    "type": "Handheld",
+    "brand": "Lenovo",
+    "generation": "Current gen"
+  }
+}

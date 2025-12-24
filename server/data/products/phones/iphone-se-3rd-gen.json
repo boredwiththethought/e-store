@@ -1,0 +1,58 @@
+{
+  "id": "iphone-se-3rd-gen",
+  "slug": "iphone-se-3rd-gen",
+  "name": "iPhone SE (3rd Gen)",
+  "brand": "Apple",
+  "category": "phones",
+  "price": 429,
+  "originalPrice": 479,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 3450,
+  "tags": [],
+  "colors": [
+    "Midnight",
+    "Starlight",
+    "Red"
+  ],
+  "images": {
+    "Midnight": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+    ],
+    "Starlight": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&q=80"
+    ],
+    "Red": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ]
+  },
+  "description": "iPhone SE packs powerful A15 Bionic chip, advanced camera, 5G capability, and Touch ID in the iconic iPhone design.",
+  "specs": {
+    "display": "4.7-inch Retina HD",
+    "chip": "A15 Bionic",
+    "camera": "12MP Main",
+    "battery": "Up to 15 hours video playback",
+    "storage": [
+      "64GB",
+      "128GB",
+      "256GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6",
+      "Bluetooth 5.0",
+      "Lightning"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 4.7,
+    "batteryCapacity": "2018mAh",
+    "storage": [
+      "64GB",
+      "128GB",
+      "256GB"
+    ],
+    "ram": "4GB"
+  }
+}

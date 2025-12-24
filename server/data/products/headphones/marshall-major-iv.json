@@ -1,0 +1,45 @@
+{
+  "id": "marshall-major-iv",
+  "slug": "marshall-major-iv",
+  "name": "Marshall Major IV",
+  "brand": "Marshall",
+  "category": "headphones",
+  "price": 149,
+  "originalPrice": 179,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 5680,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Brown"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+    ],
+    "Brown": [
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80"
+    ]
+  },
+  "description": "Iconic wireless headphones with 80+ hours of playtime, legendary Marshall sound, and wireless charging.",
+  "specs": {
+    "driver": "40mm dynamic drivers",
+    "battery": "80+ hours wireless",
+    "features": [
+      "Wireless charging",
+      "Multi-directional control knob",
+      "3.5mm input"
+    ],
+    "foldable": true
+  },
+  "filterSpecs": {
+    "type": "On-Ear",
+    "wireless": true,
+    "anc": false,
+    "batteryLife": "80 hours"
+  }
+}

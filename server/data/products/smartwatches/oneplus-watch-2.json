@@ -1,0 +1,47 @@
+{
+  "id": "oneplus-watch-2",
+  "slug": "oneplus-watch-2",
+  "name": "OnePlus Watch 2",
+  "brand": "OnePlus",
+  "category": "smartwatches",
+  "price": 299,
+  "originalPrice": 349,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 620,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Black Steel",
+    "Radiant Steel"
+  ],
+  "images": {
+    "Black Steel": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ],
+    "Radiant Steel": [
+      "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=800&q=80"
+    ]
+  },
+  "description": "OnePlus Watch 2 with Snapdragon W5, dual-engine architecture, Wear OS, and up to 100 hours battery.",
+  "specs": {
+    "display": "1.43-inch AMOLED, 466x466",
+    "chip": "Snapdragon W5 + BES2700",
+    "sensors": "Heart Rate, SpO2, Skin Temperature",
+    "battery": "Up to 100 hours smart mode",
+    "waterResistance": "5ATM + IP68",
+    "connectivity": [
+      "Dual-band GPS",
+      "NFC",
+      "Bluetooth 5.0",
+      "Wi-Fi"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 47,
+    "batteryLife": "100 hours",
+    "waterResistance": "5ATM"
+  }
+}

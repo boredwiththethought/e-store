@@ -1,0 +1,59 @@
+{
+  "id": "google-pixel-8",
+  "slug": "google-pixel-8",
+  "name": "Google Pixel 8",
+  "brand": "Google",
+  "category": "phones",
+  "price": 699,
+  "originalPrice": 799,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 1560,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Obsidian",
+    "Hazel",
+    "Rose"
+  ],
+  "images": {
+    "Obsidian": [
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
+    ],
+    "Hazel": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=80"
+    ],
+    "Rose": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
+    ]
+  },
+  "description": "Pixel 8 delivers Google AI, exceptional camera, and 7 years of updates in a compact, beautiful design.",
+  "specs": {
+    "display": "6.2-inch OLED, FHD+, 60-120Hz",
+    "chip": "Google Tensor G3",
+    "camera": "50MP Main + 12MP Ultra Wide",
+    "battery": "4575mAh, 27W fast charging",
+    "storage": [
+      "128GB",
+      "256GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 7",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.2,
+    "batteryCapacity": "4575mAh",
+    "storage": [
+      "128GB",
+      "256GB"
+    ],
+    "ram": "8GB"
+  }
+}

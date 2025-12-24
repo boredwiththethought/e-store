@@ -1,0 +1,50 @@
+{
+  "id": "samsung-galaxy-buds-2-pro",
+  "slug": "samsung-galaxy-buds-2-pro",
+  "name": "Samsung Galaxy Buds 2 Pro",
+  "brand": "Samsung",
+  "category": "headphones",
+  "price": 199,
+  "originalPrice": 229,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 4560,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Graphite",
+    "White",
+    "Bora Purple"
+  ],
+  "images": {
+    "Graphite": [
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80"
+    ],
+    "Bora Purple": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ]
+  },
+  "description": "Galaxy Buds2 Pro with Hi-Fi 24bit audio, Intelligent ANC, and seamless Galaxy ecosystem integration.",
+  "specs": {
+    "driver": "Coaxial 2-way speaker",
+    "anc": "Intelligent Active Noise Cancelling",
+    "battery": "5 hours, 18 hours with case",
+    "waterResistance": "IPX7",
+    "features": [
+      "360 Audio",
+      "Voice Detect",
+      "Samsung SmartThings Find"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "5 hours"
+  }
+}

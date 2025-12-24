@@ -1,0 +1,41 @@
+{
+  "id": "samsung-galaxy-book-4-pro",
+  "slug": "samsung-galaxy-book-4-pro",
+  "name": "Samsung Galaxy Book 4 Pro",
+  "brand": "Samsung",
+  "category": "computers",
+  "price": 1449,
+  "originalPrice": 1599,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 2890,
+  "tags": [],
+  "colors": [
+    "Moonstone Gray",
+    "Silver"
+  ],
+  "images": {
+    "Moonstone Gray": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
+    ]
+  },
+  "description": "Ultra-thin laptop with Dynamic AMOLED 2X display, Intel Core Ultra, and seamless Galaxy ecosystem.",
+  "specs": {
+    "processor": "Intel Core Ultra 7 155H",
+    "gpu": "Intel Arc Graphics",
+    "memory": "16GB LPDDR5x",
+    "storage": "512GB NVMe SSD",
+    "display": "16\" Dynamic AMOLED 2X, 2880×1800, 120Hz, Vision Booster",
+    "battery": "Up to 21 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "Samsung",
+    "processor": "Intel Core Ultra 7",
+    "screenSize": "16 inch"
+  }
+}

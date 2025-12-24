@@ -1,0 +1,38 @@
+{
+  "id": "canon-eos-r8",
+  "slug": "canon-eos-r8",
+  "name": "Canon EOS R8",
+  "brand": "Canon",
+  "category": "cameras",
+  "price": 1499,
+  "originalPrice": 1599,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 890,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80"
+    ]
+  },
+  "description": "Canon EOS R8 - compact full-frame mirrorless with 24.2MP sensor, 4K 60p video, and advanced subject detection.",
+  "specs": {
+    "sensor": "24.2MP Full-Frame CMOS",
+    "processor": "DIGIC X",
+    "video": "4K 60p oversampled, 6K RAW external",
+    "autofocus": "Dual Pixel CMOS AF II",
+    "iso": "100-102400 (expandable to 204800)",
+    "stabilization": "Electronic IS, lens-based"
+  },
+  "filterSpecs": {
+    "sensorType": "Full-Frame",
+    "megapixels": 24.2,
+    "videoResolution": "4K60"
+  }
+}

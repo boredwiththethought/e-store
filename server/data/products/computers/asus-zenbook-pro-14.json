@@ -1,0 +1,39 @@
+{
+  "id": "asus-zenbook-pro-14",
+  "slug": "asus-zenbook-pro-14",
+  "name": "ASUS ZenBook Pro 14 OLED",
+  "brand": "ASUS",
+  "category": "computers",
+  "price": 1399,
+  "originalPrice": 1599,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 2340,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Tech Black"
+  ],
+  "images": {
+    "Tech Black": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80"
+    ]
+  },
+  "description": "Compact creator laptop with stunning 2.8K OLED HDR display, Intel Core Ultra, and ASUS Dial.",
+  "specs": {
+    "processor": "Intel Core Ultra 9 185H",
+    "gpu": "NVIDIA GeForce RTX 4060",
+    "memory": "16GB LPDDR5x",
+    "storage": "1TB PCIe Gen4 SSD",
+    "display": "14.5\" 2.8K OLED, 2880×1800, 120Hz, 550 nits",
+    "battery": "Up to 10 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "ASUS",
+    "processor": "Intel Core Ultra 9",
+    "screenSize": "14.5 inch"
+  }
+}

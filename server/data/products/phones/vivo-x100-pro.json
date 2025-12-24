@@ -1,0 +1,54 @@
+{
+  "id": "vivo-x100-pro",
+  "slug": "vivo-x100-pro",
+  "name": "Vivo X100 Pro",
+  "brand": "Vivo",
+  "category": "phones",
+  "price": 999,
+  "originalPrice": 1099,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 490,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Asteroid Black",
+    "Stardust Blue"
+  ],
+  "images": {
+    "Asteroid Black": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ],
+    "Stardust Blue": [
+      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=80"
+    ]
+  },
+  "description": "Vivo X100 Pro with ZEISS optics, Dimensity 9300, and 100W FlashCharge for flagship performance.",
+  "specs": {
+    "display": "6.78-inch LTPO AMOLED, 2K, 1-120Hz",
+    "chip": "MediaTek Dimensity 9300",
+    "camera": "50MP ZEISS Main + 50MP Ultra Wide + 100MP ZEISS Periscope",
+    "battery": "5400mAh, 100W wired + 50W wireless",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 7",
+      "Bluetooth 5.4",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.78,
+    "batteryCapacity": "5400mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "16GB"
+  }
+}

@@ -1,75 +1,50 @@
 {
   "id": "samsung-galaxy-s24-ultra",
+  "slug": "samsung-galaxy-s24-ultra",
   "name": "Samsung Galaxy S24 Ultra",
-  "model": "SM-S928",
   "brand": "Samsung",
   "category": "phones",
-  "subcategory": "smartphones",
   "price": 1299,
-  "oldPrice": 1399,
+  "originalPrice": 1399,
+  "currency": "USD",
   "inStock": true,
-  "releaseYear": 2024,
+  "rating": 4.8,
+  "reviewsCount": 8920,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
   "colors": [
     "Titanium Black",
     "Titanium Gray",
     "Titanium Violet",
     "Titanium Yellow"
   ],
-  "thumbnail": "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-ultra-s928-sm-s928bztheub-thumb-539573294?$172_172_PNG$",
   "images": {
     "Titanium Black": [
-      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-ultra-sm-s928bztheub-539572704?$650_519_PNG$"
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&q=80"
     ],
     "Titanium Gray": [
-      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-ultra-sm-s928bztgeub-539572654?$650_519_PNG$"
+      "https://images.unsplash.com/photo-1580910051074-3eb694886f2b?w=800&q=80"
     ],
     "Titanium Violet": [
-      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-ultra-sm-s928bztveub-539572679?$650_519_PNG$"
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
     ],
     "Titanium Yellow": [
-      "https://images.samsung.com/is/image/samsung/p6pim/uk/2401/gallery/uk-galaxy-s24-ultra-sm-s928bztyeub-539572729?$650_519_PNG$"
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=80"
     ]
   },
-  "imageSource": "https://www.samsung.com/uk/smartphones/galaxy-s24/galaxy-s24-ultra/",
+  "description": "Samsung's flagship smartphone with Galaxy AI, 200MP camera, S Pen included, and titanium frame.",
   "specs": {
-    "display": {
-      "type": "Dynamic AMOLED 2X",
-      "size": "6.8 inches",
-      "resolution": "3120 x 1440",
-      "refreshRate": "120Hz"
-    },
-    "processor": {
-      "name": "Snapdragon 8 Gen 3 for Galaxy",
-      "cores": "Octa-core"
-    },
-    "memory": { "ram": "12GB", "storage": ["256GB", "512GB", "1TB"] },
-    "camera": {
-      "main": "200MP",
-      "ultrawide": "12MP",
-      "telephoto1": "50MP 5x optical zoom",
-      "telephoto2": "10MP 3x optical zoom",
-      "front": "12MP"
-    },
-    "battery": { "capacity": "5000mAh", "charging": "45W wired, 15W wireless" },
-    "connectivity": ["5G", "Wi-Fi 7", "Bluetooth 5.3", "NFC", "UWB"],
-    "features": [
-      "Galaxy AI",
-      "S Pen",
-      "Titanium Frame",
-      "Ultrasonic Fingerprint",
-      "IP68",
-      "Gorilla Armor"
-    ],
-    "os": "Android 14, One UI 6.1"
+    "display": "6.8\" Dynamic AMOLED 2X, 3088 x 1440, 120Hz",
+    "processor": "Snapdragon 8 Gen 3 for Galaxy",
+    "camera": "200MP main + 12MP ultrawide + 50MP 5x telephoto + 10MP 3x telephoto",
+    "battery": "5000mAh, 45W wired, 15W wireless",
+    "storage": "256GB/512GB/1TB"
   },
   "filterSpecs": {
-    "batteryCapacity": "5000mAh",
-    "screenType": "AMOLED",
-    "screenDiagonal": 6.8,
-    "protectionClass": "IP68",
-    "builtInMemory": ["256GB", "512GB", "1TB"]
-  },
-  "rating": 4.9,
-  "reviewCount": 3850,
-  "description": "Galaxy S24 Ultra - the ultimate Galaxy with titanium frame, 200MP camera, integrated S Pen, and Galaxy AI."
+    "screenSize": "6.8 inch",
+    "battery": "5000mAh",
+    "camera": "200MP"
+  }
 }

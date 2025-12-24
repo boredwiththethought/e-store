@@ -1,0 +1,40 @@
+{
+  "id": "lenovo-thinkpad-x1-carbon",
+  "slug": "lenovo-thinkpad-x1-carbon",
+  "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+  "brand": "Lenovo",
+  "category": "computers",
+  "price": 1649,
+  "originalPrice": 1849,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 5670,
+  "tags": [
+    "bestseller",
+    "featured"
+  ],
+  "colors": [
+    "Deep Black"
+  ],
+  "images": {
+    "Deep Black": [
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&q=80"
+    ]
+  },
+  "description": "Legendary business ultrabook with Intel Core Ultra, exceptional keyboard, and MIL-STD-810H durability.",
+  "specs": {
+    "processor": "Intel Core Ultra 7 165U",
+    "gpu": "Intel Arc Graphics",
+    "memory": "16GB LPDDR5x",
+    "storage": "512GB PCIe Gen4 SSD",
+    "display": "14\" 2.8K OLED, 2880×1800, 400 nits",
+    "battery": "Up to 15 hours"
+  },
+  "filterSpecs": {
+    "type": "Laptop",
+    "brand": "Lenovo",
+    "processor": "Intel Core Ultra 7",
+    "screenSize": "14 inch"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "anker-soundcore-liberty-4",
+  "slug": "anker-soundcore-liberty-4",
+  "name": "Anker Soundcore Liberty 4",
+  "brand": "Anker",
+  "category": "headphones",
+  "price": 99,
+  "originalPrice": 129,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.5,
+  "reviewsCount": 8920,
+  "tags": [
+    "bestseller",
+    "best value"
+  ],
+  "colors": [
+    "Midnight Black",
+    "Cloud White",
+    "Velvet Black"
+  ],
+  "images": {
+    "Midnight Black": [
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&q=80"
+    ],
+    "Cloud White": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80"
+    ],
+    "Velvet Black": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800&q=80"
+    ]
+  },
+  "description": "Premium wireless earbuds with ACAA 3.0, adaptive ANC, heart rate monitoring, and spatial audio.",
+  "specs": {
+    "driver": "ACAA 3.0 dual dynamic drivers",
+    "anc": "Adaptive Active Noise Cancelling",
+    "battery": "9 hours, 28 hours with case",
+    "waterResistance": "IPX4",
+    "features": [
+      "Heart rate sensor",
+      "Spatial audio",
+      "LDAC",
+      "Multipoint"
+    ]
+  },
+  "filterSpecs": {
+    "type": "In-Ear",
+    "wireless": true,
+    "anc": true,
+    "batteryLife": "9 hours"
+  }
+}

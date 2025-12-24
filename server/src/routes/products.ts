@@ -1,6 +1,8 @@
 import { Router, Request, Response } from "express";
 import { ObjectId } from "mongodb";
-import { getDB } from "../db/mongodb";
+import { db } from "../db";
+import * as fs from "fs";
+import * as path from "path";
 import type {
   Product,
   ProductCategory,
@@ -11,11 +13,79 @@ import type {
 
 const router = Router();
 
+function isDBConnected(): boolean {
+  return db !== null;
+}
+
+// Load mock products from JSON files for when DB is not connected
+function loadMockProducts(tag?: string): Product[] {
+  try {
+    const dataPath = path.join(process.cwd(), "data", "products");
+    const products: Product[] = [];
+    const categories = [
+      "phones",
+      "smartwatches",
+      "cameras",
+      "headphones",
+      "computers",
+      "gaming",
+      "featured",
+    ];
+
+    for (const category of categories) {
+      const categoryPath = path.join(dataPath, category);
+      if (!fs.existsSync(categoryPath)) continue;
+
+      const files = fs
+        .readdirSync(categoryPath)
+        .filter((f) => f.endsWith(".json"));
+      for (const file of files) {
+        const filePath = path.join(categoryPath, file);
+        const content = fs.readFileSync(filePath, "utf-8");
+        const product = JSON.parse(content) as Product;
+        // Update image paths to use .svg
+        if (Array.isArray(product.images)) {
+          product.images = product.images.map((img: string) =>
+            img.replace(".png", ".svg")
+          );
+        }
+        products.push(product);
+      }
+    }
+
+    if (tag) {
+      return products.filter((p) => p.tags?.includes(tag));
+    }
+    return products;
+  } catch (error) {
+    console.error("Error loading mock products:", error);
+    return [];
+  }
+}
+
 // GET /api/products - Get all products with filters and pagination
 router.get("/", async (req: Request, res: Response) => {
   try {
-    const db = getDB();
-    const collection = db.collection<Product>("products");
+    if (!isDBConnected()) {
+      // DB not connected, use mock data
+      const { tag, limit = "20" } = req.query;
+      const products = loadMockProducts(tag as string);
+      const limitNum = Math.min(
+        100,
+        Math.max(1, parseInt(limit as string, 10))
+      );
+
+      res.json({
+        data: products.slice(0, limitNum),
+        total: products.length,
+        page: 1,
+        limit: limitNum,
+        totalPages: Math.ceil(products.length / limitNum),
+      });
+      return;
+    }
+
+    const collection = db!.collection<Product>("products");
 
     // Parse query parameters
     const {
@@ -27,6 +97,7 @@ router.get("/", async (req: Request, res: Response) => {
       inStock,
       colors,
       search,
+      tag,
       page = "1",
       limit = "20",
       sort = "name",
@@ -41,6 +112,11 @@ router.get("/", async (req: Request, res: Response) => {
     if (subcategory) filter.subcategory = subcategory;
     if (brand) filter.brand = brand;
     if (inStock !== undefined) filter.inStock = inStock === "true";
+
+    // Tag filter (for new-arrival, bestseller, featured)
+    if (tag) {
+      filter.tags = { $in: Array.isArray(tag) ? tag : [tag] };
+    }
 
     // Price range
     if (priceMin || priceMax) {
@@ -111,8 +187,22 @@ router.get("/", async (req: Request, res: Response) => {
 // GET /api/products/categories - Get all categories with counts
 router.get("/categories", async (_req: Request, res: Response) => {
   try {
-    const db = getDB();
-    const collection = db.collection<Product>("products");
+    if (!isDBConnected()) {
+      const products = loadMockProducts();
+      const categoryCount: Record<string, number> = {};
+      products.forEach((p) => {
+        categoryCount[p.category] = (categoryCount[p.category] || 0) + 1;
+      });
+      res.json(
+        Object.entries(categoryCount).map(([category, count]) => ({
+          category,
+          count,
+        }))
+      );
+      return;
+    }
+
+    const collection = db!.collection<Product>("products");
 
     const categories = await collection
       .aggregate([
@@ -123,8 +213,8 @@ router.get("/categories", async (_req: Request, res: Response) => {
 
     res.json(
       categories.map((c) => ({
-        category: c._id,
-        count: c.count,
+        category: (c as { _id: string; count: number })._id,
+        count: (c as { _id: string; count: number }).count,
       }))
     );
   } catch (error) {
@@ -136,8 +226,19 @@ router.get("/categories", async (_req: Request, res: Response) => {
 // GET /api/products/brands - Get all brands with counts
 router.get("/brands", async (req: Request, res: Response) => {
   try {
-    const db = getDB();
-    const collection = db.collection<Product>("products");
+    if (!isDBConnected()) {
+      const products = loadMockProducts();
+      const brandCount: Record<string, number> = {};
+      products.forEach((p) => {
+        brandCount[p.brand] = (brandCount[p.brand] || 0) + 1;
+      });
+      res.json(
+        Object.entries(brandCount).map(([brand, count]) => ({ brand, count }))
+      );
+      return;
+    }
+
+    const collection = db!.collection<Product>("products");
 
     const { category } = req.query;
     const match = category ? { category } : {};
@@ -152,8 +253,8 @@ router.get("/brands", async (req: Request, res: Response) => {
 
     res.json(
       brands.map((b) => ({
-        brand: b._id,
-        count: b.count,
+        brand: (b as { _id: string; count: number })._id,
+        count: (b as { _id: string; count: number }).count,
       }))
     );
   } catch (error) {
@@ -165,9 +266,22 @@ router.get("/brands", async (req: Request, res: Response) => {
 // GET /api/products/filters/:category - Get available filter values for a category
 router.get("/filters/:category", async (req: Request, res: Response) => {
   try {
-    const db = getDB();
-    const collection = db.collection<Product>("products");
     const { category } = req.params;
+
+    if (!isDBConnected()) {
+      const products = loadMockProducts().filter(
+        (p) => p.category === category
+      );
+      res.json({
+        brands: [...new Set(products.map((p) => p.brand))],
+        colors: [...new Set(products.flatMap((p) => p.colors || []))],
+        priceMin: Math.min(...products.map((p) => p.price)),
+        priceMax: Math.max(...products.map((p) => p.price)),
+      });
+      return;
+    }
+
+    const collection = db!.collection<Product>("products");
 
     const products = await collection
       .find({ category: category as ProductCategory })
@@ -184,7 +298,7 @@ router.get("/filters/:category", async (req: Request, res: Response) => {
     // Collect unique values
     for (const product of products) {
       filters.brands.add(product.brand);
-      product.colors.forEach((c) => filters.colors.add(c));
+      product.colors?.forEach((c) => filters.colors.add(c));
 
       // Collect filterSpecs values
       if (product.filterSpecs) {
@@ -218,9 +332,20 @@ router.get("/filters/:category", async (req: Request, res: Response) => {
 // GET /api/products/:id - Get single product by ID
 router.get("/:id", async (req: Request, res: Response) => {
   try {
-    const db = getDB();
-    const collection = db.collection<Product>("products");
     const { id } = req.params;
+
+    if (!isDBConnected()) {
+      const products = loadMockProducts();
+      const product = products.find((p) => p.id === id || p.slug === id);
+      if (!product) {
+        res.status(404).json({ error: "Product not found" });
+        return;
+      }
+      res.json(product);
+      return;
+    }
+
+    const collection = db!.collection<Product>("products");
 
     // Try to find by custom id first, then by MongoDB _id
     let product = await collection.findOne({ id });
@@ -244,10 +369,24 @@ router.get("/:id", async (req: Request, res: Response) => {
 // GET /api/products/related/:id - Get related products
 router.get("/related/:id", async (req: Request, res: Response) => {
   try {
-    const db = getDB();
-    const collection = db.collection<Product>("products");
     const { id } = req.params;
     const limit = parseInt(req.query.limit as string, 10) || 4;
+
+    if (!isDBConnected()) {
+      const products = loadMockProducts();
+      const product = products.find((p) => p.id === id);
+      if (!product) {
+        res.status(404).json({ error: "Product not found" });
+        return;
+      }
+      const related = products
+        .filter((p) => p.id !== id && p.category === product.category)
+        .slice(0, limit);
+      res.json(related);
+      return;
+    }
+
+    const collection = db!.collection<Product>("products");
 
     const product = await collection.findOne({ id });
 
@@ -278,14 +417,54 @@ router.get("/related/:id", async (req: Request, res: Response) => {
 // POST /api/products/search - Advanced search
 router.post("/search", async (req: Request, res: Response) => {
   try {
-    const db = getDB();
-    const collection = db.collection<Product>("products");
-
     const { query, filters, pagination } = req.body as {
       query?: string;
       filters?: ProductFilters;
       pagination?: PaginationOptions;
     };
+
+    const page = pagination?.page || 1;
+    const limit = pagination?.limit || 20;
+
+    if (!isDBConnected()) {
+      let products = loadMockProducts();
+
+      // Simple search
+      if (query) {
+        const q = query.toLowerCase();
+        products = products.filter(
+          (p) =>
+            p.name.toLowerCase().includes(q) ||
+            p.brand.toLowerCase().includes(q)
+        );
+      }
+
+      // Apply filters
+      if (filters) {
+        if (filters.category)
+          products = products.filter((p) => p.category === filters.category);
+        if (filters.brand)
+          products = products.filter((p) => p.brand === filters.brand);
+        if (filters.priceMin)
+          products = products.filter((p) => p.price >= filters.priceMin!);
+        if (filters.priceMax)
+          products = products.filter((p) => p.price <= filters.priceMax!);
+      }
+
+      const total = products.length;
+      const skip = (page - 1) * limit;
+
+      res.json({
+        data: products.slice(skip, skip + limit),
+        total,
+        page,
+        limit,
+        totalPages: Math.ceil(total / limit),
+      });
+      return;
+    }
+
+    const collection = db!.collection<Product>("products");
 
     const filter: Record<string, unknown> = {};
 
@@ -308,9 +487,6 @@ router.post("/search", async (req: Request, res: Response) => {
       }
     }
 
-    // Pagination
-    const page = pagination?.page || 1;
-    const limit = pagination?.limit || 20;
     const skip = (page - 1) * limit;
 
     const [products, total] = await Promise.all([

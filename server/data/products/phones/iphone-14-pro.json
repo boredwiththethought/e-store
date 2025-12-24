@@ -1,0 +1,66 @@
+{
+  "id": "iphone-14-pro",
+  "slug": "iphone-14-pro",
+  "name": "iPhone 14 Pro",
+  "brand": "Apple",
+  "category": "phones",
+  "price": 899,
+  "originalPrice": 999,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 5210,
+  "tags": [
+    "bestseller"
+  ],
+  "colors": [
+    "Deep Purple",
+    "Gold",
+    "Silver",
+    "Space Black"
+  ],
+  "images": {
+    "Deep Purple": [
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
+    ],
+    "Gold": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=80"
+    ],
+    "Silver": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
+    ],
+    "Space Black": [
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=80"
+    ]
+  },
+  "description": "iPhone 14 Pro features Dynamic Island, 48MP camera system, Always-On display, and A16 Bionic chip for groundbreaking performance.",
+  "specs": {
+    "display": "6.1-inch Super Retina XDR, ProMotion 120Hz, Always-On",
+    "chip": "A16 Bionic",
+    "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+    "battery": "Up to 23 hours video playback",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6",
+      "Bluetooth 5.3",
+      "Lightning"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.1,
+    "batteryCapacity": "3200mAh",
+    "storage": [
+      "128GB",
+      "256GB",
+      "512GB",
+      "1TB"
+    ],
+    "ram": "6GB"
+  }
+}

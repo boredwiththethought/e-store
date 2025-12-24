@@ -1,0 +1,42 @@
+{
+  "id": "sennheiser-hd-660s",
+  "slug": "sennheiser-hd-660s",
+  "name": "Sennheiser HD 660S",
+  "brand": "Sennheiser",
+  "category": "headphones",
+  "price": 499,
+  "originalPrice": 549,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 1890,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=800&q=80"
+    ]
+  },
+  "description": "Sennheiser HD 660S - open-back audiophile reference headphones with precision transducers and natural sound.",
+  "specs": {
+    "driver": "38mm ring radiator transducers",
+    "impedance": "150 Ohms",
+    "frequency": "10Hz - 41kHz",
+    "type": "Open-back dynamic",
+    "cable": "Detachable, 6.35mm + 4.4mm balanced",
+    "features": [
+      "Reference-grade sound",
+      "Hand-selected transducers"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Over-Ear",
+    "wireless": false,
+    "anc": false,
+    "impedance": "150 Ohms"
+  }
+}

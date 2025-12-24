@@ -1,0 +1,58 @@
+{
+  "id": "sony-xperia-1-v",
+  "slug": "sony-xperia-1-v",
+  "name": "Sony Xperia 1 V",
+  "brand": "Sony",
+  "category": "phones",
+  "price": 1399,
+  "originalPrice": 1499,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 540,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "Platinum Silver",
+    "Khaki Green"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+    ],
+    "Platinum Silver": [
+      "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=800&q=80"
+    ],
+    "Khaki Green": [
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=800&q=80"
+    ]
+  },
+  "description": "Sony Xperia 1 V with new Exmor T sensor, 4K OLED display, and pro-level camera controls for creators.",
+  "specs": {
+    "display": "6.5-inch 4K HDR OLED, 120Hz",
+    "chip": "Snapdragon 8 Gen 2",
+    "camera": "48MP Exmor T Main + 12MP Ultra Wide + 12MP Telephoto",
+    "battery": "5000mAh, 30W wired + wireless",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "USB-C 3.2"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.5,
+    "batteryCapacity": "5000mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "12GB"
+  }
+}

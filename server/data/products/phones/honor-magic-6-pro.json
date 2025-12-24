@@ -1,0 +1,58 @@
+{
+  "id": "honor-magic-6-pro",
+  "slug": "honor-magic-6-pro",
+  "name": "Honor Magic 6 Pro",
+  "brand": "Honor",
+  "category": "phones",
+  "price": 1199,
+  "originalPrice": 1299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.8,
+  "reviewsCount": 650,
+  "tags": [
+    "new-arrival"
+  ],
+  "colors": [
+    "Black",
+    "Green",
+    "Purple"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=800&q=80"
+    ],
+    "Purple": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80"
+    ]
+  },
+  "description": "Honor Magic 6 Pro with AI-powered features, Falcon Camera, silicon-carbon battery, and industry-leading eye protection.",
+  "specs": {
+    "display": "6.8-inch LTPO OLED, 2K, 1-120Hz",
+    "chip": "Snapdragon 8 Gen 3",
+    "camera": "50MP Falcon Main + 50MP Ultra Wide + 180MP Periscope",
+    "battery": "5600mAh silicon-carbon, 80W wired + 66W wireless",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "connectivity": [
+      "5G",
+      "Wi-Fi 7",
+      "Bluetooth 5.3",
+      "USB-C"
+    ]
+  },
+  "filterSpecs": {
+    "screenSize": 6.8,
+    "batteryCapacity": "5600mAh",
+    "storage": [
+      "256GB",
+      "512GB"
+    ],
+    "ram": "12GB"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "huawei-watch-gt4",
+  "slug": "huawei-watch-gt4",
+  "name": "Huawei Watch GT 4",
+  "brand": "Huawei",
+  "category": "smartwatches",
+  "price": 249,
+  "originalPrice": 299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.6,
+  "reviewsCount": 1120,
+  "tags": [
+    "new-arrival",
+    "bestseller"
+  ],
+  "colors": [
+    "Black",
+    "Green",
+    "White"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80"
+    ],
+    "Green": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+    ]
+  },
+  "description": "Huawei Watch GT 4 with octagonal design, TruSeen 5.5+ heart rate, and up to 14 days battery life.",
+  "specs": {
+    "display": "1.43-inch AMOLED, 466x466",
+    "chip": "Huawei Proprietary",
+    "sensors": "TruSeen 5.5+ Heart Rate, SpO2, Skin Temperature",
+    "battery": "Up to 14 days",
+    "waterResistance": "5ATM",
+    "connectivity": [
+      "GPS",
+      "Bluetooth 5.2",
+      "NFC"
+    ]
+  },
+  "filterSpecs": {
+    "caseSize": 46,
+    "batteryLife": "14 days",
+    "waterResistance": "5ATM"
+  }
+}

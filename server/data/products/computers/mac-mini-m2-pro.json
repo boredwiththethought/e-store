@@ -1,0 +1,43 @@
+{
+  "id": "mac-mini-m2-pro",
+  "slug": "mac-mini-m2-pro",
+  "name": "Mac Mini (M2 Pro)",
+  "brand": "Apple",
+  "category": "computers",
+  "price": 1299,
+  "originalPrice": 1299,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 2890,
+  "tags": [],
+  "colors": [
+    "Silver"
+  ],
+  "images": {
+    "Silver": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80"
+    ]
+  },
+  "description": "Compact powerhouse with M2 Pro chip, extensive connectivity, and pro-level performance.",
+  "specs": {
+    "chip": "Apple M2 Pro",
+    "cpu": "10-core (6 performance + 4 efficiency)",
+    "gpu": "16-core GPU",
+    "memory": "16GB unified memory (up to 32GB)",
+    "storage": "512GB SSD (up to 8TB)",
+    "ports": [
+      "4x Thunderbolt 4",
+      "2x USB-A",
+      "HDMI",
+      "Gigabit Ethernet",
+      "3.5mm jack"
+    ]
+  },
+  "filterSpecs": {
+    "type": "Desktop",
+    "brand": "Apple",
+    "processor": "Apple M2 Pro",
+    "formFactor": "Mini PC"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "logitech-g502-x-plus",
+  "slug": "logitech-g502-x-plus",
+  "name": "Logitech G502 X PLUS",
+  "brand": "Logitech",
+  "category": "gaming",
+  "price": 159,
+  "originalPrice": 159,
+  "currency": "USD",
+  "inStock": true,
+  "rating": 4.7,
+  "reviewsCount": 5670,
+  "tags": [
+    "featured"
+  ],
+  "colors": [
+    "Black",
+    "White"
+  ],
+  "images": {
+    "Black": [
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800&q=80"
+    ],
+    "White": [
+      "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=800&q=80"
+    ]
+  },
+  "description": "Wireless gaming mouse with LIGHTFORCE hybrid switches, HERO 25K sensor, and LIGHTSYNC RGB.",
+  "specs": {
+    "sensor": "HERO 25K",
+    "dpi": "100 - 25,600 DPI",
+    "weight": "106g",
+    "battery": "Up to 130 hours (RGB off)",
+    "switches": "LIGHTFORCE hybrid optical-mechanical",
+    "connectivity": "LIGHTSPEED Wireless, USB-C"
+  },
+  "filterSpecs": {
+    "type": "Mouse",
+    "brand": "Logitech",
+    "platform": "PC"
+  }
+}
