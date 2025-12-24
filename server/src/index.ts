@@ -1,4 +1,4 @@
-import express, { Request, Response } from "express";
+import express, { Request, Response, Application } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { connectDB, getDB } from "./db";
@@ -13,8 +13,7 @@ import {
 // Load environment variables
 dotenv.config();
 
-const app = express();
-const PORT = process.env.PORT || 3000;
+const app: Application = express();
 
 // Middleware
 app.use(cors());
@@ -72,23 +71,35 @@ app.use((_req: Request, res: Response) => {
   });
 });
 
-// Start server
-async function startServer() {
-  try {
-    await connectDB();
-    console.log("✅ MongoDB connected successfully");
-  } catch (error) {
-    console.error(
-      "⚠️ MongoDB connection failed (server will start anyway):",
-      error
-    );
-    // Don't exit - server will work, MongoDB routes will fail gracefully
+// Connect to MongoDB once on cold start
+let dbConnected = false;
+async function ensureDBConnection() {
+  if (!dbConnected) {
+    try {
+      await connectDB();
+      dbConnected = true;
+      console.log("✅ MongoDB connected");
+    } catch (error) {
+      console.error("⚠️ MongoDB connection failed:", error);
+    }
   }
+}
 
-  app.listen(PORT, () => {
-    console.log(`🚀 Server is running on http://localhost:${PORT}`);
-    console.log(`📝 Health check: http://localhost:${PORT}/api/health`);
+// For Vercel Serverless - ensure DB connection before handling requests
+app.use(async (_req, _res, next) => {
+  await ensureDBConnection();
+  next();
+});
+
+// Start server (only for local development, not on Vercel)
+if (process.env.NODE_ENV !== "production" || !process.env.VERCEL) {
+  const PORT = process.env.PORT || 3000;
+  ensureDBConnection().then(() => {
+    app.listen(PORT, () => {
+      console.log(`🚀 Server running on http://localhost:${PORT}`);
+    });
   });
 }
 
-startServer();
+// Export for Vercel Serverless
+export default app;

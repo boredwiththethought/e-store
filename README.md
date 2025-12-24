@@ -1,138 +1,268 @@
-# E-Store 🛒# E-Store# E-Store
+# E-Store 🛒# E-Store 🛒# E-Store# E-Store
 
-Современный интернет-магазин электроники на **Bun + React 19 + Express + MongoDB + TypeScript**.Современный интернет-магазин электроники на **Bun + React + Express + MongoDB + TypeScript**.Современный интернет-магазин электроники на **Bun + React + Express + TypeScript**.
+Современный интернет-магазин электроники на **Bun + React 19 + Express + MongoDB + TypeScript**.Современный интернет-магазин электроники на **Bun + React 19 + Express + MongoDB + TypeScript**.Современный интернет-магазин электроники на **Bun + React + Express + MongoDB + TypeScript**.Современный интернет-магазин электроники на **Bun + React + Express + TypeScript**.
 
-![React](https://img.shields.io/badge/React-19.2-blue)## 🚀 Быстрый старт## 🚀 Быстрый старт
+## 🚀 Быстрый старт![React](https://img.shields.io/badge/React-19.2-blue)## 🚀 Быстрый старт## 🚀 Быстрый старт
 
-![Vite](https://img.shields.io/badge/Vite-7.3-purple)
+`````bash![Vite](https://img.shields.io/badge/Vite-7.3-purple)
 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-cyan)`bash`bash
+# Установка зависимостей (workspaces)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
-
-![Bun](https://img.shields.io/badge/Bun-Runtime-orange)# Установка зависимостей# Установка зависимостей
-
-## 🚀 Быстрый стартbun run install:allbun run install:all
-
-````bash# Запуск разработки (server + web)# Запуск разработки (server + web)
-
-# Установка зависимостей
-
-bun run install:allbun run devbun run dev
+bun install![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-cyan)`bash`bash
 
 
 
-# Запуск разработки (server + web)```
+# Запуск разработки (server + web)![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
 
 bun run dev
 
-````
+```![Bun](https://img.shields.io/badge/Bun-Runtime-orange)# Установка зависимостей# Установка зависимостей
 
-- **Web**: http://localhost:5173- **Web**: http://localhost:5173- **Web**: http://localhost:5173
+
+
+- **Web**: http://localhost:5173## 🚀 Быстрый стартbun run install:allbun run install:all
 
 - **API**: http://localhost:3000
 
-- **API**: http://localhost:3000- **API**: http://localhost:3000
+````bash# Запуск разработки (server + web)# Запуск разработки (server + web)
 
 ## 📁 Структура проекта
 
-````
+# Установка зависимостей
 
-e-store/## 📁 Структура проекта## 📁 Структура проекта
+`````
 
-├── server/                 # Backend API (Express + TypeScript)
+e-store/bun run install:allbun run devbun run dev
 
-│   └── src/
+├── server/ # Backend API (Express + TypeScript)
 
-│       ├── index.ts        # Entry point
+│ └── src/
+
+│ ├── index.ts # Entry point
+
+│ ├── db/ # MongoDB connection# Запуск разработки (server + web)```
+
+│ ├── routes/ # API routes
+
+│ ├── middleware/ # JWT authbun run dev
+
+│ └── scripts/ # Import scripts
+
+│````
+
+├── web/ # Frontend (React + Vite + Tailwind v4)
+
+│ └── src/- **Web**: http://localhost:5173- **Web**: http://localhost:5173- **Web**: http://localhost:5173
+
+│ ├── components/ # UI компоненты
+
+│ ├── config/ # API configuration- **API**: http://localhost:3000
+
+│ ├── context/ # React Context (Auth, Cart)
+
+│ ├── pages/ # Страницы- **API**: http://localhost:3000- **API**: http://localhost:3000
+
+│ └── App.tsx # Роутинг
+
+│## 📁 Структура проекта
+
+└── package.json # Workspaces config
+
+``````
+
+
+
+## 📜 Скриптыe-store/## 📁 Структура проекта## 📁 Структура проекта
+
+
+
+| Команда           | Описание                         |├── server/                 # Backend API (Express + TypeScript)
+
+| ----------------- | -------------------------------- |
+
+| `bun install`     | Установка всех зависимостей      |│   └── src/
+
+| `bun run dev`     | Запуск server + web в dev режиме |
+
+| `bun run build`   | Сборка server + web              |│       ├── index.ts        # Entry point
+
+| `bun run start`   | Запуск production сборки         |
 
 │       ├── db/             # MongoDB connection```
 
+## 🔐 API Endpoints
+
 │       ├── routes/         # API routes (auth, products, favorites)
 
-│       ├── middleware/     # JWT auth middlewaree-store/e-store/
+```
 
-│       ├── scripts/        # Import scripts
+POST /api/auth/signup     - Регистрация│       ├── middleware/     # JWT auth middlewaree-store/e-store/
 
-│       └── types/          # TypeScript types├── server/ # Backend (Express + MongoDB)├── server/ # Backend API (Express + TypeScript)
+POST /api/auth/signin     - Вход
 
-│
+GET  /api/auth/me         - Текущий пользователь│       ├── scripts/        # Import scripts
 
-├── web/                    # Frontend (React + Vite + Tailwind CSS v4)│ └── src/│ └── src/
+GET  /api/products        - Все товары
 
-│   └── src/
+GET  /api/products/:id    - Товар по ID│       └── types/          # TypeScript types├── server/ # Backend (Express + MongoDB)├── server/ # Backend API (Express + TypeScript)
 
-│       ├── assets/│ ├── index.ts # Entry point│ └── index.ts
+GET  /api/favorites       - Избранное
 
-│       │   └── fonts/      # SF Pro Display (WOFF2)
+POST /api/favorites/:id   - Добавить в избранное│
 
-│       ├── components/│ ├── db/ # MongoDB connection├── web/ # Frontend (React + Vite + Tailwind CSS v4)
+DELETE /api/favorites/:id - Удалить из избранного
 
-│       │   ├── footer/     # Footer компонент
+```├── web/                    # Frontend (React + Vite + Tailwind CSS v4)│ └── src/│ └── src/
 
-│       │   ├── header/     # Header + MobileMenu│ ├── routes/ # API routes (auth)│ └── src/
 
-│       │   ├── icons/      # SVG иконки
 
-│       │   ├── inputs/     # Input компоненты│ └── types/ # TypeScript types│ ├── assets/
+## 📱 Страницы│   └── src/
 
-│       │   ├── logo/       # Логотип
 
-│       │   └── ui/         # UI компоненты (Breadcrumbs, buttons)││ │ └── fonts/ # SF Pro Display (WOFF2)
 
-│       ├── config/         # API configuration
+| Страница        | URL                    |│       ├── assets/│ ├── index.ts # Entry point│ └── index.ts
 
-│       ├── context/        # React Context (Auth, Cart)├── web/ # Frontend (React + Vite + Tailwind)│ ├── components/
+| --------------- | ---------------------- |
 
-│       ├── hooks/          # Custom hooks
+| Home            | `/`                    |│       │   └── fonts/      # SF Pro Display (WOFF2)
 
-│       ├── pages/│ └── src/│ │ ├── icons/ # SVG иконки (по размерам)
+| Products        | `/products`            |
 
-│       │   ├── auth/       # SignIn, SignUp, ForgotPassword
+| Category        | `/category/:category`  |│       ├── components/│ ├── db/ # MongoDB connection├── web/ # Frontend (React + Vite + Tailwind CSS v4)
 
-│       │   ├── cart/       # Корзина│ ├── assets/fonts/ # SF Pro Display (WOFF2)│ │ ├── logo/ # Логотип компонент
+| Product Detail  | `/product/:id`         |
 
-│       │   ├── checkout/   # Оформление заказа
+| Cart            | `/cart`                |│       │   ├── footer/     # Footer компонент
 
-│       │   ├── favorites/  # Избранное│ ├── components/│ │ └── header/ # Header компонент
+| Checkout        | `/checkout`            |
 
-│       │   ├── home/       # Главная страница
+| Favorites       | `/favorites`           |│       │   ├── header/     # Header + MobileMenu│ ├── routes/ # API routes (auth)│ └── src/
 
-│       │   ├── legal/      # Terms, Privacy│ │ ├── icons/ # SVG иконки (16px - 56px)│ └── App.tsx
+| Sign In         | `/auth/signin`         |
 
-│       │   ├── product-detail/ # Страница товара
+| Sign Up         | `/auth/signup`         |│       │   ├── icons/      # SVG иконки
+
+
+
+## 🛠 Технологии│       │   ├── inputs/     # Input компоненты│ └── types/ # TypeScript types│ ├── assets/
+
+
+
+### Frontend│       │   ├── logo/       # Логотип
+
+- React 19 + TypeScript
+
+- Vite 7│       │   └── ui/         # UI компоненты (Breadcrumbs, buttons)││ │ └── fonts/ # SF Pro Display (WOFF2)
+
+- Tailwind CSS v4
+
+- React Router v7│       ├── config/         # API configuration
+
+
+
+### Backend│       ├── context/        # React Context (Auth, Cart)├── web/ # Frontend (React + Vite + Tailwind)│ ├── components/
+
+- Express 4 + TypeScript
+
+- MongoDB (Atlas)│       ├── hooks/          # Custom hooks
+
+- JWT + bcryptjs
+
+- Bun runtime│       ├── pages/│ └── src/│ │ ├── icons/ # SVG иконки (по размерам)
+
+
+
+## 🚢 Деплой на Vercel│       │   ├── auth/       # SignIn, SignUp, ForgotPassword
+
+
+
+### Деплой Web (Frontend)│       │   ├── cart/       # Корзина│ ├── assets/fonts/ # SF Pro Display (WOFF2)│ │ ├── logo/ # Логотип компонент
+
+
+
+1. Импортируй репозиторий в Vercel│       │   ├── checkout/   # Оформление заказа
+
+2. Настройки проекта:
+
+   - **Root Directory**: `web`│       │   ├── favorites/  # Избранное│ ├── components/│ │ └── header/ # Header компонент
+
+   - **Framework Preset**: Vite
+
+   - **Build Command**: `bun run build`│       │   ├── home/       # Главная страница
+
+   - **Output Directory**: `dist`
+
+3. Environment Variables:│       │   ├── legal/      # Terms, Privacy│ │ ├── icons/ # SVG иконки (16px - 56px)│ └── App.tsx
+
+   ```
+
+   VITE_API_URL=https://your-server.vercel.app/api│       │   ├── product-detail/ # Страница товара
+
+   ```
 
 │       │   └── products-page/  # Каталог товаров│ │ ├── inputs/ # Input компоненты├── package.json # Корневые скрипты (concurrently)
 
+### Деплой Server (Backend)
+
 │       ├── types/          # TypeScript types
 
-│       └── App.tsx         # Роутинг│ │ ├── header/ # Header + Navigation└── README.md
+1. Создай новый проект в Vercel
 
-│
+2. Настройки:│       └── App.tsx         # Роутинг│ │ ├── header/ # Header + Navigation└── README.md
 
-├── package.json            # Корневые скрипты (concurrently)│ │ ├── footer/ # Footer```
+   - **Root Directory**: `server`
 
-└── README.md
+3. Environment Variables:│
+
+   ```
+
+   MONGODB_URI=mongodb+srv://...├── package.json            # Корневые скрипты (concurrently)│ │ ├── footer/ # Footer```
+
+   JWT_SECRET=your-secret
+
+   SEED_SECRET_KEY=your-seed-key└── README.md
+
+   ```
 
 ```│ │ ├── logo/ # Logo
 
-
-
-## 📜 Скрипты│ │ └── ui/ # UI компоненты## 📜 Скрипты
+## ✅ Реализовано
 
 
 
-| Команда               | Описание                         |│ ├── context/ # React Context (Auth)
+- [x] Bun Workspaces monorepo
 
-| --------------------- | -------------------------------- |
+- [x] MongoDB Atlas## 📜 Скрипты│ │ └── ui/ # UI компоненты## 📜 Скрипты
 
-| `bun run dev`         | Запуск server + web в dev режиме |│ ├── hooks/ # Custom hooks| Команда | Описание |
+- [x] Auth (SignIn/SignUp)
 
-| `bun run build`       | Сборка server + web              |
+- [x] JWT аутентификация
+
+- [x] Responsive Header/Footer
+
+- [x] Products API| Команда               | Описание                         |│ ├── context/ # React Context (Auth)
+
+- [x] Каталог с фильтрами
+
+- [x] Страница товара| --------------------- | -------------------------------- |
+
+- [x] Корзина (Cart)
+
+- [x] Checkout (4 шага)| `bun run dev`         | Запуск server + web в dev режиме |│ ├── hooks/ # Custom hooks| Команда | Описание |
+
+- [x] Favorites
+
+- [x] Breadcrumbs| `bun run build`       | Сборка server + web              |
+
+- [x] Responsive дизайн
 
 | `bun run start`       | Запуск production сборки         |│ ├── pages/| ----------------------- | -------------------------------- |
 
+## 📄 Лицензия
+
 | `bun run install:all` | Установка всех зависимостей      |
+
+MIT
 
 | `bun run clean`       | Очистка node_modules и dist      |│ │ ├── auth/ # SignIn, SignUp, ForgotPassword| `bun run dev` | Запуск server + web в dev режиме |
 
@@ -521,3 +651,4 @@ MIT- [ ] Product Cards
 - [ ] Favorites
 - [ ] Checkout
 `````
+``````
