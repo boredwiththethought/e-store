@@ -20,12 +20,12 @@ interface FilterSidebarProps {
 }
 
 const CATEGORIES = [
-  { id: "phones", label: "Phones" },
-  { id: "smartwatches", label: "Smart Watches" },
-  { id: "cameras", label: "Cameras" },
-  { id: "headphones", label: "Headphones" },
-  { id: "computers", label: "Computers" },
-  { id: "gaming", label: "Gaming" }
+  { id: "phones", label: "📱 Phones" },
+  { id: "smartwatches", label: "⌚ Smart Watches" },
+  { id: "cameras", label: "📷 Cameras" },
+  { id: "headphones", label: "🎧 Headphones" },
+  { id: "computers", label: "💻 Computers" },
+  { id: "gaming", label: "🎮 Gaming" }
 ];
 
 const BATTERY_OPTIONS = ["3000-4000mAh", "4000-5000mAh", "5000-6000mAh", "6000mAh+"];
@@ -129,6 +129,16 @@ function FilterSidebar({ filters, onFiltersChange, availableBrands, currentCateg
         {!currentCategory && (
           <FilterSection title="Category">
             <div className="space-y-2">
+              <label className="flex cursor-pointer items-center gap-2">
+                <input
+                  type="radio"
+                  name="category"
+                  checked={filters.category === ""}
+                  onChange={() => updateFilter("category", "")}
+                  className="h-4 w-4 text-blue-600 focus:ring-blue-500"
+                />
+                <span className="text-sm font-medium text-gray-900">All Categories</span>
+              </label>
               {CATEGORIES.map(cat => (
                 <label key={cat.id} className="flex cursor-pointer items-center gap-2">
                   <input

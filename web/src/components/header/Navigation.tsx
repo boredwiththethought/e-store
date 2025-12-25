@@ -51,11 +51,7 @@ function Navigation() {
       ))}
 
       {/* Categories Dropdown */}
-      <div
-        className="relative"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
+      <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <button className="flex items-center gap-1 text-[16px] font-medium text-[#656565] transition-colors hover:text-black">
           Categories
           <ChevronDownIcon className={`h-4 w-4 transition-transform ${isCategoriesOpen ? "rotate-180" : ""}`} />

@@ -12,12 +12,12 @@ const navItems = [
 ];
 
 const categories = [
-  { to: "/category/phones", label: "Phones" },
-  { to: "/category/smartwatches", label: "Smart Watches" },
-  { to: "/category/cameras", label: "Cameras" },
-  { to: "/category/headphones", label: "Headphones" },
-  { to: "/category/computers", label: "Computers" },
-  { to: "/category/gaming", label: "Gaming" }
+  { to: "/category/phones", label: "📱 Phones" },
+  { to: "/category/smartwatches", label: "⌚ Smart Watches" },
+  { to: "/category/cameras", label: "📷 Cameras" },
+  { to: "/category/headphones", label: "🎧 Headphones" },
+  { to: "/category/computers", label: "💻 Computers" },
+  { to: "/category/gaming", label: "🎮 Gaming" }
 ];
 
 interface MobileMenuProps {
