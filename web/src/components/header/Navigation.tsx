@@ -3,10 +3,7 @@ import { useState, useRef } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const navItems = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/contact", label: "Contact Us" },
-  { to: "/blog", label: "Blog" }
+  { to: "/", label: "Home" }
 ];
 
 const categories = [

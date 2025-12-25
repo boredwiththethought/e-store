@@ -5,10 +5,7 @@ import { Logo } from "@/components/logo";
 import { useAuth } from "@/hooks";
 
 const navItems = [
-  { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
-  { to: "/contact", label: "Contact Us" },
-  { to: "/blog", label: "Blog" }
+  { to: "/", label: "Home" }
 ];
 
 const categories = [
