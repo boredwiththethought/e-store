@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 import { ObjectId } from "mongodb";
-import { db } from "../db";
+import { db } from "../db/mongodb.js";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
@@ -10,7 +10,7 @@ import type {
   ProductFilters,
   PaginationOptions,
   PaginatedResult,
-} from "../types/product";
+} from "../types/product.js";
 
 const router = Router();
 

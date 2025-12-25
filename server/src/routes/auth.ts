@@ -1,13 +1,13 @@
 import { Router, Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import { db } from "../db";
+import { db } from "../db/mongodb.js";
 import type {
   User,
   SignUpRequest,
   SignInRequest,
   UserResponse,
-} from "../types";
+} from "../types/user.js";
 
 const router = Router();
 const JWT_SECRET =

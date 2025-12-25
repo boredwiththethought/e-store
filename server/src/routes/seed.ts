@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
-import { db } from "../db";
-import type { Product } from "../types/product";
+import { db } from "../db/mongodb.js";
+import type { Product } from "../types/product.js";
 import * as fs from "fs";
 import * as path from "path";
 

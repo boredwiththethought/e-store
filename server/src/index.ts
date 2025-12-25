@@ -1,14 +1,12 @@
 import express, { Request, Response, Application } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { connectDB, getDB } from "./db";
-import {
-  authRoutes,
-  productsRoutes,
-  seedRoutes,
-  favoritesRoutes,
-  cartRoutes,
-} from "./routes";
+import { connectDB, getDB } from "./db/mongodb.js";
+import authRoutes from "./routes/auth.js";
+import productsRoutes from "./routes/products.js";
+import seedRoutes from "./routes/seed.js";
+import favoritesRoutes from "./routes/favorites.js";
+import cartRoutes from "./routes/cart.js";
 
 // Load environment variables
 dotenv.config();

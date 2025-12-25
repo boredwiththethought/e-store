@@ -1,7 +1,7 @@
 import { Router, Response } from "express";
 import { ObjectId } from "mongodb";
-import { getDB } from "../db";
-import { authMiddleware, AuthRequest } from "../middleware";
+import { getDB } from "../db/mongodb.js";
+import { authMiddleware, AuthRequest } from "../middleware/auth.js";
 
 const router = Router();
 
