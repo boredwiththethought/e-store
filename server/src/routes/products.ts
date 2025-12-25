@@ -3,6 +3,7 @@ import { ObjectId } from "mongodb";
 import { db } from "../db";
 import * as fs from "fs";
 import * as path from "path";
+import { fileURLToPath } from "url";
 import type {
   Product,
   ProductCategory,
@@ -13,6 +14,10 @@ import type {
 
 const router = Router();
 
+// Get __dirname for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 function isDBConnected(): boolean {
   return db !== null;
 }
@@ -20,7 +25,8 @@ function isDBConnected(): boolean {
 // Load mock products from JSON files for when DB is not connected
 function loadMockProducts(tag?: string, category?: string): Product[] {
   try {
-    const dataPath = path.join(process.cwd(), "data", "products");
+    // Go from src/routes/ up to server/data/products
+    const dataPath = path.resolve(__dirname, "../../data/products");
     const products: Product[] = [];
     const seenIds = new Set<string>();
     const categories = [
