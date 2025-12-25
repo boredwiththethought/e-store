@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const navItems = [
@@ -10,16 +10,31 @@ const navItems = [
 ];
 
 const categories = [
-  { to: "/category/phones", label: "Phones" },
-  { to: "/category/smartwatches", label: "Smart Watches" },
-  { to: "/category/cameras", label: "Cameras" },
-  { to: "/category/headphones", label: "Headphones" },
-  { to: "/category/computers", label: "Computers" },
-  { to: "/category/gaming", label: "Gaming" }
+  { to: "/category/phones", label: "📱 Phones" },
+  { to: "/category/smartwatches", label: "⌚ Smart Watches" },
+  { to: "/category/cameras", label: "📷 Cameras" },
+  { to: "/category/headphones", label: "🎧 Headphones" },
+  { to: "/category/computers", label: "💻 Computers" },
+  { to: "/category/gaming", label: "🎮 Gaming" }
 ];
 
 function Navigation() {
   const [isCategoriesOpen, setIsCategoriesOpen] = useState(false);
+  const closeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleMouseEnter = () => {
+    if (closeTimeout.current) {
+      clearTimeout(closeTimeout.current);
+      closeTimeout.current = null;
+    }
+    setIsCategoriesOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    closeTimeout.current = setTimeout(() => {
+      setIsCategoriesOpen(false);
+    }, 150);
+  };
 
   return (
     <nav className="flex items-center gap-8">
@@ -38,8 +53,8 @@ function Navigation() {
       {/* Categories Dropdown */}
       <div
         className="relative"
-        onMouseEnter={() => setIsCategoriesOpen(true)}
-        onMouseLeave={() => setIsCategoriesOpen(false)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         <button className="flex items-center gap-1 text-[16px] font-medium text-[#656565] transition-colors hover:text-black">
           Categories

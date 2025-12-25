@@ -18,10 +18,11 @@ function isDBConnected(): boolean {
 }
 
 // Load mock products from JSON files for when DB is not connected
-function loadMockProducts(tag?: string): Product[] {
+function loadMockProducts(tag?: string, category?: string): Product[] {
   try {
     const dataPath = path.join(process.cwd(), "data", "products");
     const products: Product[] = [];
+    const seenIds = new Set<string>();
     const categories = [
       "phones",
       "smartwatches",
@@ -29,11 +30,10 @@ function loadMockProducts(tag?: string): Product[] {
       "headphones",
       "computers",
       "gaming",
-      "featured",
     ];
 
-    for (const category of categories) {
-      const categoryPath = path.join(dataPath, category);
+    for (const cat of categories) {
+      const categoryPath = path.join(dataPath, cat);
       if (!fs.existsSync(categoryPath)) continue;
 
       const files = fs
@@ -43,20 +43,29 @@ function loadMockProducts(tag?: string): Product[] {
         const filePath = path.join(categoryPath, file);
         const content = fs.readFileSync(filePath, "utf-8");
         const product = JSON.parse(content) as Product;
-        // Update image paths to use .svg
-        if (Array.isArray(product.images)) {
-          product.images = product.images.map((img: string) =>
-            img.replace(".png", ".svg")
-          );
-        }
+
+        // Skip duplicates
+        const productId = product._id?.toString() || product.slug || file;
+        if (seenIds.has(productId)) continue;
+        seenIds.add(productId);
+
         products.push(product);
       }
     }
 
-    if (tag) {
-      return products.filter((p) => p.tags?.includes(tag));
+    let filtered = products;
+
+    // Filter by category
+    if (category) {
+      filtered = filtered.filter((p) => p.category === category);
     }
-    return products;
+
+    // Filter by tag
+    if (tag) {
+      filtered = filtered.filter((p) => p.tags?.includes(tag));
+    }
+
+    return filtered;
   } catch (error) {
     console.error("Error loading mock products:", error);
     return [];
@@ -68,10 +77,10 @@ router.get("/", async (req: Request, res: Response) => {
   try {
     if (!isDBConnected()) {
       // DB not connected, use mock data
-      const { tag, limit = "20" } = req.query;
-      const products = loadMockProducts(tag as string);
+      const { tag, category, limit = "200" } = req.query;
+      const products = loadMockProducts(tag as string, category as string);
       const limitNum = Math.min(
-        100,
+        200,
         Math.max(1, parseInt(limit as string, 10))
       );
 

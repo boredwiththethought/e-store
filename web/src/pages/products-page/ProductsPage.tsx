@@ -91,6 +91,11 @@ function ProductsPage() {
   const filteredProducts = useMemo(() => {
     let result = [...products];
 
+    // Category filter (for /products page)
+    if (filters.category) {
+      result = result.filter(p => p.category === filters.category);
+    }
+
     // Search filter
     if (filters.search) {
       const searchLower = filters.search.toLowerCase();
