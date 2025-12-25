@@ -4,9 +4,7 @@ import { BurgerIcon, CloseIcon, FavoritesIcon, CartIcon } from "@/components/ico
 import { Logo } from "@/components/logo";
 import { useAuth } from "@/hooks";
 
-const navItems = [
-  { to: "/", label: "Home" }
-];
+const navItems = [{ to: "/", label: "Home" }];
 
 const categories = [
   { to: "/category/phones", label: "📱 Phones" },

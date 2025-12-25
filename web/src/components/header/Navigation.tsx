@@ -2,9 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useState, useRef } from "react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
-const navItems = [
-  { to: "/", label: "Home" }
-];
+const navItems = [{ to: "/", label: "Home" }];
 
 const categories = [
   { to: "/category/phones", label: "📱 Phones" },
